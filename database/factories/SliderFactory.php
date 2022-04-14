@@ -1,0 +1,32 @@
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\Slider;
+
+class SliderFactory extends Factory
+{
+    /**
+    * The name of the factory's corresponding model.
+    *
+    * @var  string
+    */
+    protected $model = Slider::class;
+
+    /**
+    * Define the model's default state.
+    *
+    * @return  array
+    */
+    public function definition(): array
+    {
+        return [
+            'name' => $this->faker->name,
+            'description' => $this->faker->text,
+            'imageUrl' => $this->faker->text,
+            'displayOrder' => $this->faker->randomNumber(),
+            'targetUrl' => $this->faker->word,
+        ];
+    }
+}
