@@ -7,15 +7,18 @@ use App\Models\Movie;
 class MovieRepository
 {
     public function getLatestMovie() {
-        return Movie::orderBy('createdAt' ,'DESC')->paginate(20);
+        return Movie::orderBy('createdAt' ,'asc')->paginate(20);
     }
     public function getMovieByCategoryId(int $categoryId ){
         return Movie::where('categoryId' , $categoryId)->firstOrFail();
 
     }
+    public function get20LatestMovie()
+    {
+        return Movie::orderBy('createdAt', 'DESC')->limit(20)->get();
+    }
     public function getMovieBySlug(string $slug){
         return Movie::where("slug"  , $slug)->firstOrFail();
-
     }
     public function getMovieById(int $movieId){
         return Movie::findOrFail($movieId);

@@ -30,10 +30,10 @@ class HomeController extends  Controller
     }
     private  function getHomeData () {
         $category = $this->categoryRepo->getAllCategory();
-        $latestMovie  = $this->movieRepo->getLatestMovie();
+        $latestMovie  = $this->movieRepo->get20LatestMovie();
         return [
             "categories" => $category,
-            "latestMovie" => $latestMovie
+            "latestMovies" => $latestMovie
         ];
     }
 }

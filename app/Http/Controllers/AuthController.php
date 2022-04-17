@@ -76,7 +76,8 @@ class AuthController extends  Controller
 
     protected function createNewToken($token){
         return response()->json([
-            'token' => $token
+            'token' => $token,
+            'user' => auth()->user()
 
         ]);
     }

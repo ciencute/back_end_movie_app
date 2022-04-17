@@ -25,8 +25,9 @@ class ClientMovieController extends Controller
      */
     public function getLatestMovie()
     {
-        return Movie::orderBy('createdAt', 'DESC')->paginate(10);
+        return  $this->movieRepo->getLatestMovie();
     }
+
 
     /**
      * get movie by id

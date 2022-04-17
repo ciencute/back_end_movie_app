@@ -7,6 +7,7 @@
 namespace App\Models;
 
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -117,4 +118,17 @@ class Movie extends Model
 		'createdAt',
 		'updatedAt'
 	];
+    public function getImgAttribute($value)
+    {
+        return $this->FilterUrl($value);
+    }
+    public function getUrlAttribute($value)
+    {
+        return $this->FilterUrl($value);
+
+    }
+    private function FilterUrl ($value) {
+        if(str_starts_with($value  , "http")) return  $value;
+        else return env('APP_URL').$value;
+    }
 }
