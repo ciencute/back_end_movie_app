@@ -5,7 +5,7 @@ info:
   version: 1.0.0
 servers:
   -
-    url: 'https://movieapi.tk'
+    url: 'http://movieapp.test'
 paths:
   /api/movies:
     get:
@@ -48,7 +48,7 @@ paths:
                       title: 'Sonic the Hedgehog 2'
                       original_title: 'Sonic the Hedgehog 2'
                       img: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg'
-                      url: 'https://movieapi.tk/abc'
+                      url: 'http://movieapp.test/abc'
                       embededCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/YkZ1aAPApAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
                       trailerKey: YkZ1aAPApAc
                       directorId: null
@@ -543,53 +543,53 @@ paths:
                       publishedAt: '2021-12-22'
                       createdAt: '2022-04-11T23:52:42.000000Z'
                       updatedAt: '2022-04-11T23:52:42.000000Z'
-                  first_page_url: 'https://movieapi.tk/api/movies?page=1'
+                  first_page_url: 'http://movieapp.test/api/movies?page=1'
                   from: 1
                   last_page: 441
-                  last_page_url: 'https://movieapi.tk/api/movies?page=441'
+                  last_page_url: 'http://movieapp.test/api/movies?page=441'
                   links:
                     -
                       url: null
                       label: '&laquo; Previous'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=1'
+                      url: 'http://movieapp.test/api/movies?page=1'
                       label: '1'
                       active: true
                     -
-                      url: 'https://movieapi.tk/api/movies?page=2'
+                      url: 'http://movieapp.test/api/movies?page=2'
                       label: '2'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=3'
+                      url: 'http://movieapp.test/api/movies?page=3'
                       label: '3'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=4'
+                      url: 'http://movieapp.test/api/movies?page=4'
                       label: '4'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=5'
+                      url: 'http://movieapp.test/api/movies?page=5'
                       label: '5'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=6'
+                      url: 'http://movieapp.test/api/movies?page=6'
                       label: '6'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=7'
+                      url: 'http://movieapp.test/api/movies?page=7'
                       label: '7'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=8'
+                      url: 'http://movieapp.test/api/movies?page=8'
                       label: '8'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=9'
+                      url: 'http://movieapp.test/api/movies?page=9'
                       label: '9'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=10'
+                      url: 'http://movieapp.test/api/movies?page=10'
                       label: '10'
                       active: false
                     -
@@ -597,19 +597,19 @@ paths:
                       label: ...
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=440'
+                      url: 'http://movieapp.test/api/movies?page=440'
                       label: '440'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=441'
+                      url: 'http://movieapp.test/api/movies?page=441'
                       label: '441'
                       active: false
                     -
-                      url: 'https://movieapi.tk/api/movies?page=2'
+                      url: 'http://movieapp.test/api/movies?page=2'
                       label: 'Next &raquo;'
                       active: false
-                  next_page_url: 'https://movieapi.tk/api/movies?page=2'
-                  path: 'https://movieapi.tk/api/movies'
+                  next_page_url: 'http://movieapp.test/api/movies?page=2'
+                  path: 'http://movieapp.test/api/movies'
                   per_page: 20
                   prev_page_url: null
                   to: 20
@@ -626,7 +626,7 @@ paths:
                         title: 'Sonic the Hedgehog 2'
                         original_title: 'Sonic the Hedgehog 2'
                         img: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg'
-                        url: 'https://movieapi.tk/abc'
+                        url: 'http://movieapp.test/abc'
                         embededCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/YkZ1aAPApAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
                         trailerKey: YkZ1aAPApAc
                         directorId: null
@@ -1125,7 +1125,7 @@ paths:
                       type: object
                   first_page_url:
                     type: string
-                    example: 'https://movieapi.tk/api/movies?page=1'
+                    example: 'http://movieapp.test/api/movies?page=1'
                   from:
                     type: integer
                     example: 1
@@ -1134,7 +1134,7 @@ paths:
                     example: 441
                   last_page_url:
                     type: string
-                    example: 'https://movieapi.tk/api/movies?page=441'
+                    example: 'http://movieapp.test/api/movies?page=441'
                   links:
                     type: array
                     example:
@@ -1143,43 +1143,43 @@ paths:
                         label: '&laquo; Previous'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=1'
+                        url: 'http://movieapp.test/api/movies?page=1'
                         label: '1'
                         active: true
                       -
-                        url: 'https://movieapi.tk/api/movies?page=2'
+                        url: 'http://movieapp.test/api/movies?page=2'
                         label: '2'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=3'
+                        url: 'http://movieapp.test/api/movies?page=3'
                         label: '3'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=4'
+                        url: 'http://movieapp.test/api/movies?page=4'
                         label: '4'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=5'
+                        url: 'http://movieapp.test/api/movies?page=5'
                         label: '5'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=6'
+                        url: 'http://movieapp.test/api/movies?page=6'
                         label: '6'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=7'
+                        url: 'http://movieapp.test/api/movies?page=7'
                         label: '7'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=8'
+                        url: 'http://movieapp.test/api/movies?page=8'
                         label: '8'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=9'
+                        url: 'http://movieapp.test/api/movies?page=9'
                         label: '9'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=10'
+                        url: 'http://movieapp.test/api/movies?page=10'
                         label: '10'
                         active: false
                       -
@@ -1187,25 +1187,25 @@ paths:
                         label: ...
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=440'
+                        url: 'http://movieapp.test/api/movies?page=440'
                         label: '440'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=441'
+                        url: 'http://movieapp.test/api/movies?page=441'
                         label: '441'
                         active: false
                       -
-                        url: 'https://movieapi.tk/api/movies?page=2'
+                        url: 'http://movieapp.test/api/movies?page=2'
                         label: 'Next &raquo;'
                         active: false
                     items:
                       type: object
                   next_page_url:
                     type: string
-                    example: 'https://movieapi.tk/api/movies?page=2'
+                    example: 'http://movieapp.test/api/movies?page=2'
                   path:
                     type: string
-                    example: 'https://movieapi.tk/api/movies'
+                    example: 'http://movieapp.test/api/movies'
                   per_page:
                     type: integer
                     example: 20
@@ -1258,11 +1258,11 @@ paths:
                 title:
                   type: string
                   description: ''
-                  example: et
+                  example: ipsam
                 original_title:
                   type: string
                   description: ''
-                  example: dignissimos
+                  example: incidunt
                 img:
                   type: string
                   format: binary
@@ -1274,11 +1274,11 @@ paths:
                 embededCode:
                   type: string
                   description: ''
-                  example: dolorem
+                  example: ad
                 trailerKey:
                   type: string
                   description: ''
-                  example: optio
+                  example: molestiae
                 directorId:
                   type: integer
                   description: ''
@@ -1290,31 +1290,31 @@ paths:
                 description:
                   type: string
                   description: ''
-                  example: impedit
+                  example: magni
                 countryId:
                   type: integer
                   description: ''
-                  example: 19
+                  example: 3
                 duration:
                   type: integer
                   description: ''
-                  example: 17
+                  example: 19
                 viewCount:
                   type: integer
                   description: ''
-                  example: 12
+                  example: 15
                 categoryId:
                   type: integer
                   description: ''
-                  example: 10
+                  example: 4
                 slug:
                   type: string
                   description: ''
-                  example: inventore
+                  example: in
                 imdb:
                   type: integer
                   description: ''
-                  example: 12
+                  example: 18
                 isMovie18:
                   type: string
                   description: 'Must be one of <code>0</code> or <code>1</code>.'
@@ -1322,7 +1322,7 @@ paths:
                 isFinished:
                   type: string
                   description: 'Must be one of <code>0</code> or <code>1</code>.'
-                  example: '1'
+                  example: '0'
                 isMovieSeries:
                   type: string
                   description: 'Must be one of <code>0</code> or <code>1</code>.'
@@ -1330,23 +1330,23 @@ paths:
                 totalEpisode:
                   type: integer
                   description: ''
-                  example: 1
+                  example: 18
                 quality:
                   type: string
                   description: ''
-                  example: aut
+                  example: quis
                 publishedAt:
                   type: string
                   description: 'Must be a valid date.'
-                  example: '2022-04-17T09:45:14'
+                  example: '2022-04-18T04:10:09'
                 createdAt:
                   type: string
                   description: 'Must be a valid date.'
-                  example: '2022-04-17T09:45:14'
+                  example: '2022-04-18T04:10:09'
                 updatedAt:
                   type: string
                   description: 'Must be a valid date.'
-                  example: '2022-04-17T09:45:14'
+                  example: '2022-04-18T04:10:09'
               required:
                 - title
                 - original_title
@@ -1398,15 +1398,15 @@ paths:
                 id:
                   type: integer
                   description: ''
-                  example: 16
+                  example: 15
                 title:
                   type: string
                   description: ''
-                  example: aut
+                  example: omnis
                 original_title:
                   type: string
                   description: ''
-                  example: porro
+                  example: maiores
                 img:
                   type: string
                   format: binary
@@ -1418,11 +1418,11 @@ paths:
                 embededCode:
                   type: string
                   description: ''
-                  example: nostrum
+                  example: quisquam
                 trailerKey:
                   type: string
                   description: ''
-                  example: eos
+                  example: laborum
                 directorId:
                   type: integer
                   description: ''
@@ -1434,31 +1434,31 @@ paths:
                 description:
                   type: string
                   description: ''
-                  example: iure
+                  example: non
                 countryId:
                   type: integer
                   description: ''
-                  example: 6
+                  example: 9
                 duration:
                   type: integer
                   description: ''
-                  example: 7
+                  example: 19
                 viewCount:
                   type: integer
                   description: ''
-                  example: 4
+                  example: 16
                 categoryId:
                   type: integer
                   description: ''
-                  example: 19
+                  example: 2
                 slug:
                   type: string
                   description: ''
-                  example: iusto
+                  example: deserunt
                 imdb:
                   type: integer
                   description: ''
-                  example: 2
+                  example: 18
                 isMovie18:
                   type: string
                   description: 'Must be one of <code>0</code> or <code>1</code>.'
@@ -1474,23 +1474,23 @@ paths:
                 totalEpisode:
                   type: integer
                   description: ''
-                  example: 20
+                  example: 18
                 quality:
                   type: string
                   description: ''
-                  example: nisi
+                  example: consequuntur
                 publishedAt:
                   type: string
                   description: 'Must be a valid date.'
-                  example: '2022-04-17T09:45:14'
+                  example: '2022-04-18T04:10:09'
                 createdAt:
                   type: string
                   description: 'Must be a valid date.'
-                  example: '2022-04-17T09:45:14'
+                  example: '2022-04-18T04:10:09'
                 updatedAt:
                   type: string
                   description: 'Must be a valid date.'
-                  example: '2022-04-17T09:45:14'
+                  example: '2022-04-18T04:10:09'
     delete:
       summary: Deletemove
       description: ''
@@ -1529,7 +1529,7 @@ paths:
                 id:
                   type: integer
                   description: ''
-                  example: 13
+                  example: 20
               required:
                 - id
   /api/actors:
@@ -9805,8 +9805,8 @@ paths:
                       id: 957993
                       title: 'autem dsad'
                       original_title: perferendis
-                      img: 'https://movieapi.tk/images/autem-dsad/av1.jpg'
-                      url: 'https://movieapi.tk/videos/autem-dsad/Facebook_6.mp4'
+                      img: 'http://movieapp.test/images/autem-dsad/av1.jpg'
+                      url: 'http://movieapp.test/videos/autem-dsad/Facebook_6.mp4'
                       embededCode: unde
                       trailerKey: ut
                       directorId: 14
@@ -9830,8 +9830,8 @@ paths:
                       id: 957994
                       title: 'autem dd'
                       original_title: perferendis
-                      img: 'https://movieapi.tk/uploadsimages/autem-dd/av1.jpg'
-                      url: 'https://movieapi.tk/uploadsvideos/autem-dd/Facebook_6.mp4'
+                      img: 'http://movieapp.test/uploadsimages/autem-dd/av1.jpg'
+                      url: 'http://movieapp.test/uploadsvideos/autem-dd/Facebook_6.mp4'
                       embededCode: unde
                       trailerKey: ut
                       directorId: 14
@@ -9855,8 +9855,8 @@ paths:
                       id: 957995
                       title: 'autem dd'
                       original_title: perferendis
-                      img: 'https://movieapi.tk/uploads/images/autem-dd/av1.jpg'
-                      url: 'https://movieapi.tk/uploads/videos/autem-dd/Facebook_6.mp4'
+                      img: 'http://movieapp.test/uploads/images/autem-dd/av1.jpg'
+                      url: 'http://movieapp.test/uploads/videos/autem-dd/Facebook_6.mp4'
                       embededCode: unde
                       trailerKey: ut
                       directorId: 14
@@ -10409,8 +10409,8 @@ paths:
                         id: 957993
                         title: 'autem dsad'
                         original_title: perferendis
-                        img: 'https://movieapi.tk/images/autem-dsad/av1.jpg'
-                        url: 'https://movieapi.tk/videos/autem-dsad/Facebook_6.mp4'
+                        img: 'http://movieapp.test/images/autem-dsad/av1.jpg'
+                        url: 'http://movieapp.test/videos/autem-dsad/Facebook_6.mp4'
                         embededCode: unde
                         trailerKey: ut
                         directorId: 14
@@ -10434,8 +10434,8 @@ paths:
                         id: 957994
                         title: 'autem dd'
                         original_title: perferendis
-                        img: 'https://movieapi.tk/uploadsimages/autem-dd/av1.jpg'
-                        url: 'https://movieapi.tk/uploadsvideos/autem-dd/Facebook_6.mp4'
+                        img: 'http://movieapp.test/uploadsimages/autem-dd/av1.jpg'
+                        url: 'http://movieapp.test/uploadsvideos/autem-dd/Facebook_6.mp4'
                         embededCode: unde
                         trailerKey: ut
                         directorId: 14
@@ -10459,8 +10459,8 @@ paths:
                         id: 957995
                         title: 'autem dd'
                         original_title: perferendis
-                        img: 'https://movieapi.tk/uploads/images/autem-dd/av1.jpg'
-                        url: 'https://movieapi.tk/uploads/videos/autem-dd/Facebook_6.mp4'
+                        img: 'http://movieapp.test/uploads/images/autem-dd/av1.jpg'
+                        url: 'http://movieapp.test/uploads/videos/autem-dd/Facebook_6.mp4'
                         embededCode: unde
                         trailerKey: ut
                         directorId: 14
@@ -11069,708 +11069,110 @@ paths:
           schema:
             type: string
       responses:
-        404:
+        200:
           description: ''
           content:
             application/json:
               schema:
                 type: object
                 example:
-                  message: 'No query results for model [App\Models\Movie] 6'
-                  exception: Symfony\Component\HttpKernel\Exception\NotFoundHttpException
-                  file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php'
-                  line: 355
-                  trace:
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php'
-                      line: 331
-                      function: prepareException
-                      class: Illuminate\Foundation\Exceptions\Handler
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php'
-                      line: 54
-                      function: render
-                      class: Illuminate\Foundation\Exceptions\Handler
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php'
-                      line: 51
-                      function: render
-                      class: NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 143
-                      function: handleException
-                      class: Illuminate\Routing\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\app\Http\Middleware\ValidateJwtToken.php'
-                      line: 15
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 180
-                      function: handle
-                      class: App\Http\Middleware\ValidateJwtToken
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 116
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php'
-                      line: 730
-                      function: then
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php'
-                      line: 705
-                      function: runRouteWithinStack
-                      class: Illuminate\Routing\Router
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php'
-                      line: 667
-                      function: runRoute
-                      class: Illuminate\Routing\Router
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php'
-                      line: 656
-                      function: dispatchToRoute
-                      class: Illuminate\Routing\Router
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php'
-                      line: 167
-                      function: dispatch
-                      class: Illuminate\Routing\Router
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 141
-                      function: 'Illuminate\Foundation\Http\{closure}'
-                      class: Illuminate\Foundation\Http\Kernel
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php'
-                      line: 21
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull.php'
-                      line: 31
-                      function: handle
-                      class: Illuminate\Foundation\Http\Middleware\TransformsRequest
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 180
-                      function: handle
-                      class: Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php'
-                      line: 21
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TrimStrings.php'
-                      line: 40
-                      function: handle
-                      class: Illuminate\Foundation\Http\Middleware\TransformsRequest
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 180
-                      function: handle
-                      class: Illuminate\Foundation\Http\Middleware\TrimStrings
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ValidatePostSize.php'
-                      line: 27
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 180
-                      function: handle
-                      class: Illuminate\Foundation\Http\Middleware\ValidatePostSize
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance.php'
-                      line: 86
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 180
-                      function: handle
-                      class: Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Http\Middleware\HandleCors.php'
-                      line: 62
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 180
-                      function: handle
-                      class: Illuminate\Http\Middleware\HandleCors
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Http\Middleware\TrustProxies.php'
-                      line: 39
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 180
-                      function: handle
-                      class: Illuminate\Http\Middleware\TrustProxies
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                      line: 116
-                      function: 'Illuminate\Pipeline\{closure}'
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php'
-                      line: 142
-                      function: then
-                      class: Illuminate\Pipeline\Pipeline
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php'
-                      line: 111
-                      function: sendRequestThroughRouter
-                      class: Illuminate\Foundation\Http\Kernel
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                      line: 299
-                      function: handle
-                      class: Illuminate\Foundation\Http\Kernel
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                      line: 287
-                      function: callLaravelOrLumenRoute
-                      class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                      line: 89
-                      function: makeApiCall
-                      class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                      line: 45
-                      function: makeResponseCall
-                      class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                      line: 35
-                      function: makeResponseCallIfConditionsPass
-                      class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Extractor.php'
-                      line: 222
-                      function: __invoke
-                      class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Extractor.php'
-                      line: 179
-                      function: iterateThroughStrategies
-                      class: Knuckles\Scribe\Extracting\Extractor
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Extractor.php'
-                      line: 116
-                      function: fetchResponses
-                      class: Knuckles\Scribe\Extracting\Extractor
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\GroupedEndpoints\GroupedEndpointsFromApp.php'
-                      line: 118
-                      function: processRoute
-                      class: Knuckles\Scribe\Extracting\Extractor
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\GroupedEndpoints\GroupedEndpointsFromApp.php'
-                      line: 75
-                      function: extractEndpointsInfoFromLaravelApp
-                      class: Knuckles\Scribe\GroupedEndpoints\GroupedEndpointsFromApp
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\GroupedEndpoints\GroupedEndpointsFromApp.php'
-                      line: 51
-                      function: extractEndpointsInfoAndWriteToDisk
-                      class: Knuckles\Scribe\GroupedEndpoints\GroupedEndpointsFromApp
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Commands\GenerateDocumentation.php'
-                      line: 50
-                      function: get
-                      class: Knuckles\Scribe\GroupedEndpoints\GroupedEndpointsFromApp
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php'
-                      line: 36
-                      function: handle
-                      class: Knuckles\Scribe\Commands\GenerateDocumentation
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\Util.php'
-                      line: 41
-                      function: 'Illuminate\Container\{closure}'
-                      class: Illuminate\Container\BoundMethod
-                      type: '::'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php'
-                      line: 93
-                      function: unwrapIfClosure
-                      class: Illuminate\Container\Util
-                      type: '::'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php'
-                      line: 37
-                      function: callBoundMethod
-                      class: Illuminate\Container\BoundMethod
-                      type: '::'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\Container.php'
-                      line: 653
-                      function: call
-                      class: Illuminate\Container\BoundMethod
-                      type: '::'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Console\Command.php'
-                      line: 171
-                      function: call
-                      class: Illuminate\Container\Container
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\symfony\console\Command\Command.php'
-                      line: 291
-                      function: execute
-                      class: Illuminate\Console\Command
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Console\Command.php'
-                      line: 156
-                      function: run
-                      class: Symfony\Component\Console\Command\Command
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\symfony\console\Application.php'
-                      line: 989
-                      function: run
-                      class: Illuminate\Console\Command
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\symfony\console\Application.php'
-                      line: 299
-                      function: doRunCommand
-                      class: Symfony\Component\Console\Application
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\symfony\console\Application.php'
-                      line: 171
-                      function: doRun
-                      class: Symfony\Component\Console\Application
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Console\Application.php'
-                      line: 102
-                      function: run
-                      class: Symfony\Component\Console\Application
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php'
-                      line: 129
-                      function: run
-                      class: Illuminate\Console\Application
-                      type: '->'
-                    -
-                      file: 'C:\laragon\www\movieapp\artisan'
-                      line: 37
-                      function: handle
-                      class: Illuminate\Foundation\Console\Kernel
-                      type: '->'
+                  id: 19
+                  title: Metropolis
+                  original_title: Metropolis
+                  img: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/pxbGZewX327IbTvrCVRJgcLJTSQ.jpg'
+                  url: 'https://www.youtube.com/watch?v=gdtZv3XROnc'
+                  embededCode: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gdtZv3XROnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                  trailerKey: gdtZv3XROnc
+                  directorId: null
+                  bgImg: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/r8pUcom5Mw8igtBpj3AHSAUvH0R.jpg'
+                  description: 'In a futuristic city sharply divided between the working class and the city planners, the son of the city''s mastermind falls in love with a working class prophet who predicts the coming of a savior to mediate their differences.'
+                  countryId: null
+                  duration: 149
+                  viewCount: 2024
+                  categoryId: 18
+                  slug: metropolis
+                  imdb: 8.2
+                  isMovie18: 0
+                  isFinished: 0
+                  isMovieSeries: 0
+                  totalEpisode: 1
+                  quality: fullHd
+                  publishedAt: '1927-02-06'
+                  createdAt: '2022-04-12T11:27:43.000000Z'
+                  updatedAt: '2022-04-12T11:27:43.000000Z'
                 properties:
-                  message:
-                    type: string
-                    example: 'No query results for model [App\Models\Movie] 6'
-                  exception:
-                    type: string
-                    example: Symfony\Component\HttpKernel\Exception\NotFoundHttpException
-                  file:
-                    type: string
-                    example: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php'
-                  line:
+                  id:
                     type: integer
-                    example: 355
-                  trace:
-                    type: array
-                    example:
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php'
-                        line: 331
-                        function: prepareException
-                        class: Illuminate\Foundation\Exceptions\Handler
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\nunomaduro\collision\src\Adapters\Laravel\ExceptionHandler.php'
-                        line: 54
-                        function: render
-                        class: Illuminate\Foundation\Exceptions\Handler
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php'
-                        line: 51
-                        function: render
-                        class: NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 143
-                        function: handleException
-                        class: Illuminate\Routing\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\app\Http\Middleware\ValidateJwtToken.php'
-                        line: 15
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 180
-                        function: handle
-                        class: App\Http\Middleware\ValidateJwtToken
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 116
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php'
-                        line: 730
-                        function: then
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php'
-                        line: 705
-                        function: runRouteWithinStack
-                        class: Illuminate\Routing\Router
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php'
-                        line: 667
-                        function: runRoute
-                        class: Illuminate\Routing\Router
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Routing\Router.php'
-                        line: 656
-                        function: dispatchToRoute
-                        class: Illuminate\Routing\Router
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php'
-                        line: 167
-                        function: dispatch
-                        class: Illuminate\Routing\Router
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 141
-                        function: 'Illuminate\Foundation\Http\{closure}'
-                        class: Illuminate\Foundation\Http\Kernel
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php'
-                        line: 21
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull.php'
-                        line: 31
-                        function: handle
-                        class: Illuminate\Foundation\Http\Middleware\TransformsRequest
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 180
-                        function: handle
-                        class: Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php'
-                        line: 21
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TrimStrings.php'
-                        line: 40
-                        function: handle
-                        class: Illuminate\Foundation\Http\Middleware\TransformsRequest
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 180
-                        function: handle
-                        class: Illuminate\Foundation\Http\Middleware\TrimStrings
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ValidatePostSize.php'
-                        line: 27
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 180
-                        function: handle
-                        class: Illuminate\Foundation\Http\Middleware\ValidatePostSize
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance.php'
-                        line: 86
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 180
-                        function: handle
-                        class: Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Http\Middleware\HandleCors.php'
-                        line: 62
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 180
-                        function: handle
-                        class: Illuminate\Http\Middleware\HandleCors
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Http\Middleware\TrustProxies.php'
-                        line: 39
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 180
-                        function: handle
-                        class: Illuminate\Http\Middleware\TrustProxies
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php'
-                        line: 116
-                        function: 'Illuminate\Pipeline\{closure}'
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php'
-                        line: 142
-                        function: then
-                        class: Illuminate\Pipeline\Pipeline
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php'
-                        line: 111
-                        function: sendRequestThroughRouter
-                        class: Illuminate\Foundation\Http\Kernel
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                        line: 299
-                        function: handle
-                        class: Illuminate\Foundation\Http\Kernel
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                        line: 287
-                        function: callLaravelOrLumenRoute
-                        class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                        line: 89
-                        function: makeApiCall
-                        class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                        line: 45
-                        function: makeResponseCall
-                        class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Strategies\Responses\ResponseCalls.php'
-                        line: 35
-                        function: makeResponseCallIfConditionsPass
-                        class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Extractor.php'
-                        line: 222
-                        function: __invoke
-                        class: Knuckles\Scribe\Extracting\Strategies\Responses\ResponseCalls
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Extractor.php'
-                        line: 179
-                        function: iterateThroughStrategies
-                        class: Knuckles\Scribe\Extracting\Extractor
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Extracting\Extractor.php'
-                        line: 116
-                        function: fetchResponses
-                        class: Knuckles\Scribe\Extracting\Extractor
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\GroupedEndpoints\GroupedEndpointsFromApp.php'
-                        line: 118
-                        function: processRoute
-                        class: Knuckles\Scribe\Extracting\Extractor
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\GroupedEndpoints\GroupedEndpointsFromApp.php'
-                        line: 75
-                        function: extractEndpointsInfoFromLaravelApp
-                        class: Knuckles\Scribe\GroupedEndpoints\GroupedEndpointsFromApp
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\GroupedEndpoints\GroupedEndpointsFromApp.php'
-                        line: 51
-                        function: extractEndpointsInfoAndWriteToDisk
-                        class: Knuckles\Scribe\GroupedEndpoints\GroupedEndpointsFromApp
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\knuckleswtf\scribe\src\Commands\GenerateDocumentation.php'
-                        line: 50
-                        function: get
-                        class: Knuckles\Scribe\GroupedEndpoints\GroupedEndpointsFromApp
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php'
-                        line: 36
-                        function: handle
-                        class: Knuckles\Scribe\Commands\GenerateDocumentation
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\Util.php'
-                        line: 41
-                        function: 'Illuminate\Container\{closure}'
-                        class: Illuminate\Container\BoundMethod
-                        type: '::'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php'
-                        line: 93
-                        function: unwrapIfClosure
-                        class: Illuminate\Container\Util
-                        type: '::'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php'
-                        line: 37
-                        function: callBoundMethod
-                        class: Illuminate\Container\BoundMethod
-                        type: '::'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Container\Container.php'
-                        line: 653
-                        function: call
-                        class: Illuminate\Container\BoundMethod
-                        type: '::'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Console\Command.php'
-                        line: 171
-                        function: call
-                        class: Illuminate\Container\Container
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\symfony\console\Command\Command.php'
-                        line: 291
-                        function: execute
-                        class: Illuminate\Console\Command
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Console\Command.php'
-                        line: 156
-                        function: run
-                        class: Symfony\Component\Console\Command\Command
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\symfony\console\Application.php'
-                        line: 989
-                        function: run
-                        class: Illuminate\Console\Command
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\symfony\console\Application.php'
-                        line: 299
-                        function: doRunCommand
-                        class: Symfony\Component\Console\Application
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\symfony\console\Application.php'
-                        line: 171
-                        function: doRun
-                        class: Symfony\Component\Console\Application
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Console\Application.php'
-                        line: 102
-                        function: run
-                        class: Symfony\Component\Console\Application
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php'
-                        line: 129
-                        function: run
-                        class: Illuminate\Console\Application
-                        type: '->'
-                      -
-                        file: 'C:\laragon\www\movieapp\artisan'
-                        line: 37
-                        function: handle
-                        class: Illuminate\Foundation\Console\Kernel
-                        type: '->'
-                    items:
-                      type: object
+                    example: 19
+                  title:
+                    type: string
+                    example: Metropolis
+                  original_title:
+                    type: string
+                    example: Metropolis
+                  img:
+                    type: string
+                    example: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/pxbGZewX327IbTvrCVRJgcLJTSQ.jpg'
+                  url:
+                    type: string
+                    example: 'https://www.youtube.com/watch?v=gdtZv3XROnc'
+                  embededCode:
+                    type: string
+                    example: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gdtZv3XROnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                  trailerKey:
+                    type: string
+                    example: gdtZv3XROnc
+                  directorId:
+                    type: string
+                    example: null
+                  bgImg:
+                    type: string
+                    example: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/r8pUcom5Mw8igtBpj3AHSAUvH0R.jpg'
+                  description:
+                    type: string
+                    example: 'In a futuristic city sharply divided between the working class and the city planners, the son of the city''s mastermind falls in love with a working class prophet who predicts the coming of a savior to mediate their differences.'
+                  countryId:
+                    type: string
+                    example: null
+                  duration:
+                    type: integer
+                    example: 149
+                  viewCount:
+                    type: integer
+                    example: 2024
+                  categoryId:
+                    type: integer
+                    example: 18
+                  slug:
+                    type: string
+                    example: metropolis
+                  imdb:
+                    type: number
+                    example: 8.2
+                  isMovie18:
+                    type: integer
+                    example: 0
+                  isFinished:
+                    type: integer
+                    example: 0
+                  isMovieSeries:
+                    type: integer
+                    example: 0
+                  totalEpisode:
+                    type: integer
+                    example: 1
+                  quality:
+                    type: string
+                    example: fullHd
+                  publishedAt:
+                    type: string
+                    example: '1927-02-06'
+                  createdAt:
+                    type: string
+                    example: '2022-04-12T11:27:43.000000Z'
+                  updatedAt:
+                    type: string
+                    example: '2022-04-12T11:27:43.000000Z'
       tags:
         - Endpoints
     parameters:
@@ -11778,7 +11180,7 @@ paths:
         in: path
         name: id
         description: 'The ID of the movie.'
-        example: 6
+        example: 19
         required: true
         schema:
           type: integer
@@ -11816,7 +11218,7 @@ paths:
               schema:
                 type: object
                 example:
-                  message: 'No query results for model [App\Models\Movie] 4'
+                  message: 'No query results for model [App\Models\Movie] 1'
                   exception: Symfony\Component\HttpKernel\Exception\NotFoundHttpException
                   file: 'C:\laragon\www\movieapp\vendor\laravel\framework\src\Illuminate\Foundation\Exceptions\Handler.php'
                   line: 355
@@ -12160,7 +11562,7 @@ paths:
                 properties:
                   message:
                     type: string
-                    example: 'No query results for model [App\Models\Movie] 4'
+                    example: 'No query results for model [App\Models\Movie] 1'
                   exception:
                     type: string
                     example: Symfony\Component\HttpKernel\Exception\NotFoundHttpException
@@ -12518,7 +11920,7 @@ paths:
         in: path
         name: movieId
         description: 'The ID of the movie. Example : 14'
-        example: 4
+        example: 1
         required: true
         schema:
           type: integer

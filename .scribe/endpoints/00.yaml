@@ -20,7 +20,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"current_page":1,"data":[{"id":675353,"title":"Sonic the Hedgehog 2","original_title":"Sonic the Hedgehog 2","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg","url":"https:\/\/movieapi.tk\/abc","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/YkZ1aAPApAc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"YkZ1aAPApAc","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg","description":"After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.","countryId":null,"duration":122,"viewCount":306,"categoryId":28,"slug":"sonic-the-hedgehog-2","imdb":7.7,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-30","createdAt":"2022-04-11T23:52:35.000000Z","updatedAt":"2022-04-11T23:52:35.000000Z"},{"id":508947,"title":"Turning Red","original_title":"Turning Red","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg","url":"https:\/\/www.youtube.com\/watch?v=3U7KaI_NPGg","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/3U7KaI_NPGg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"3U7KaI_NPGg","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg","description":"Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist \u2013 when she gets too excited, she transforms into a giant red panda.","countryId":null,"duration":100,"viewCount":1542,"categoryId":16,"slug":"turning-red","imdb":7.5,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-10","createdAt":"2022-04-11T23:52:36.000000Z","updatedAt":"2022-04-11T23:52:36.000000Z"},{"id":634649,"title":"Spider-Man: No Way Home","original_title":"Spider-Man: No Way Home","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg","url":"https:\/\/www.youtube.com\/watch?v=8fqv_n6YxWI","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/8fqv_n6YxWI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"8fqv_n6YxWI","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg","description":"Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.","countryId":null,"duration":148,"viewCount":11282,"categoryId":28,"slug":"spider-man-no-way-home","imdb":8.2,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-12-15","createdAt":"2022-04-11T23:52:36.000000Z","updatedAt":"2022-04-11T23:52:36.000000Z"},{"id":696806,"title":"The Adam Project","original_title":"The Adam Project","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/wFjboE0aFZNbVOF05fzrka9Fqyx.jpg","url":"https:\/\/www.youtube.com\/watch?v=E7UX_d6ccrY","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/E7UX_d6ccrY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"E7UX_d6ccrY","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ewUqXnwiRLhgmGhuksOdLgh49Ch.jpg","description":"After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self on a mission to save the future.","countryId":null,"duration":106,"viewCount":1681,"categoryId":28,"slug":"the-adam-project","imdb":7,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-11","createdAt":"2022-04-11T23:52:36.000000Z","updatedAt":"2022-04-11T23:52:36.000000Z"},{"id":406759,"title":"Moonfall","original_title":"Moonfall","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/odVv1sqVs0KxBXiA8bhIBlPgalx.jpg","url":"https:\/\/www.youtube.com\/watch?v=1Z3MXc8KloU","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/1Z3MXc8KloU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"1Z3MXc8KloU","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/x747ZvF0CcYYTTpPRCoUrxA2cYy.jpg","description":"A mysterious force knocks the moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it.","countryId":null,"duration":130,"viewCount":613,"categoryId":28,"slug":"moonfall","imdb":6.4,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-03","createdAt":"2022-04-11T23:52:36.000000Z","updatedAt":"2022-04-11T23:52:36.000000Z"},{"id":760868,"title":"Black Crab","original_title":"Svart krabba","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/mcIYHZYwUbvhvUt8Lb5nENJ7AlX.jpg","url":"https:\/\/www.youtube.com\/watch?v=fmjKsL_-rfw","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/fmjKsL_-rfw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"fmjKsL_-rfw","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/t7I942V5U1Ggn6OevN75u3sNYH9.jpg","description":"To end an apocalyptic war and save her daughter, a reluctant soldier embarks on a desperate mission to cross a frozen sea carrying a top-secret cargo.","countryId":null,"duration":109,"viewCount":299,"categoryId":28,"slug":"black-crab","imdb":6.2,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-18","createdAt":"2022-04-11T23:52:37.000000Z","updatedAt":"2022-04-11T23:52:37.000000Z"},{"id":568124,"title":"Encanto","original_title":"Encanto","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg","url":"https:\/\/www.youtube.com\/watch?v=bjMFebB2Coo","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/bjMFebB2Coo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"bjMFebB2Coo","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg","description":"The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family with a unique gift from super strength to the power to heal\u2014every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family''s last hope.","countryId":null,"duration":102,"viewCount":5945,"categoryId":16,"slug":"encanto","imdb":7.7,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-11-24","createdAt":"2022-04-11T23:52:37.000000Z","updatedAt":"2022-04-11T23:52:37.000000Z"},{"id":414906,"title":"The Batman","original_title":"The Batman","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/74xTEgt7R36Fpooo50r9T25onhq.jpg","url":"https:\/\/www.youtube.com\/watch?v=FqnbVhfniys","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/FqnbVhfniys\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"FqnbVhfniys","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/5P8SmMzSNYikXpxil6BYzJ16611.jpg","description":"In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.","countryId":null,"duration":176,"viewCount":2771,"categoryId":80,"slug":"the-batman","imdb":7.9,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-01","createdAt":"2022-04-11T23:52:37.000000Z","updatedAt":"2022-04-11T23:52:37.000000Z"},{"id":823625,"title":"Blacklight","original_title":"Blacklight","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/bv9dy8mnwftdY2j6gG39gCfSFpV.jpg","url":"https:\/\/www.youtube.com\/watch?v=k_N9pU4FMOs","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/k_N9pU4FMOs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"k_N9pU4FMOs","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/2hGjmgZrS1nlsEl5PZorn7EsmzH.jpg","description":"Travis Block is a shadowy Government agent who specializes in removing operatives whose covers have been exposed. He then has to uncover a deadly conspiracy within his own ranks that reaches the highest echelons of power.","countryId":null,"duration":104,"viewCount":259,"categoryId":28,"slug":"blacklight","imdb":6.1,"isMovie18":1,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-10","createdAt":"2022-04-11T23:52:38.000000Z","updatedAt":"2022-04-11T23:52:38.000000Z"},{"id":454626,"title":"Sonic the Hedgehog","original_title":"Sonic the Hedgehog","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg","url":"https:\/\/www.youtube.com\/watch?v=EwgM3sKaO54","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/EwgM3sKaO54\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"EwgM3sKaO54","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg","description":"Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it\u2019s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic\u2019s unique power for world domination.","countryId":null,"duration":99,"viewCount":7719,"categoryId":28,"slug":"sonic-the-hedgehog","imdb":7.4,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2020-02-12","createdAt":"2022-04-11T23:52:38.000000Z","updatedAt":"2022-04-11T23:52:38.000000Z"},{"id":676705,"title":"Pil''s Adventures","original_title":"Pil","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/abPQVYyNfVuGoFUfGVhlNecu0QG.jpg","url":"https:\/\/www.youtube.com\/watch?v=4A0muKc83Nc","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/4A0muKc83Nc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"4A0muKc83Nc","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/tq3klWQevRK0Or0cGhsw0h3FDWQ.jpg","description":"Pil, a little vagabond girl, lives on the streets of the medieval city of Roc-en-Brume, along with her three tame weasels. She survives of food stolen from the castle of the sinister Regent Tristain. One day, to escape his guards, Pil disguises herself as a princess. Thus she embarks upon a mad, delirious adventure, together with Crobar, a big clumsy guard who thinks she''s a noble, and Rigolin, a young crackpot jester. Pil is going to have to save Roland, rightful heir to the throne under the curse of a spell. This adventure will turn the entire kingdom upside down, and teach Pil that nobility can be found in all of us.","countryId":null,"duration":89,"viewCount":48,"categoryId":12,"slug":"pils-adventures","imdb":7,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-08-11","createdAt":"2022-04-11T23:52:39.000000Z","updatedAt":"2022-04-11T23:52:39.000000Z"},{"id":833425,"title":"No Exit","original_title":"No Exit","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/5cnLoWq9o5tuLe1Zq4BTX4LwZ2B.jpg","url":"https:\/\/www.youtube.com\/watch?v=Tt-PDDyiM2E","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Tt-PDDyiM2E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"Tt-PDDyiM2E","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/33wnBK5NxvuKQv0Cxo3wMv0eR7F.jpg","description":"Stranded at a rest stop in the mountains during a blizzard, a recovering addict discovers a kidnapped child hidden in a car belonging to one of the people inside the building which sets her on a terrifying struggle to identify who among them is the kidnapper.","countryId":null,"duration":96,"viewCount":326,"categoryId":27,"slug":"no-exit","imdb":6.5,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-25","createdAt":"2022-04-11T23:52:39.000000Z","updatedAt":"2022-04-11T23:52:39.000000Z"},{"id":526896,"title":"Morbius","original_title":"Morbius","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/7gmOjg7lQXGLW8wX31ry1IdIY07.jpg","url":"https:\/\/www.youtube.com\/watch?v=nivJJr-vtSo","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/nivJJr-vtSo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"nivJJr-vtSo","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/tj4lzGgHrfjnjVqAKkLIjFqPSyO.jpg","description":"Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.","countryId":null,"duration":104,"viewCount":376,"categoryId":28,"slug":"morbius","imdb":5.8,"isMovie18":1,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-30","createdAt":"2022-04-11T23:52:40.000000Z","updatedAt":"2022-04-11T23:52:40.000000Z"},{"id":760926,"title":"Gold","original_title":"Gold","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ejXBuNLvK4kZ7YcqeKqUWnCxdJq.jpg","url":"https:\/\/www.youtube.com\/watch?v=1HqBaI-FV7Y","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/1HqBaI-FV7Y\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"1HqBaI-FV7Y","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/yzH5zvuEzzsHLZnn0jwYoPf0CMT.jpg","description":"In the not-too-distant future, two drifters traveling through the desert stumble across the biggest gold nugget ever found and the dream of immense wealth and greed takes hold. They hatch a plan to excavate their bounty, with one man leaving to secure the necessary tools while the other remains with the gold. The man who remains must endure harsh desert elements, ravenous wild dogs, and mysterious intruders, while battling the sinking suspicion that he has been abandoned to his fate.","countryId":null,"duration":97,"viewCount":173,"categoryId":53,"slug":"gold","imdb":6.5,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-01-13","createdAt":"2022-04-11T23:52:40.000000Z","updatedAt":"2022-04-11T23:52:40.000000Z"},{"id":774825,"title":"The Ice Age Adventures of Buck Wild","original_title":"The Ice Age Adventures of Buck Wild","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/zzXFM4FKDG7l1ufrAkwQYv2xvnh.jpg","url":"https:\/\/www.youtube.com\/watch?v=0U0L4uT0btQ","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/0U0L4uT0btQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"0U0L4uT0btQ","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/eG0oOQVsniPAuecPzDD1B1gnYWy.jpg","description":"The fearless one-eyed weasel Buck teams up with mischievous possum brothers Crash & Eddie as they head off on a new adventure into Buck''s home: The Dinosaur World.","countryId":null,"duration":82,"viewCount":962,"categoryId":16,"slug":"the-ice-age-adventures-of-buck-wild","imdb":6.9,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-01-28","createdAt":"2022-04-11T23:52:40.000000Z","updatedAt":"2022-04-11T23:52:40.000000Z"},{"id":585083,"title":"Hotel Transylvania: Transformania","original_title":"Hotel Transylvania: Transformania","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/teCy1egGQa0y8ULJvlrDHQKnxBL.jpg","url":"https:\/\/www.youtube.com\/watch?v=KKL6aGwybHg","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/KKL6aGwybHg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"KKL6aGwybHg","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/qBLEWvJNVsehJkEJqIigPsWyBse.jpg","description":"When Van Helsing''s mysterious invention, the \"Monsterfication Ray,\" goes haywire, Drac and his monster pals are all transformed into humans, and Johnny becomes a monster. In their new mismatched bodies, Drac and Johnny must team up and race across the globe to find a cure before it''s too late, and before they drive each other crazy.","countryId":null,"duration":87,"viewCount":652,"categoryId":16,"slug":"hotel-transylvania-transformania","imdb":7.1,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-25","createdAt":"2022-04-11T23:52:41.000000Z","updatedAt":"2022-04-11T23:52:41.000000Z"},{"id":524434,"title":"Eternals","original_title":"Eternals","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg","url":"https:\/\/www.youtube.com\/watch?v=kWznlJ-hG_g","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/kWznlJ-hG_g\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"kWznlJ-hG_g","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg","description":"The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind\u2019s most ancient enemy, the Deviants.","countryId":null,"duration":156,"viewCount":5193,"categoryId":878,"slug":"eternals","imdb":7.2,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-11-03","createdAt":"2022-04-11T23:52:41.000000Z","updatedAt":"2022-04-11T23:52:41.000000Z"},{"id":800510,"title":"Kimi","original_title":"Kimi","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/okNgwtxIWzGsNlR3GsOS0i0Qgbn.jpg","url":"https:\/\/www.youtube.com\/watch?v=67S8ru4K4x4","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/67S8ru4K4x4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"67S8ru4K4x4","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/mruT954ve6P1zquaRs6XG0hA5k9.jpg","description":"A tech worker with agoraphobia discovers recorded evidence of a violent crime but is met with resistance when she tries to report it. Seeking justice, she must do the thing she fears the most: she must leave her apartment.","countryId":null,"duration":89,"viewCount":333,"categoryId":53,"slug":"kimi","imdb":6.3,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-10","createdAt":"2022-04-11T23:52:41.000000Z","updatedAt":"2022-04-11T23:52:41.000000Z"},{"id":768744,"title":"My Hero Academia: World Heroes'' Mission","original_title":"\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2 THE MOVIE \u30ef\u30fc\u30eb\u30c9 \u30d2\u30fc\u30ed\u30fc\u30ba \u30df\u30c3\u30b7\u30e7\u30f3","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/4NUzcKtYPKkfTwKsLjwNt8nRIXV.jpg","url":"https:\/\/www.youtube.com\/watch?v=tVioSvi1KyQ","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/tVioSvi1KyQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"tVioSvi1KyQ","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/cugmVwK0N4aAcLibelKN5jWDXSx.jpg","description":"A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-classic selected hero team. It is up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia.","countryId":null,"duration":105,"viewCount":136,"categoryId":16,"slug":"my-hero-academia-world-heroes-mission","imdb":7.3,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-08-06","createdAt":"2022-04-11T23:52:42.000000Z","updatedAt":"2022-04-11T23:52:42.000000Z"},{"id":476669,"title":"The King''s Man","original_title":"The King''s Man","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/aq4Pwv5Xeuvj6HZKtxyd23e6bE9.jpg","url":"https:\/\/www.youtube.com\/watch?v=gWiqN7XHKNI","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/gWiqN7XHKNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"gWiqN7XHKNI","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/4OTYefcAlaShn6TGVK33UxLW9R7.jpg","description":"As a collection of history''s worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them.","countryId":null,"duration":131,"viewCount":2299,"categoryId":28,"slug":"the-kings-man","imdb":7,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-12-22","createdAt":"2022-04-11T23:52:42.000000Z","updatedAt":"2022-04-11T23:52:42.000000Z"}],"first_page_url":"https:\/\/movieapi.tk\/api\/movies?page=1","from":1,"last_page":441,"last_page_url":"https:\/\/movieapi.tk\/api\/movies?page=441","links":[{"url":null,"label":"&laquo; Previous","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=1","label":"1","active":true},{"url":"https:\/\/movieapi.tk\/api\/movies?page=2","label":"2","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=3","label":"3","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=4","label":"4","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=5","label":"5","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=6","label":"6","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=7","label":"7","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=8","label":"8","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=9","label":"9","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=10","label":"10","active":false},{"url":null,"label":"...","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=440","label":"440","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=441","label":"441","active":false},{"url":"https:\/\/movieapi.tk\/api\/movies?page=2","label":"Next &raquo;","active":false}],"next_page_url":"https:\/\/movieapi.tk\/api\/movies?page=2","path":"https:\/\/movieapi.tk\/api\/movies","per_page":20,"prev_page_url":null,"to":20,"total":8808}'
+        content: '{"current_page":1,"data":[{"id":675353,"title":"Sonic the Hedgehog 2","original_title":"Sonic the Hedgehog 2","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg","url":"http:\/\/movieapp.test\/abc","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/YkZ1aAPApAc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"YkZ1aAPApAc","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg","description":"After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.","countryId":null,"duration":122,"viewCount":306,"categoryId":28,"slug":"sonic-the-hedgehog-2","imdb":7.7,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-30","createdAt":"2022-04-11T23:52:35.000000Z","updatedAt":"2022-04-11T23:52:35.000000Z"},{"id":508947,"title":"Turning Red","original_title":"Turning Red","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg","url":"https:\/\/www.youtube.com\/watch?v=3U7KaI_NPGg","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/3U7KaI_NPGg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"3U7KaI_NPGg","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg","description":"Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist \u2013 when she gets too excited, she transforms into a giant red panda.","countryId":null,"duration":100,"viewCount":1542,"categoryId":16,"slug":"turning-red","imdb":7.5,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-10","createdAt":"2022-04-11T23:52:36.000000Z","updatedAt":"2022-04-11T23:52:36.000000Z"},{"id":634649,"title":"Spider-Man: No Way Home","original_title":"Spider-Man: No Way Home","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg","url":"https:\/\/www.youtube.com\/watch?v=8fqv_n6YxWI","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/8fqv_n6YxWI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"8fqv_n6YxWI","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg","description":"Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.","countryId":null,"duration":148,"viewCount":11282,"categoryId":28,"slug":"spider-man-no-way-home","imdb":8.2,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-12-15","createdAt":"2022-04-11T23:52:36.000000Z","updatedAt":"2022-04-11T23:52:36.000000Z"},{"id":696806,"title":"The Adam Project","original_title":"The Adam Project","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/wFjboE0aFZNbVOF05fzrka9Fqyx.jpg","url":"https:\/\/www.youtube.com\/watch?v=E7UX_d6ccrY","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/E7UX_d6ccrY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"E7UX_d6ccrY","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ewUqXnwiRLhgmGhuksOdLgh49Ch.jpg","description":"After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self on a mission to save the future.","countryId":null,"duration":106,"viewCount":1681,"categoryId":28,"slug":"the-adam-project","imdb":7,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-11","createdAt":"2022-04-11T23:52:36.000000Z","updatedAt":"2022-04-11T23:52:36.000000Z"},{"id":406759,"title":"Moonfall","original_title":"Moonfall","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/odVv1sqVs0KxBXiA8bhIBlPgalx.jpg","url":"https:\/\/www.youtube.com\/watch?v=1Z3MXc8KloU","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/1Z3MXc8KloU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"1Z3MXc8KloU","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/x747ZvF0CcYYTTpPRCoUrxA2cYy.jpg","description":"A mysterious force knocks the moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it.","countryId":null,"duration":130,"viewCount":613,"categoryId":28,"slug":"moonfall","imdb":6.4,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-03","createdAt":"2022-04-11T23:52:36.000000Z","updatedAt":"2022-04-11T23:52:36.000000Z"},{"id":760868,"title":"Black Crab","original_title":"Svart krabba","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/mcIYHZYwUbvhvUt8Lb5nENJ7AlX.jpg","url":"https:\/\/www.youtube.com\/watch?v=fmjKsL_-rfw","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/fmjKsL_-rfw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"fmjKsL_-rfw","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/t7I942V5U1Ggn6OevN75u3sNYH9.jpg","description":"To end an apocalyptic war and save her daughter, a reluctant soldier embarks on a desperate mission to cross a frozen sea carrying a top-secret cargo.","countryId":null,"duration":109,"viewCount":299,"categoryId":28,"slug":"black-crab","imdb":6.2,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-18","createdAt":"2022-04-11T23:52:37.000000Z","updatedAt":"2022-04-11T23:52:37.000000Z"},{"id":568124,"title":"Encanto","original_title":"Encanto","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg","url":"https:\/\/www.youtube.com\/watch?v=bjMFebB2Coo","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/bjMFebB2Coo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"bjMFebB2Coo","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg","description":"The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family with a unique gift from super strength to the power to heal\u2014every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family''s last hope.","countryId":null,"duration":102,"viewCount":5945,"categoryId":16,"slug":"encanto","imdb":7.7,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-11-24","createdAt":"2022-04-11T23:52:37.000000Z","updatedAt":"2022-04-11T23:52:37.000000Z"},{"id":414906,"title":"The Batman","original_title":"The Batman","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/74xTEgt7R36Fpooo50r9T25onhq.jpg","url":"https:\/\/www.youtube.com\/watch?v=FqnbVhfniys","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/FqnbVhfniys\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"FqnbVhfniys","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/5P8SmMzSNYikXpxil6BYzJ16611.jpg","description":"In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.","countryId":null,"duration":176,"viewCount":2771,"categoryId":80,"slug":"the-batman","imdb":7.9,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-01","createdAt":"2022-04-11T23:52:37.000000Z","updatedAt":"2022-04-11T23:52:37.000000Z"},{"id":823625,"title":"Blacklight","original_title":"Blacklight","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/bv9dy8mnwftdY2j6gG39gCfSFpV.jpg","url":"https:\/\/www.youtube.com\/watch?v=k_N9pU4FMOs","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/k_N9pU4FMOs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"k_N9pU4FMOs","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/2hGjmgZrS1nlsEl5PZorn7EsmzH.jpg","description":"Travis Block is a shadowy Government agent who specializes in removing operatives whose covers have been exposed. He then has to uncover a deadly conspiracy within his own ranks that reaches the highest echelons of power.","countryId":null,"duration":104,"viewCount":259,"categoryId":28,"slug":"blacklight","imdb":6.1,"isMovie18":1,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-10","createdAt":"2022-04-11T23:52:38.000000Z","updatedAt":"2022-04-11T23:52:38.000000Z"},{"id":454626,"title":"Sonic the Hedgehog","original_title":"Sonic the Hedgehog","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg","url":"https:\/\/www.youtube.com\/watch?v=EwgM3sKaO54","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/EwgM3sKaO54\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"EwgM3sKaO54","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg","description":"Powered with incredible speed, Sonic The Hedgehog embraces his new home on Earth. That is, until Sonic sparks the attention of super-uncool evil genius Dr. Robotnik. Now it\u2019s super-villain vs. super-sonic in an all-out race across the globe to stop Robotnik from using Sonic\u2019s unique power for world domination.","countryId":null,"duration":99,"viewCount":7719,"categoryId":28,"slug":"sonic-the-hedgehog","imdb":7.4,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2020-02-12","createdAt":"2022-04-11T23:52:38.000000Z","updatedAt":"2022-04-11T23:52:38.000000Z"},{"id":676705,"title":"Pil''s Adventures","original_title":"Pil","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/abPQVYyNfVuGoFUfGVhlNecu0QG.jpg","url":"https:\/\/www.youtube.com\/watch?v=4A0muKc83Nc","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/4A0muKc83Nc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"4A0muKc83Nc","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/tq3klWQevRK0Or0cGhsw0h3FDWQ.jpg","description":"Pil, a little vagabond girl, lives on the streets of the medieval city of Roc-en-Brume, along with her three tame weasels. She survives of food stolen from the castle of the sinister Regent Tristain. One day, to escape his guards, Pil disguises herself as a princess. Thus she embarks upon a mad, delirious adventure, together with Crobar, a big clumsy guard who thinks she''s a noble, and Rigolin, a young crackpot jester. Pil is going to have to save Roland, rightful heir to the throne under the curse of a spell. This adventure will turn the entire kingdom upside down, and teach Pil that nobility can be found in all of us.","countryId":null,"duration":89,"viewCount":48,"categoryId":12,"slug":"pils-adventures","imdb":7,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-08-11","createdAt":"2022-04-11T23:52:39.000000Z","updatedAt":"2022-04-11T23:52:39.000000Z"},{"id":833425,"title":"No Exit","original_title":"No Exit","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/5cnLoWq9o5tuLe1Zq4BTX4LwZ2B.jpg","url":"https:\/\/www.youtube.com\/watch?v=Tt-PDDyiM2E","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Tt-PDDyiM2E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"Tt-PDDyiM2E","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/33wnBK5NxvuKQv0Cxo3wMv0eR7F.jpg","description":"Stranded at a rest stop in the mountains during a blizzard, a recovering addict discovers a kidnapped child hidden in a car belonging to one of the people inside the building which sets her on a terrifying struggle to identify who among them is the kidnapper.","countryId":null,"duration":96,"viewCount":326,"categoryId":27,"slug":"no-exit","imdb":6.5,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-25","createdAt":"2022-04-11T23:52:39.000000Z","updatedAt":"2022-04-11T23:52:39.000000Z"},{"id":526896,"title":"Morbius","original_title":"Morbius","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/7gmOjg7lQXGLW8wX31ry1IdIY07.jpg","url":"https:\/\/www.youtube.com\/watch?v=nivJJr-vtSo","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/nivJJr-vtSo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"nivJJr-vtSo","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/tj4lzGgHrfjnjVqAKkLIjFqPSyO.jpg","description":"Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.","countryId":null,"duration":104,"viewCount":376,"categoryId":28,"slug":"morbius","imdb":5.8,"isMovie18":1,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-03-30","createdAt":"2022-04-11T23:52:40.000000Z","updatedAt":"2022-04-11T23:52:40.000000Z"},{"id":760926,"title":"Gold","original_title":"Gold","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ejXBuNLvK4kZ7YcqeKqUWnCxdJq.jpg","url":"https:\/\/www.youtube.com\/watch?v=1HqBaI-FV7Y","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/1HqBaI-FV7Y\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"1HqBaI-FV7Y","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/yzH5zvuEzzsHLZnn0jwYoPf0CMT.jpg","description":"In the not-too-distant future, two drifters traveling through the desert stumble across the biggest gold nugget ever found and the dream of immense wealth and greed takes hold. They hatch a plan to excavate their bounty, with one man leaving to secure the necessary tools while the other remains with the gold. The man who remains must endure harsh desert elements, ravenous wild dogs, and mysterious intruders, while battling the sinking suspicion that he has been abandoned to his fate.","countryId":null,"duration":97,"viewCount":173,"categoryId":53,"slug":"gold","imdb":6.5,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-01-13","createdAt":"2022-04-11T23:52:40.000000Z","updatedAt":"2022-04-11T23:52:40.000000Z"},{"id":774825,"title":"The Ice Age Adventures of Buck Wild","original_title":"The Ice Age Adventures of Buck Wild","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/zzXFM4FKDG7l1ufrAkwQYv2xvnh.jpg","url":"https:\/\/www.youtube.com\/watch?v=0U0L4uT0btQ","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/0U0L4uT0btQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"0U0L4uT0btQ","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/eG0oOQVsniPAuecPzDD1B1gnYWy.jpg","description":"The fearless one-eyed weasel Buck teams up with mischievous possum brothers Crash & Eddie as they head off on a new adventure into Buck''s home: The Dinosaur World.","countryId":null,"duration":82,"viewCount":962,"categoryId":16,"slug":"the-ice-age-adventures-of-buck-wild","imdb":6.9,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-01-28","createdAt":"2022-04-11T23:52:40.000000Z","updatedAt":"2022-04-11T23:52:40.000000Z"},{"id":585083,"title":"Hotel Transylvania: Transformania","original_title":"Hotel Transylvania: Transformania","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/teCy1egGQa0y8ULJvlrDHQKnxBL.jpg","url":"https:\/\/www.youtube.com\/watch?v=KKL6aGwybHg","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/KKL6aGwybHg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"KKL6aGwybHg","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/qBLEWvJNVsehJkEJqIigPsWyBse.jpg","description":"When Van Helsing''s mysterious invention, the \"Monsterfication Ray,\" goes haywire, Drac and his monster pals are all transformed into humans, and Johnny becomes a monster. In their new mismatched bodies, Drac and Johnny must team up and race across the globe to find a cure before it''s too late, and before they drive each other crazy.","countryId":null,"duration":87,"viewCount":652,"categoryId":16,"slug":"hotel-transylvania-transformania","imdb":7.1,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-25","createdAt":"2022-04-11T23:52:41.000000Z","updatedAt":"2022-04-11T23:52:41.000000Z"},{"id":524434,"title":"Eternals","original_title":"Eternals","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg","url":"https:\/\/www.youtube.com\/watch?v=kWznlJ-hG_g","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/kWznlJ-hG_g\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"kWznlJ-hG_g","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg","description":"The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind\u2019s most ancient enemy, the Deviants.","countryId":null,"duration":156,"viewCount":5193,"categoryId":878,"slug":"eternals","imdb":7.2,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-11-03","createdAt":"2022-04-11T23:52:41.000000Z","updatedAt":"2022-04-11T23:52:41.000000Z"},{"id":800510,"title":"Kimi","original_title":"Kimi","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/okNgwtxIWzGsNlR3GsOS0i0Qgbn.jpg","url":"https:\/\/www.youtube.com\/watch?v=67S8ru4K4x4","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/67S8ru4K4x4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"67S8ru4K4x4","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/mruT954ve6P1zquaRs6XG0hA5k9.jpg","description":"A tech worker with agoraphobia discovers recorded evidence of a violent crime but is met with resistance when she tries to report it. Seeking justice, she must do the thing she fears the most: she must leave her apartment.","countryId":null,"duration":89,"viewCount":333,"categoryId":53,"slug":"kimi","imdb":6.3,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2022-02-10","createdAt":"2022-04-11T23:52:41.000000Z","updatedAt":"2022-04-11T23:52:41.000000Z"},{"id":768744,"title":"My Hero Academia: World Heroes'' Mission","original_title":"\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2 THE MOVIE \u30ef\u30fc\u30eb\u30c9 \u30d2\u30fc\u30ed\u30fc\u30ba \u30df\u30c3\u30b7\u30e7\u30f3","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/4NUzcKtYPKkfTwKsLjwNt8nRIXV.jpg","url":"https:\/\/www.youtube.com\/watch?v=tVioSvi1KyQ","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/tVioSvi1KyQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"tVioSvi1KyQ","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/cugmVwK0N4aAcLibelKN5jWDXSx.jpg","description":"A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-classic selected hero team. It is up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia.","countryId":null,"duration":105,"viewCount":136,"categoryId":16,"slug":"my-hero-academia-world-heroes-mission","imdb":7.3,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-08-06","createdAt":"2022-04-11T23:52:42.000000Z","updatedAt":"2022-04-11T23:52:42.000000Z"},{"id":476669,"title":"The King''s Man","original_title":"The King''s Man","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/aq4Pwv5Xeuvj6HZKtxyd23e6bE9.jpg","url":"https:\/\/www.youtube.com\/watch?v=gWiqN7XHKNI","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/gWiqN7XHKNI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"gWiqN7XHKNI","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/4OTYefcAlaShn6TGVK33UxLW9R7.jpg","description":"As a collection of history''s worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them.","countryId":null,"duration":131,"viewCount":2299,"categoryId":28,"slug":"the-kings-man","imdb":7,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2021-12-22","createdAt":"2022-04-11T23:52:42.000000Z","updatedAt":"2022-04-11T23:52:42.000000Z"}],"first_page_url":"http:\/\/movieapp.test\/api\/movies?page=1","from":1,"last_page":441,"last_page_url":"http:\/\/movieapp.test\/api\/movies?page=441","links":[{"url":null,"label":"&laquo; Previous","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=1","label":"1","active":true},{"url":"http:\/\/movieapp.test\/api\/movies?page=2","label":"2","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=3","label":"3","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=4","label":"4","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=5","label":"5","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=6","label":"6","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=7","label":"7","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=8","label":"8","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=9","label":"9","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=10","label":"10","active":false},{"url":null,"label":"...","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=440","label":"440","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=441","label":"441","active":false},{"url":"http:\/\/movieapp.test\/api\/movies?page=2","label":"Next &raquo;","active":false}],"next_page_url":"http:\/\/movieapp.test\/api\/movies?page=2","path":"http:\/\/movieapp.test\/api\/movies","per_page":20,"prev_page_url":null,"to":20,"total":8808}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -47,14 +47,14 @@ endpoints:
         name: title
         description: ''
         required: true
-        example: et
+        example: ipsam
         type: string
         custom: []
       original_title:
         name: original_title
         description: ''
         required: true
-        example: dignissimos
+        example: incidunt
         type: string
         custom: []
       img:
@@ -75,14 +75,14 @@ endpoints:
         name: embededCode
         description: ''
         required: true
-        example: dolorem
+        example: ad
         type: string
         custom: []
       trailerKey:
         name: trailerKey
         description: ''
         required: true
-        example: optio
+        example: molestiae
         type: string
         custom: []
       directorId:
@@ -103,49 +103,49 @@ endpoints:
         name: description
         description: ''
         required: true
-        example: impedit
+        example: magni
         type: string
         custom: []
       countryId:
         name: countryId
         description: ''
         required: true
-        example: 19
+        example: 3
         type: integer
         custom: []
       duration:
         name: duration
         description: ''
         required: true
-        example: 17
+        example: 19
         type: integer
         custom: []
       viewCount:
         name: viewCount
         description: ''
         required: true
-        example: 12
+        example: 15
         type: integer
         custom: []
       categoryId:
         name: categoryId
         description: ''
         required: true
-        example: 10
+        example: 4
         type: integer
         custom: []
       slug:
         name: slug
         description: ''
         required: true
-        example: inventore
+        example: in
         type: string
         custom: []
       imdb:
         name: imdb
         description: ''
         required: true
-        example: 12
+        example: 18
         type: integer
         custom: []
       isMovie18:
@@ -159,7 +159,7 @@ endpoints:
         name: isFinished
         description: 'Must be one of <code>0</code> or <code>1</code>.'
         required: false
-        example: '1'
+        example: '0'
         type: string
         custom: []
       isMovieSeries:
@@ -173,35 +173,35 @@ endpoints:
         name: totalEpisode
         description: ''
         required: false
-        example: 1
+        example: 18
         type: integer
         custom: []
       quality:
         name: quality
         description: ''
         required: false
-        example: aut
+        example: quis
         type: string
         custom: []
       publishedAt:
         name: publishedAt
         description: 'Must be a valid date.'
         required: false
-        example: '2022-04-17T09:45:14'
+        example: '2022-04-18T04:10:09'
         type: string
         custom: []
       createdAt:
         name: createdAt
         description: 'Must be a valid date.'
         required: false
-        example: '2022-04-17T09:45:14'
+        example: '2022-04-18T04:10:09'
         type: string
         custom: []
       updatedAt:
         name: updatedAt
         description: 'Must be a valid date.'
         required: false
-        example: '2022-04-17T09:45:14'
+        example: '2022-04-18T04:10:09'
         type: string
         custom: []
     responses: []
@@ -226,21 +226,21 @@ endpoints:
         name: id
         description: ''
         required: false
-        example: 16
+        example: 15
         type: integer
         custom: []
       title:
         name: title
         description: ''
         required: false
-        example: aut
+        example: omnis
         type: string
         custom: []
       original_title:
         name: original_title
         description: ''
         required: false
-        example: porro
+        example: maiores
         type: string
         custom: []
       img:
@@ -261,14 +261,14 @@ endpoints:
         name: embededCode
         description: ''
         required: false
-        example: nostrum
+        example: quisquam
         type: string
         custom: []
       trailerKey:
         name: trailerKey
         description: ''
         required: false
-        example: eos
+        example: laborum
         type: string
         custom: []
       directorId:
@@ -289,49 +289,49 @@ endpoints:
         name: description
         description: ''
         required: false
-        example: iure
+        example: non
         type: string
         custom: []
       countryId:
         name: countryId
         description: ''
         required: false
-        example: 6
+        example: 9
         type: integer
         custom: []
       duration:
         name: duration
         description: ''
         required: false
-        example: 7
+        example: 19
         type: integer
         custom: []
       viewCount:
         name: viewCount
         description: ''
         required: false
-        example: 4
+        example: 16
         type: integer
         custom: []
       categoryId:
         name: categoryId
         description: ''
         required: false
-        example: 19
+        example: 2
         type: integer
         custom: []
       slug:
         name: slug
         description: ''
         required: false
-        example: iusto
+        example: deserunt
         type: string
         custom: []
       imdb:
         name: imdb
         description: ''
         required: false
-        example: 2
+        example: 18
         type: integer
         custom: []
       isMovie18:
@@ -359,35 +359,35 @@ endpoints:
         name: totalEpisode
         description: ''
         required: false
-        example: 20
+        example: 18
         type: integer
         custom: []
       quality:
         name: quality
         description: ''
         required: false
-        example: nisi
+        example: consequuntur
         type: string
         custom: []
       publishedAt:
         name: publishedAt
         description: 'Must be a valid date.'
         required: false
-        example: '2022-04-17T09:45:14'
+        example: '2022-04-18T04:10:09'
         type: string
         custom: []
       createdAt:
         name: createdAt
         description: 'Must be a valid date.'
         required: false
-        example: '2022-04-17T09:45:14'
+        example: '2022-04-18T04:10:09'
         type: string
         custom: []
       updatedAt:
         name: updatedAt
         description: 'Must be a valid date.'
         required: false
-        example: '2022-04-17T09:45:14'
+        example: '2022-04-18T04:10:09'
         type: string
         custom: []
     responses: []
@@ -412,7 +412,7 @@ endpoints:
         name: id
         description: ''
         required: true
-        example: 13
+        example: 20
         type: integer
         custom: []
     responses: []
@@ -536,7 +536,7 @@ endpoints:
     responses:
       -
         status: 200
-        content: '{"categories":[{"id":12,"name":"Adventure","description":"Adventure","slug":"adventure"},{"id":14,"name":"Fantasy","description":"Fantasy","slug":"fantasy"},{"id":16,"name":"Animation","description":"Animation","slug":"animation"},{"id":18,"name":"Drama","description":"Drama","slug":"drama"},{"id":27,"name":"Horror","description":"Horror","slug":"horror"},{"id":28,"name":"Action","description":"Action","slug":"action"},{"id":35,"name":"Comedy","description":"Comedy","slug":"comedy"},{"id":36,"name":"History","description":"History","slug":"history"},{"id":37,"name":"Western","description":"Western","slug":"western"},{"id":53,"name":"Thriller","description":"Thriller","slug":"thriller"},{"id":80,"name":"Crime","description":"Crime","slug":"crime"},{"id":99,"name":"Documentary","description":"Documentary","slug":"documentary"},{"id":878,"name":"Science Fiction","description":"Science Fiction","slug":"science-fiction"},{"id":9648,"name":"Mystery","description":"Mystery","slug":"mystery"},{"id":10402,"name":"Music","description":"Music","slug":"music"},{"id":10749,"name":"Romance","description":"Romance","slug":"romance"},{"id":10751,"name":"Family","description":"Family","slug":"family"},{"id":10752,"name":"War","description":"War","slug":"war"},{"id":10770,"name":"TV Movie","description":"TV Movie","slug":"tv-movie"}],"latestMovies":[{"id":957993,"title":"autem dsad","original_title":"perferendis","img":"https:\/\/movieapi.tk\/images\/autem-dsad\/av1.jpg","url":"https:\/\/movieapi.tk\/videos\/autem-dsad\/Facebook_6.mp4","embededCode":"unde","trailerKey":"ut","directorId":14,"bgImg":"\/images\/bg\/autem-dsad\/av1.jpg","description":"voluptas","countryId":17,"duration":3,"viewCount":7,"categoryId":18,"slug":"et","imdb":12,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"reprehenderit","publishedAt":"2022-04-17T09:14:39","createdAt":"2022-04-17T09:14:39.000000Z","updatedAt":"2022-04-17T09:14:39.000000Z"},{"id":957994,"title":"autem dd","original_title":"perferendis","img":"https:\/\/movieapi.tk\/uploadsimages\/autem-dd\/av1.jpg","url":"https:\/\/movieapi.tk\/uploadsvideos\/autem-dd\/Facebook_6.mp4","embededCode":"unde","trailerKey":"ut","directorId":14,"bgImg":"\/uploadsimages\/bg\/autem-dd\/av1.jpg","description":"voluptas","countryId":17,"duration":3,"viewCount":7,"categoryId":18,"slug":"et","imdb":12,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"reprehenderit","publishedAt":"2022-04-17T09:14:39","createdAt":"2022-04-17T09:14:39.000000Z","updatedAt":"2022-04-17T09:14:39.000000Z"},{"id":957995,"title":"autem dd","original_title":"perferendis","img":"https:\/\/movieapi.tk\/uploads\/images\/autem-dd\/av1.jpg","url":"https:\/\/movieapi.tk\/uploads\/videos\/autem-dd\/Facebook_6.mp4","embededCode":"unde","trailerKey":"ut","directorId":14,"bgImg":"\/uploads\/images\/bg\/autem-dd\/av1.jpg","description":"voluptas","countryId":17,"duration":3,"viewCount":7,"categoryId":18,"slug":"et","imdb":12,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"reprehenderit","publishedAt":"2022-04-17T09:14:39","createdAt":"2022-04-17T09:14:39.000000Z","updatedAt":"2022-04-17T09:14:39.000000Z"},{"id":13567,"title":"Sleepaway Camp","original_title":"Sleepaway Camp","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/qCQo7okJCHYMMagt6kC0YfhoVVt.jpg","url":"https:\/\/www.youtube.com\/watch?v=yfZR1Lqjws4","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/yfZR1Lqjws4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"yfZR1Lqjws4","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/tucoEh25SJAthrd3kUHf6jC0jis.jpg","description":"Slightly disturbed and painfully shy Angela Baker is sent away to summer camp with her cousin. Not long after Angela''s arrival, things start to go horribly wrong for anyone with sinister or less than honorable intentions.","countryId":null,"duration":85,"viewCount":469,"categoryId":27,"slug":"sleepaway-camp","imdb":6.3,"isMovie18":1,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1983-11-18","createdAt":"2022-04-12T11:28:59.000000Z","updatedAt":"2022-04-12T11:28:59.000000Z"},{"id":14097,"title":"9th Company","original_title":"9 \u0440\u043e\u0442\u0430","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/yKPr5DbUZRPsdT1gOhUnTVsnplg.jpg","url":"https:\/\/www.youtube.com\/watch?v=TcHD9VEQ7C8","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/TcHD9VEQ7C8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"TcHD9VEQ7C8","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/e6LS0VXLHc4JJLXnzPXX5Aslvrs.jpg","description":"Russian army recruits complete training and take their posting in late 1980s Afghanistan, where the insurgents are slowly gaining the upper hand.","countryId":null,"duration":139,"viewCount":197,"categoryId":10752,"slug":"9th-company","imdb":6.9,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2005-09-19","createdAt":"2022-04-12T11:28:58.000000Z","updatedAt":"2022-04-12T11:28:58.000000Z"},{"id":13168,"title":"Smiley Face","original_title":"Smiley Face","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/kAEDZeYoMUorx1Clel4c9kd8QDJ.jpg","url":"https:\/\/www.youtube.com\/watch?v=I8SzujSn3CY","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/I8SzujSn3CY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"I8SzujSn3CY","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/5OHfUjA9uSxLuxODynixGFpsoOL.jpg","description":"Jane, a struggling but perpetually stoned actress, has a busy day ahead. She has several important tasks on her list, including buying more marijuana. Even though she already has a good start on the day''s planned drug use, she eats her roommate''s pot-laced cupcakes and embarks on a series of misadventures all over Los Angeles.","countryId":null,"duration":84,"viewCount":205,"categoryId":35,"slug":"smiley-face","imdb":6.1,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2007-05-24","createdAt":"2022-04-12T11:28:57.000000Z","updatedAt":"2022-04-12T11:28:57.000000Z"},{"id":13098,"title":"Paid in Full","original_title":"Paid in Full","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/OqqqR80D3nMbsqtAy7yPtCLddo.jpg","url":"https:\/\/www.youtube.com\/watch?v=d9vC9gUnTTc","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/d9vC9gUnTTc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"d9vC9gUnTTc","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/plHsUrHWYhLGihhLfZZDNQyqpN0.jpg","description":"Ace is an impressionable young man working for a dry cleaning business. His friend, drug dealer Mitch goes to prison. In an unrelated incident, he finds some cocaine in a pants pocket. Soon, Ace finds himself dealing cocaine for Lulu. Via lucky breaks and solid interpersonal skills, Ace moves to the top of the Harlem drug world. Of course, unfaithful employees and\/or rivals conspire to bring about Ace''s fall.","countryId":null,"duration":93,"viewCount":152,"categoryId":28,"slug":"paid-in-full","imdb":6.9,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2002-10-25","createdAt":"2022-04-12T11:28:55.000000Z","updatedAt":"2022-04-12T11:28:55.000000Z"},{"id":5156,"title":"Bicycle Thieves","original_title":"Ladri di biciclette","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ihLPR2hiHljvvdTzHk6NeNTVMXf.jpg","url":"https:\/\/www.youtube.com\/watch?v=H2P4xo9kmPM","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/H2P4xo9kmPM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"H2P4xo9kmPM","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/kTUUiKGKrdRhJsCcYT3Ivtfuuzh.jpg","description":"A working man''s livelihood is threatened when someone steals his bicycle.","countryId":null,"duration":89,"viewCount":1808,"categoryId":18,"slug":"bicycle-thieves","imdb":8.3,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"1948-11-24","createdAt":"2022-04-12T11:28:54.000000Z","updatedAt":"2022-04-12T11:28:54.000000Z"},{"id":13997,"title":"Black Sheep","original_title":"Black Sheep","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/bV9SCk4QXCi9p1kdDBiYejcMQwK.jpg","url":"https:\/\/www.youtube.com\/watch?v=BRgCb1QjOv4","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/BRgCb1QjOv4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"BRgCb1QjOv4","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/kGwpxwzeSkBb655nQxgC9dHB73F.jpg","description":"When dignified Albert Donnelly runs for Governor, his team moves to keep his slow-witted and klutzy younger brother, Mike, out of the eye of the media. To baby-sit Mike, the campaign assigns sarcastic Steve, who gets the experience of a lifetime when he tries to take Mike out of town during the election.","countryId":null,"duration":87,"viewCount":305,"categoryId":35,"slug":"black-sheep","imdb":6,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1996-02-01","createdAt":"2022-04-12T11:28:53.000000Z","updatedAt":"2022-04-12T11:28:53.000000Z"},{"id":504599,"title":"Donnybrook","original_title":"Donnybrook","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/jcuEDKnM3uThdz7p0YYWFjMla73.jpg","url":"https:\/\/www.youtube.com\/watch?v=dlxYlvNlj8o","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/dlxYlvNlj8o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"dlxYlvNlj8o","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/9UQ7QnTWz7PlcfJiyKNBTaHm5ql.jpg","description":"An ex-marine who struggles to provide for his family and a violent drug dealer with an undefeated fighting record are determined to compete in the Donnybrook, a legendary, bare-knuckle brawl with a cash prize of $100,000.","countryId":null,"duration":101,"viewCount":72,"categoryId":18,"slug":"donnybrook","imdb":5.4,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2018-09-07","createdAt":"2022-04-12T11:28:52.000000Z","updatedAt":"2022-04-12T11:28:52.000000Z"},{"id":133694,"title":"Promised Land","original_title":"Promised Land","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ziVOzoGfmHD5F90LyeCkBnwuTkP.jpg","url":"https:\/\/www.youtube.com\/watch?v=mg4WU7lezQI","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/mg4WU7lezQI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"mg4WU7lezQI","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/pq0YbRUY7JMbuElDWIK6nRoFSdk.jpg","description":"A salesman for a natural gas company experiences life-changing events after arriving in a small town, where his corporation wants to tap into the available resources.","countryId":null,"duration":106,"viewCount":558,"categoryId":18,"slug":"promised-land","imdb":6.3,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2012-09-23","createdAt":"2022-04-12T11:28:50.000000Z","updatedAt":"2022-04-12T11:28:50.000000Z"},{"id":631997,"title":"The Forest of Love","original_title":"\u611b\u306a\u304d\u68ee\u3067\u53eb\u3079","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ndAU1A3JgGRExX6VPyOXQbEk0av.jpg","url":"https:\/\/www.youtube.com\/watch?v=z6TNDOKEyUs","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/z6TNDOKEyUs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"z6TNDOKEyUs","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/aydE5GnUgwAwIQMdce6z0l89QBM.jpg","description":"A con man and a would-be filmmaking crew force themselves into the lives of two grief-scarred young women. But nothing is as it seems.","countryId":null,"duration":151,"viewCount":115,"categoryId":18,"slug":"the-forest-of-love","imdb":6.6,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2019-10-11","createdAt":"2022-04-12T11:28:49.000000Z","updatedAt":"2022-04-12T11:28:49.000000Z"},{"id":11002,"title":"Greystoke: The Legend of Tarzan, Lord of the Apes","original_title":"Greystoke: The Legend of Tarzan, Lord of the Apes","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/rdtEIdzqJTVhSLsjuR4U9t1KKxp.jpg","url":"https:\/\/www.youtube.com\/watch?v=eMLj1H_43uU","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/eMLj1H_43uU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"eMLj1H_43uU","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/m7kARS3kMIEFaTtTeSY8w8GHtaF.jpg","description":"A shipping disaster in the 19th Century has stranded a man and woman in the wilds of Africa. The lady is pregnant, and gives birth to a son in their tree house. Soon after, a family of apes stumble across the house and in the ensuing panic, both parents are killed. A female ape takes the tiny boy as a replacement for her own dead infant, and raises him as her son. Twenty years later, Captain Phillippe D''Arnot discovers the man who thinks he is an ape. Evidence in the tree house leads him to believe that he is the direct descendant of the Earl of Greystoke, and thus takes it upon himself to return the man to civilization.","countryId":null,"duration":143,"viewCount":366,"categoryId":12,"slug":"greystoke-the-legend-of-tarzan-lord-of-the-apes","imdb":6.3,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1984-03-30","createdAt":"2022-04-12T11:28:49.000000Z","updatedAt":"2022-04-12T11:28:49.000000Z"},{"id":43069,"title":"Bratz Kidz: Sleep-Over Adventure","original_title":"Bratz Kidz: Sleep-Over Adventure","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/LxISs8dAQZvzDIYpPWJC3TwUo1.jpg","url":"https:\/\/www.youtube.com\/watch?v=8QnQjfFtIpQ","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/8QnQjfFtIpQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"8QnQjfFtIpQ","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/dLREVxMw7Vro7R1g8yFgl4ldNO8.jpg","description":"When a new girl in the neighborhood, named Ginger, invites Jade, Cloe, Sasha, Yasmin and Meagan over to her house for a sleep-over, the girls happily accept the invitation to make a new friend. They have fashion shows and lots of fun stuff. But before they go to bed they tell scary stories. After, the girls try to convince a frightened Ginger to tell the last scary story of the night. Ginger is too frightened to tell and she runs away. The girls look for her and her parents but there no where to be found. The girls find Bats in one of the rooms and run outside. Once they are outside they find out its actually an abandon house supposedly haunted. Then the monsters that they were talking about in the stories come out to life.","countryId":null,"duration":69,"viewCount":16,"categoryId":16,"slug":"bratz-kidz-sleep-over-adventure","imdb":6.3,"isMovie18":1,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2007-07-31","createdAt":"2022-04-12T11:28:48.000000Z","updatedAt":"2022-04-12T11:28:48.000000Z"},{"id":36617,"title":"The Hairy Tooth Fairy","original_title":"El rat\u00f3n P\u00e9rez","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/jpc8Zdn5Ju0tkQdkqbL4T4tKw61.jpg","url":"https:\/\/www.youtube.com\/watch?v=skuC3rAkomY","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/skuC3rAkomY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"skuC3rAkomY","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/khy2Qq5UjLfERvfR1DnvXdrkOqu.jpg","description":"Luc\u00eda, an active little girl, looses a tooth. Santiago, her father, is an out-of-work boss, and her mother, Pilar, is a successful but overworked architect, reassure Luc\u00eda, by telling her that the Hairy Tooth Fairy (a mouse named P\u00e9rez) will come to her bedroom to collect her tooth, leaving some money in its place. A mouse who had been monitoring the situation tells another mouse, who in turn tells another mouse until finally the news reaches P\u00e9rez, The Hairy Tooth Fairy, who lives in a boat in the port along with hundreds of other mice. They receive the teeth that he collects, and then clean, shape and polish them so that they can be transformed into shiny round pearls. These pearls are then carried through the citys sewers until finally they reach the jewellers owned by Morientes, where an old friend exchanges them for their weight in gold.","countryId":null,"duration":90,"viewCount":71,"categoryId":10751,"slug":"the-hairy-tooth-fairy","imdb":6.6,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2006-06-30","createdAt":"2022-04-12T11:28:47.000000Z","updatedAt":"2022-04-12T11:28:47.000000Z"},{"id":14024,"title":"Raise Your Voice","original_title":"Raise Your Voice","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/89sfBkVOsgFRPs6uKaBtSMCDSv3.jpg","url":"https:\/\/www.youtube.com\/watch?v=BBntfOIjsRw","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/BBntfOIjsRw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"BBntfOIjsRw","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/9GiHZHImGkgsBNBQwrlsnqWaoZo.jpg","description":"A coming-of-age story centered around a small-town singer brokenhearted by the death of her brother in a car crash, who had secretly submitted her for a summer session at a performing arts academy in Los Angeles. In the academy, she experiences a whole new way of life in the big city, far from the small town lifestyle she''s used to.","countryId":null,"duration":103,"viewCount":725,"categoryId":10402,"slug":"raise-your-voice","imdb":6.5,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2004-08-10","createdAt":"2022-04-12T11:28:46.000000Z","updatedAt":"2022-04-12T11:28:46.000000Z"},{"id":11463,"title":"Battle of Britain","original_title":"Battle of Britain","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/98kyEWxcqqNrsaprUtPaQ4adsNG.jpg","url":"https:\/\/www.youtube.com\/watch?v=O71FJDkfngY","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/O71FJDkfngY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"O71FJDkfngY","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/yDegO9fhCUCooGKfRyytvuN9y2K.jpg","description":"In 1940, the Royal Air Force fights a desperate battle against the might of the Luftwaffe for control of the skies over Britain, thus preventing the Nazi invasion of Britain.","countryId":null,"duration":132,"viewCount":211,"categoryId":28,"slug":"battle-of-britain","imdb":6.8,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1969-09-15","createdAt":"2022-04-12T11:28:44.000000Z","updatedAt":"2022-04-12T11:28:44.000000Z"},{"id":14677,"title":"Last Train from Gun Hill","original_title":"Last Train from Gun Hill","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/wjJCAwQyvm5P3GOFbX78bfBDCnz.jpg","url":"https:\/\/www.youtube.com\/watch?v=l_qXQQZ2wHs","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/l_qXQQZ2wHs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"l_qXQQZ2wHs","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/yoG5OAFINVrwmqVNRxcgNI4zRyu.jpg","description":"A marshal tries to bring the son of an old friend, an autocratic cattle baron, to justice for the rape and murder of his wife.","countryId":null,"duration":98,"viewCount":136,"categoryId":37,"slug":"last-train-from-gun-hill","imdb":7,"isMovie18":1,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"1959-07-29","createdAt":"2022-04-12T11:28:43.000000Z","updatedAt":"2022-04-12T11:28:43.000000Z"},{"id":332177,"title":"Vendetta","original_title":"Vendetta","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/7hfZbdtuxmbDbXZocYOVQNmUeXy.jpg","url":"https:\/\/www.youtube.com\/watch?v=b8FWcvOCj3k","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/b8FWcvOCj3k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"b8FWcvOCj3k","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/p9gDpxvrdR0payh0RlaoPmxTgTw.jpg","description":"A hard-nosed detective deliberately commits a crime to get thrown in prison, allowing him the chance to seek vengeance on a criminal serving a life sentence for brutally murdering his wife.","countryId":null,"duration":90,"viewCount":110,"categoryId":28,"slug":"vendetta","imdb":5.5,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2015-06-12","createdAt":"2022-04-12T11:28:43.000000Z","updatedAt":"2022-04-12T11:28:43.000000Z"},{"id":10414,"title":"The Mighty Ducks","original_title":"The Mighty Ducks","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/zxaCHxKDFNi6frh1Q0dj19L216o.jpg","url":"https:\/\/www.youtube.com\/watch?v=Um_JU7HpSYQ","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Um_JU7HpSYQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"Um_JU7HpSYQ","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/44Bp516RmEQWEqYEOqkkTwqUDV9.jpg","description":"After reckless young lawyer Gordon Bombay gets arrested for drunk driving, he must coach a kids hockey team for his community service. Gordon has experience on the ice, but isn''t eager to return to hockey, a point hit home by his tense dealings with his own former coach, Jack Reilly. The reluctant Gordon eventually grows to appreciate his team, which includes promising young Charlie Conway, and leads them to take on Reilly''s tough players.","countryId":null,"duration":101,"viewCount":664,"categoryId":35,"slug":"the-mighty-ducks","imdb":6.6,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"1992-10-02","createdAt":"2022-04-12T11:28:41.000000Z","updatedAt":"2022-04-12T11:28:41.000000Z"}]}'
+        content: '{"categories":[{"id":12,"name":"Adventure","description":"Adventure","slug":"adventure"},{"id":14,"name":"Fantasy","description":"Fantasy","slug":"fantasy"},{"id":16,"name":"Animation","description":"Animation","slug":"animation"},{"id":18,"name":"Drama","description":"Drama","slug":"drama"},{"id":27,"name":"Horror","description":"Horror","slug":"horror"},{"id":28,"name":"Action","description":"Action","slug":"action"},{"id":35,"name":"Comedy","description":"Comedy","slug":"comedy"},{"id":36,"name":"History","description":"History","slug":"history"},{"id":37,"name":"Western","description":"Western","slug":"western"},{"id":53,"name":"Thriller","description":"Thriller","slug":"thriller"},{"id":80,"name":"Crime","description":"Crime","slug":"crime"},{"id":99,"name":"Documentary","description":"Documentary","slug":"documentary"},{"id":878,"name":"Science Fiction","description":"Science Fiction","slug":"science-fiction"},{"id":9648,"name":"Mystery","description":"Mystery","slug":"mystery"},{"id":10402,"name":"Music","description":"Music","slug":"music"},{"id":10749,"name":"Romance","description":"Romance","slug":"romance"},{"id":10751,"name":"Family","description":"Family","slug":"family"},{"id":10752,"name":"War","description":"War","slug":"war"},{"id":10770,"name":"TV Movie","description":"TV Movie","slug":"tv-movie"}],"latestMovies":[{"id":957993,"title":"autem dsad","original_title":"perferendis","img":"http:\/\/movieapp.test\/images\/autem-dsad\/av1.jpg","url":"http:\/\/movieapp.test\/videos\/autem-dsad\/Facebook_6.mp4","embededCode":"unde","trailerKey":"ut","directorId":14,"bgImg":"\/images\/bg\/autem-dsad\/av1.jpg","description":"voluptas","countryId":17,"duration":3,"viewCount":7,"categoryId":18,"slug":"et","imdb":12,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"reprehenderit","publishedAt":"2022-04-17T09:14:39","createdAt":"2022-04-17T09:14:39.000000Z","updatedAt":"2022-04-17T09:14:39.000000Z"},{"id":957994,"title":"autem dd","original_title":"perferendis","img":"http:\/\/movieapp.test\/uploadsimages\/autem-dd\/av1.jpg","url":"http:\/\/movieapp.test\/uploadsvideos\/autem-dd\/Facebook_6.mp4","embededCode":"unde","trailerKey":"ut","directorId":14,"bgImg":"\/uploadsimages\/bg\/autem-dd\/av1.jpg","description":"voluptas","countryId":17,"duration":3,"viewCount":7,"categoryId":18,"slug":"et","imdb":12,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"reprehenderit","publishedAt":"2022-04-17T09:14:39","createdAt":"2022-04-17T09:14:39.000000Z","updatedAt":"2022-04-17T09:14:39.000000Z"},{"id":957995,"title":"autem dd","original_title":"perferendis","img":"http:\/\/movieapp.test\/uploads\/images\/autem-dd\/av1.jpg","url":"http:\/\/movieapp.test\/uploads\/videos\/autem-dd\/Facebook_6.mp4","embededCode":"unde","trailerKey":"ut","directorId":14,"bgImg":"\/uploads\/images\/bg\/autem-dd\/av1.jpg","description":"voluptas","countryId":17,"duration":3,"viewCount":7,"categoryId":18,"slug":"et","imdb":12,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"reprehenderit","publishedAt":"2022-04-17T09:14:39","createdAt":"2022-04-17T09:14:39.000000Z","updatedAt":"2022-04-17T09:14:39.000000Z"},{"id":13567,"title":"Sleepaway Camp","original_title":"Sleepaway Camp","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/qCQo7okJCHYMMagt6kC0YfhoVVt.jpg","url":"https:\/\/www.youtube.com\/watch?v=yfZR1Lqjws4","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/yfZR1Lqjws4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"yfZR1Lqjws4","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/tucoEh25SJAthrd3kUHf6jC0jis.jpg","description":"Slightly disturbed and painfully shy Angela Baker is sent away to summer camp with her cousin. Not long after Angela''s arrival, things start to go horribly wrong for anyone with sinister or less than honorable intentions.","countryId":null,"duration":85,"viewCount":469,"categoryId":27,"slug":"sleepaway-camp","imdb":6.3,"isMovie18":1,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1983-11-18","createdAt":"2022-04-12T11:28:59.000000Z","updatedAt":"2022-04-12T11:28:59.000000Z"},{"id":14097,"title":"9th Company","original_title":"9 \u0440\u043e\u0442\u0430","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/yKPr5DbUZRPsdT1gOhUnTVsnplg.jpg","url":"https:\/\/www.youtube.com\/watch?v=TcHD9VEQ7C8","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/TcHD9VEQ7C8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"TcHD9VEQ7C8","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/e6LS0VXLHc4JJLXnzPXX5Aslvrs.jpg","description":"Russian army recruits complete training and take their posting in late 1980s Afghanistan, where the insurgents are slowly gaining the upper hand.","countryId":null,"duration":139,"viewCount":197,"categoryId":10752,"slug":"9th-company","imdb":6.9,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2005-09-19","createdAt":"2022-04-12T11:28:58.000000Z","updatedAt":"2022-04-12T11:28:58.000000Z"},{"id":13168,"title":"Smiley Face","original_title":"Smiley Face","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/kAEDZeYoMUorx1Clel4c9kd8QDJ.jpg","url":"https:\/\/www.youtube.com\/watch?v=I8SzujSn3CY","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/I8SzujSn3CY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"I8SzujSn3CY","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/5OHfUjA9uSxLuxODynixGFpsoOL.jpg","description":"Jane, a struggling but perpetually stoned actress, has a busy day ahead. She has several important tasks on her list, including buying more marijuana. Even though she already has a good start on the day''s planned drug use, she eats her roommate''s pot-laced cupcakes and embarks on a series of misadventures all over Los Angeles.","countryId":null,"duration":84,"viewCount":205,"categoryId":35,"slug":"smiley-face","imdb":6.1,"isMovie18":1,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2007-05-24","createdAt":"2022-04-12T11:28:57.000000Z","updatedAt":"2022-04-12T11:28:57.000000Z"},{"id":13098,"title":"Paid in Full","original_title":"Paid in Full","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/OqqqR80D3nMbsqtAy7yPtCLddo.jpg","url":"https:\/\/www.youtube.com\/watch?v=d9vC9gUnTTc","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/d9vC9gUnTTc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"d9vC9gUnTTc","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/plHsUrHWYhLGihhLfZZDNQyqpN0.jpg","description":"Ace is an impressionable young man working for a dry cleaning business. His friend, drug dealer Mitch goes to prison. In an unrelated incident, he finds some cocaine in a pants pocket. Soon, Ace finds himself dealing cocaine for Lulu. Via lucky breaks and solid interpersonal skills, Ace moves to the top of the Harlem drug world. Of course, unfaithful employees and\/or rivals conspire to bring about Ace''s fall.","countryId":null,"duration":93,"viewCount":152,"categoryId":28,"slug":"paid-in-full","imdb":6.9,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2002-10-25","createdAt":"2022-04-12T11:28:55.000000Z","updatedAt":"2022-04-12T11:28:55.000000Z"},{"id":5156,"title":"Bicycle Thieves","original_title":"Ladri di biciclette","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ihLPR2hiHljvvdTzHk6NeNTVMXf.jpg","url":"https:\/\/www.youtube.com\/watch?v=H2P4xo9kmPM","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/H2P4xo9kmPM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"H2P4xo9kmPM","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/kTUUiKGKrdRhJsCcYT3Ivtfuuzh.jpg","description":"A working man''s livelihood is threatened when someone steals his bicycle.","countryId":null,"duration":89,"viewCount":1808,"categoryId":18,"slug":"bicycle-thieves","imdb":8.3,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"1948-11-24","createdAt":"2022-04-12T11:28:54.000000Z","updatedAt":"2022-04-12T11:28:54.000000Z"},{"id":13997,"title":"Black Sheep","original_title":"Black Sheep","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/bV9SCk4QXCi9p1kdDBiYejcMQwK.jpg","url":"https:\/\/www.youtube.com\/watch?v=BRgCb1QjOv4","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/BRgCb1QjOv4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"BRgCb1QjOv4","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/kGwpxwzeSkBb655nQxgC9dHB73F.jpg","description":"When dignified Albert Donnelly runs for Governor, his team moves to keep his slow-witted and klutzy younger brother, Mike, out of the eye of the media. To baby-sit Mike, the campaign assigns sarcastic Steve, who gets the experience of a lifetime when he tries to take Mike out of town during the election.","countryId":null,"duration":87,"viewCount":305,"categoryId":35,"slug":"black-sheep","imdb":6,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1996-02-01","createdAt":"2022-04-12T11:28:53.000000Z","updatedAt":"2022-04-12T11:28:53.000000Z"},{"id":504599,"title":"Donnybrook","original_title":"Donnybrook","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/jcuEDKnM3uThdz7p0YYWFjMla73.jpg","url":"https:\/\/www.youtube.com\/watch?v=dlxYlvNlj8o","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/dlxYlvNlj8o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"dlxYlvNlj8o","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/9UQ7QnTWz7PlcfJiyKNBTaHm5ql.jpg","description":"An ex-marine who struggles to provide for his family and a violent drug dealer with an undefeated fighting record are determined to compete in the Donnybrook, a legendary, bare-knuckle brawl with a cash prize of $100,000.","countryId":null,"duration":101,"viewCount":72,"categoryId":18,"slug":"donnybrook","imdb":5.4,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2018-09-07","createdAt":"2022-04-12T11:28:52.000000Z","updatedAt":"2022-04-12T11:28:52.000000Z"},{"id":133694,"title":"Promised Land","original_title":"Promised Land","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ziVOzoGfmHD5F90LyeCkBnwuTkP.jpg","url":"https:\/\/www.youtube.com\/watch?v=mg4WU7lezQI","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/mg4WU7lezQI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"mg4WU7lezQI","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/pq0YbRUY7JMbuElDWIK6nRoFSdk.jpg","description":"A salesman for a natural gas company experiences life-changing events after arriving in a small town, where his corporation wants to tap into the available resources.","countryId":null,"duration":106,"viewCount":558,"categoryId":18,"slug":"promised-land","imdb":6.3,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2012-09-23","createdAt":"2022-04-12T11:28:50.000000Z","updatedAt":"2022-04-12T11:28:50.000000Z"},{"id":631997,"title":"The Forest of Love","original_title":"\u611b\u306a\u304d\u68ee\u3067\u53eb\u3079","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/ndAU1A3JgGRExX6VPyOXQbEk0av.jpg","url":"https:\/\/www.youtube.com\/watch?v=z6TNDOKEyUs","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/z6TNDOKEyUs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"z6TNDOKEyUs","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/aydE5GnUgwAwIQMdce6z0l89QBM.jpg","description":"A con man and a would-be filmmaking crew force themselves into the lives of two grief-scarred young women. But nothing is as it seems.","countryId":null,"duration":151,"viewCount":115,"categoryId":18,"slug":"the-forest-of-love","imdb":6.6,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2019-10-11","createdAt":"2022-04-12T11:28:49.000000Z","updatedAt":"2022-04-12T11:28:49.000000Z"},{"id":11002,"title":"Greystoke: The Legend of Tarzan, Lord of the Apes","original_title":"Greystoke: The Legend of Tarzan, Lord of the Apes","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/rdtEIdzqJTVhSLsjuR4U9t1KKxp.jpg","url":"https:\/\/www.youtube.com\/watch?v=eMLj1H_43uU","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/eMLj1H_43uU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"eMLj1H_43uU","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/m7kARS3kMIEFaTtTeSY8w8GHtaF.jpg","description":"A shipping disaster in the 19th Century has stranded a man and woman in the wilds of Africa. The lady is pregnant, and gives birth to a son in their tree house. Soon after, a family of apes stumble across the house and in the ensuing panic, both parents are killed. A female ape takes the tiny boy as a replacement for her own dead infant, and raises him as her son. Twenty years later, Captain Phillippe D''Arnot discovers the man who thinks he is an ape. Evidence in the tree house leads him to believe that he is the direct descendant of the Earl of Greystoke, and thus takes it upon himself to return the man to civilization.","countryId":null,"duration":143,"viewCount":366,"categoryId":12,"slug":"greystoke-the-legend-of-tarzan-lord-of-the-apes","imdb":6.3,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1984-03-30","createdAt":"2022-04-12T11:28:49.000000Z","updatedAt":"2022-04-12T11:28:49.000000Z"},{"id":43069,"title":"Bratz Kidz: Sleep-Over Adventure","original_title":"Bratz Kidz: Sleep-Over Adventure","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/LxISs8dAQZvzDIYpPWJC3TwUo1.jpg","url":"https:\/\/www.youtube.com\/watch?v=8QnQjfFtIpQ","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/8QnQjfFtIpQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"8QnQjfFtIpQ","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/dLREVxMw7Vro7R1g8yFgl4ldNO8.jpg","description":"When a new girl in the neighborhood, named Ginger, invites Jade, Cloe, Sasha, Yasmin and Meagan over to her house for a sleep-over, the girls happily accept the invitation to make a new friend. They have fashion shows and lots of fun stuff. But before they go to bed they tell scary stories. After, the girls try to convince a frightened Ginger to tell the last scary story of the night. Ginger is too frightened to tell and she runs away. The girls look for her and her parents but there no where to be found. The girls find Bats in one of the rooms and run outside. Once they are outside they find out its actually an abandon house supposedly haunted. Then the monsters that they were talking about in the stories come out to life.","countryId":null,"duration":69,"viewCount":16,"categoryId":16,"slug":"bratz-kidz-sleep-over-adventure","imdb":6.3,"isMovie18":1,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2007-07-31","createdAt":"2022-04-12T11:28:48.000000Z","updatedAt":"2022-04-12T11:28:48.000000Z"},{"id":36617,"title":"The Hairy Tooth Fairy","original_title":"El rat\u00f3n P\u00e9rez","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/jpc8Zdn5Ju0tkQdkqbL4T4tKw61.jpg","url":"https:\/\/www.youtube.com\/watch?v=skuC3rAkomY","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/skuC3rAkomY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"skuC3rAkomY","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/khy2Qq5UjLfERvfR1DnvXdrkOqu.jpg","description":"Luc\u00eda, an active little girl, looses a tooth. Santiago, her father, is an out-of-work boss, and her mother, Pilar, is a successful but overworked architect, reassure Luc\u00eda, by telling her that the Hairy Tooth Fairy (a mouse named P\u00e9rez) will come to her bedroom to collect her tooth, leaving some money in its place. A mouse who had been monitoring the situation tells another mouse, who in turn tells another mouse until finally the news reaches P\u00e9rez, The Hairy Tooth Fairy, who lives in a boat in the port along with hundreds of other mice. They receive the teeth that he collects, and then clean, shape and polish them so that they can be transformed into shiny round pearls. These pearls are then carried through the citys sewers until finally they reach the jewellers owned by Morientes, where an old friend exchanges them for their weight in gold.","countryId":null,"duration":90,"viewCount":71,"categoryId":10751,"slug":"the-hairy-tooth-fairy","imdb":6.6,"isMovie18":0,"isFinished":1,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2006-06-30","createdAt":"2022-04-12T11:28:47.000000Z","updatedAt":"2022-04-12T11:28:47.000000Z"},{"id":14024,"title":"Raise Your Voice","original_title":"Raise Your Voice","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/89sfBkVOsgFRPs6uKaBtSMCDSv3.jpg","url":"https:\/\/www.youtube.com\/watch?v=BBntfOIjsRw","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/BBntfOIjsRw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"BBntfOIjsRw","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/9GiHZHImGkgsBNBQwrlsnqWaoZo.jpg","description":"A coming-of-age story centered around a small-town singer brokenhearted by the death of her brother in a car crash, who had secretly submitted her for a summer session at a performing arts academy in Los Angeles. In the academy, she experiences a whole new way of life in the big city, far from the small town lifestyle she''s used to.","countryId":null,"duration":103,"viewCount":725,"categoryId":10402,"slug":"raise-your-voice","imdb":6.5,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"2004-08-10","createdAt":"2022-04-12T11:28:46.000000Z","updatedAt":"2022-04-12T11:28:46.000000Z"},{"id":11463,"title":"Battle of Britain","original_title":"Battle of Britain","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/98kyEWxcqqNrsaprUtPaQ4adsNG.jpg","url":"https:\/\/www.youtube.com\/watch?v=O71FJDkfngY","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/O71FJDkfngY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"O71FJDkfngY","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/yDegO9fhCUCooGKfRyytvuN9y2K.jpg","description":"In 1940, the Royal Air Force fights a desperate battle against the might of the Luftwaffe for control of the skies over Britain, thus preventing the Nazi invasion of Britain.","countryId":null,"duration":132,"viewCount":211,"categoryId":28,"slug":"battle-of-britain","imdb":6.8,"isMovie18":1,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1969-09-15","createdAt":"2022-04-12T11:28:44.000000Z","updatedAt":"2022-04-12T11:28:44.000000Z"},{"id":14677,"title":"Last Train from Gun Hill","original_title":"Last Train from Gun Hill","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/wjJCAwQyvm5P3GOFbX78bfBDCnz.jpg","url":"https:\/\/www.youtube.com\/watch?v=l_qXQQZ2wHs","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/l_qXQQZ2wHs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"l_qXQQZ2wHs","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/yoG5OAFINVrwmqVNRxcgNI4zRyu.jpg","description":"A marshal tries to bring the son of an old friend, an autocratic cattle baron, to justice for the rape and murder of his wife.","countryId":null,"duration":98,"viewCount":136,"categoryId":37,"slug":"last-train-from-gun-hill","imdb":7,"isMovie18":1,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"1959-07-29","createdAt":"2022-04-12T11:28:43.000000Z","updatedAt":"2022-04-12T11:28:43.000000Z"},{"id":332177,"title":"Vendetta","original_title":"Vendetta","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/7hfZbdtuxmbDbXZocYOVQNmUeXy.jpg","url":"https:\/\/www.youtube.com\/watch?v=b8FWcvOCj3k","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/b8FWcvOCj3k\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"b8FWcvOCj3k","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/p9gDpxvrdR0payh0RlaoPmxTgTw.jpg","description":"A hard-nosed detective deliberately commits a crime to get thrown in prison, allowing him the chance to seek vengeance on a criminal serving a life sentence for brutally murdering his wife.","countryId":null,"duration":90,"viewCount":110,"categoryId":28,"slug":"vendetta","imdb":5.5,"isMovie18":0,"isFinished":0,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"2015-06-12","createdAt":"2022-04-12T11:28:43.000000Z","updatedAt":"2022-04-12T11:28:43.000000Z"},{"id":10414,"title":"The Mighty Ducks","original_title":"The Mighty Ducks","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/zxaCHxKDFNi6frh1Q0dj19L216o.jpg","url":"https:\/\/www.youtube.com\/watch?v=Um_JU7HpSYQ","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/Um_JU7HpSYQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"Um_JU7HpSYQ","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/44Bp516RmEQWEqYEOqkkTwqUDV9.jpg","description":"After reckless young lawyer Gordon Bombay gets arrested for drunk driving, he must coach a kids hockey team for his community service. Gordon has experience on the ice, but isn''t eager to return to hockey, a point hit home by his tense dealings with his own former coach, Jack Reilly. The reluctant Gordon eventually grows to appreciate his team, which includes promising young Charlie Conway, and leads them to take on Reilly''s tough players.","countryId":null,"duration":101,"viewCount":664,"categoryId":35,"slug":"the-mighty-ducks","imdb":6.6,"isMovie18":0,"isFinished":1,"isMovieSeries":1,"totalEpisode":1,"quality":"fullHd","publishedAt":"1992-10-02","createdAt":"2022-04-12T11:28:41.000000Z","updatedAt":"2022-04-12T11:28:41.000000Z"}]}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -584,415 +584,15 @@ endpoints:
         name: id
         description: 'The ID of the movie.'
         required: true
-        example: 6
+        example: 19
         type: integer
         custom: []
     queryParameters: []
     bodyParameters: []
     responses:
       -
-        status: 404
-        content: |-
-          {
-              "message": "No query results for model [App\\Models\\Movie] 6",
-              "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
-              "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
-              "line": 355,
-              "trace": [
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
-                      "line": 331,
-                      "function": "prepareException",
-                      "class": "Illuminate\\Foundation\\Exceptions\\Handler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php",
-                      "line": 54,
-                      "function": "render",
-                      "class": "Illuminate\\Foundation\\Exceptions\\Handler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
-                      "line": 51,
-                      "function": "render",
-                      "class": "NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 143,
-                      "function": "handleException",
-                      "class": "Illuminate\\Routing\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\app\\Http\\Middleware\\ValidateJwtToken.php",
-                      "line": 15,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "App\\Http\\Middleware\\ValidateJwtToken",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 116,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 730,
-                      "function": "then",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 705,
-                      "function": "runRouteWithinStack",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 667,
-                      "function": "runRoute",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
-                      "line": 656,
-                      "function": "dispatchToRoute",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 167,
-                      "function": "dispatch",
-                      "class": "Illuminate\\Routing\\Router",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 141,
-                      "function": "Illuminate\\Foundation\\Http\\{closure}",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
-                      "line": 21,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php",
-                      "line": 31,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
-                      "line": 21,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php",
-                      "line": 40,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php",
-                      "line": 27,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
-                      "line": 86,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php",
-                      "line": 62,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Http\\Middleware\\HandleCors",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php",
-                      "line": 39,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 180,
-                      "function": "handle",
-                      "class": "Illuminate\\Http\\Middleware\\TrustProxies",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
-                      "line": 116,
-                      "function": "Illuminate\\Pipeline\\{closure}",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 142,
-                      "function": "then",
-                      "class": "Illuminate\\Pipeline\\Pipeline",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
-                      "line": 111,
-                      "function": "sendRequestThroughRouter",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 299,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Http\\Kernel",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 287,
-                      "function": "callLaravelOrLumenRoute",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 89,
-                      "function": "makeApiCall",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 45,
-                      "function": "makeResponseCall",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
-                      "line": 35,
-                      "function": "makeResponseCallIfConditionsPass",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 222,
-                      "function": "__invoke",
-                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 179,
-                      "function": "iterateThroughStrategies",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
-                      "line": 116,
-                      "function": "fetchResponses",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 118,
-                      "function": "processRoute",
-                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 75,
-                      "function": "extractEndpointsInfoFromLaravelApp",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
-                      "line": 51,
-                      "function": "extractEndpointsInfoAndWriteToDisk",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php",
-                      "line": 50,
-                      "function": "get",
-                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 36,
-                      "function": "handle",
-                      "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php",
-                      "line": 41,
-                      "function": "Illuminate\\Container\\{closure}",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 93,
-                      "function": "unwrapIfClosure",
-                      "class": "Illuminate\\Container\\Util",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
-                      "line": 37,
-                      "function": "callBoundMethod",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php",
-                      "line": 653,
-                      "function": "call",
-                      "class": "Illuminate\\Container\\BoundMethod",
-                      "type": "::"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
-                      "line": 171,
-                      "function": "call",
-                      "class": "Illuminate\\Container\\Container",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Command\\Command.php",
-                      "line": 291,
-                      "function": "execute",
-                      "class": "Illuminate\\Console\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
-                      "line": 156,
-                      "function": "run",
-                      "class": "Symfony\\Component\\Console\\Command\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php",
-                      "line": 989,
-                      "function": "run",
-                      "class": "Illuminate\\Console\\Command",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php",
-                      "line": 299,
-                      "function": "doRunCommand",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php",
-                      "line": 171,
-                      "function": "doRun",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php",
-                      "line": 102,
-                      "function": "run",
-                      "class": "Symfony\\Component\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php",
-                      "line": 129,
-                      "function": "run",
-                      "class": "Illuminate\\Console\\Application",
-                      "type": "->"
-                  },
-                  {
-                      "file": "C:\\laragon\\www\\movieapp\\artisan",
-                      "line": 37,
-                      "function": "handle",
-                      "class": "Illuminate\\Foundation\\Console\\Kernel",
-                      "type": "->"
-                  }
-              ]
-          }
+        status: 200
+        content: '{"id":19,"title":"Metropolis","original_title":"Metropolis","img":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/pxbGZewX327IbTvrCVRJgcLJTSQ.jpg","url":"https:\/\/www.youtube.com\/watch?v=gdtZv3XROnc","embededCode":"<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/gdtZv3XROnc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>","trailerKey":"gdtZv3XROnc","directorId":null,"bgImg":"https:\/\/image.tmdb.org\/t\/p\/w600_and_h900_bestv2\/r8pUcom5Mw8igtBpj3AHSAUvH0R.jpg","description":"In a futuristic city sharply divided between the working class and the city planners, the son of the city''s mastermind falls in love with a working class prophet who predicts the coming of a savior to mediate their differences.","countryId":null,"duration":149,"viewCount":2024,"categoryId":18,"slug":"metropolis","imdb":8.2,"isMovie18":0,"isFinished":0,"isMovieSeries":0,"totalEpisode":1,"quality":"fullHd","publishedAt":"1927-02-06","createdAt":"2022-04-12T11:27:43.000000Z","updatedAt":"2022-04-12T11:27:43.000000Z"}'
         headers:
           cache-control: 'no-cache, private'
           content-type: application/json
@@ -1017,7 +617,7 @@ endpoints:
         name: movieId
         description: 'The ID of the movie. Example : 14'
         required: true
-        example: 4
+        example: 1
         type: integer
         custom: []
     queryParameters: []
@@ -1027,7 +627,7 @@ endpoints:
         status: 404
         content: |-
           {
-              "message": "No query results for model [App\\Models\\Movie] 4",
+              "message": "No query results for model [App\\Models\\Movie] 1",
               "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
               "file": "C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php",
               "line": 355,

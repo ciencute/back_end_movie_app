@@ -26,7 +26,7 @@
             </style>
 
     <script>
-        var baseUrl = "https://movieapi.tk";
+        var baseUrl = "http://movieapp.test";
         var useCsrf = Boolean();
         var csrfUrl = "/sanctum/csrf-cookie";
     </script>
@@ -122,7 +122,7 @@
                             <li><a href="http://github.com/knuckleswtf/scribe">Documentation powered by Scribe ✍</a></li>
                     </ul>
         <ul class="toc-footer" id="last-updated">
-        <li>Last updated: April 17 2022</li>
+        <li>Last updated: April 18 2022</li>
     </ul>
 </div>
 
@@ -136,7 +136,7 @@ You can switch the language used with the tabs at the top right (or from the nav
 <blockquote>
 <p>Base URL</p>
 </blockquote>
-<pre><code class="language-yaml">https://movieapi.tk</code></pre>
+<pre><code class="language-yaml">http://movieapp.test</code></pre>
 
         <h1 id="authenticating-requests">Authenticating requests</h1>
 <p>This API is authenticated by sending a <strong><code>Authorization</code></strong> header with the value <strong><code>"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c"</code></strong>.</p>
@@ -161,7 +161,7 @@ You can switch the language used with the tabs at the top right (or from the nav
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "https://movieapi.tk/api/movies" \
+    --get "http://movieapp.test/api/movies" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -169,7 +169,7 @@ You can switch the language used with the tabs at the top right (or from the nav
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/movies"
+    "http://movieapp.test/api/movies"
 );
 
 const headers = {
@@ -207,7 +207,7 @@ access-control-allow-origin: *
             &quot;title&quot;: &quot;Sonic the Hedgehog 2&quot;,
             &quot;original_title&quot;: &quot;Sonic the Hedgehog 2&quot;,
             &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg&quot;,
-            &quot;url&quot;: &quot;https://movieapi.tk/abc&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/abc&quot;,
             &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/YkZ1aAPApAc\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
             &quot;trailerKey&quot;: &quot;YkZ1aAPApAc&quot;,
             &quot;directorId&quot;: null,
@@ -723,10 +723,10 @@ access-control-allow-origin: *
             &quot;updatedAt&quot;: &quot;2022-04-11T23:52:42.000000Z&quot;
         }
     ],
-    &quot;first_page_url&quot;: &quot;https://movieapi.tk/api/movies?page=1&quot;,
+    &quot;first_page_url&quot;: &quot;http://movieapp.test/api/movies?page=1&quot;,
     &quot;from&quot;: 1,
     &quot;last_page&quot;: 441,
-    &quot;last_page_url&quot;: &quot;https://movieapi.tk/api/movies?page=441&quot;,
+    &quot;last_page_url&quot;: &quot;http://movieapp.test/api/movies?page=441&quot;,
     &quot;links&quot;: [
         {
             &quot;url&quot;: null,
@@ -734,52 +734,52 @@ access-control-allow-origin: *
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=1&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=1&quot;,
             &quot;label&quot;: &quot;1&quot;,
             &quot;active&quot;: true
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=2&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=2&quot;,
             &quot;label&quot;: &quot;2&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=3&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=3&quot;,
             &quot;label&quot;: &quot;3&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=4&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=4&quot;,
             &quot;label&quot;: &quot;4&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=5&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=5&quot;,
             &quot;label&quot;: &quot;5&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=6&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=6&quot;,
             &quot;label&quot;: &quot;6&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=7&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=7&quot;,
             &quot;label&quot;: &quot;7&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=8&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=8&quot;,
             &quot;label&quot;: &quot;8&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=9&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=9&quot;,
             &quot;label&quot;: &quot;9&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=10&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=10&quot;,
             &quot;label&quot;: &quot;10&quot;,
             &quot;active&quot;: false
         },
@@ -789,23 +789,23 @@ access-control-allow-origin: *
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=440&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=440&quot;,
             &quot;label&quot;: &quot;440&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=441&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=441&quot;,
             &quot;label&quot;: &quot;441&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;https://movieapi.tk/api/movies?page=2&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies?page=2&quot;,
             &quot;label&quot;: &quot;Next &amp;raquo;&quot;,
             &quot;active&quot;: false
         }
     ],
-    &quot;next_page_url&quot;: &quot;https://movieapi.tk/api/movies?page=2&quot;,
-    &quot;path&quot;: &quot;https://movieapi.tk/api/movies&quot;,
+    &quot;next_page_url&quot;: &quot;http://movieapp.test/api/movies?page=2&quot;,
+    &quot;path&quot;: &quot;http://movieapp.test/api/movies&quot;,
     &quot;per_page&quot;: 20,
     &quot;prev_page_url&quot;: null,
     &quot;to&quot;: 20,
@@ -876,38 +876,38 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "https://movieapi.tk/api/movies" \
+    "http://movieapp.test/api/movies" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: multipart/form-data" \
     --header "Accept: application/json" \
-    --form "title=et" \
-    --form "original_title=dignissimos" \
-    --form "embededCode=dolorem" \
-    --form "trailerKey=optio" \
+    --form "title=ipsam" \
+    --form "original_title=incidunt" \
+    --form "embededCode=ad" \
+    --form "trailerKey=molestiae" \
     --form "directorId=8" \
-    --form "description=impedit" \
-    --form "countryId=19" \
-    --form "duration=17" \
-    --form "viewCount=12" \
-    --form "categoryId=10" \
-    --form "slug=inventore" \
-    --form "imdb=12" \
+    --form "description=magni" \
+    --form "countryId=3" \
+    --form "duration=19" \
+    --form "viewCount=15" \
+    --form "categoryId=4" \
+    --form "slug=in" \
+    --form "imdb=18" \
     --form "isMovie18=1" \
-    --form "isFinished=1" \
+    --form "isFinished=0" \
     --form "isMovieSeries=1" \
-    --form "totalEpisode=1" \
-    --form "quality=aut" \
-    --form "publishedAt=2022-04-17T09:45:14" \
-    --form "createdAt=2022-04-17T09:45:14" \
-    --form "updatedAt=2022-04-17T09:45:14" \
-    --form "img=@C:\Users\mynam\AppData\Local\Temp\php5FB9.tmp" \
-    --form "url=@C:\Users\mynam\AppData\Local\Temp\php5FBA.tmp" \
-    --form "bgImg=@C:\Users\mynam\AppData\Local\Temp\php5FBB.tmp" </code></pre></div>
+    --form "totalEpisode=18" \
+    --form "quality=quis" \
+    --form "publishedAt=2022-04-18T04:10:09" \
+    --form "createdAt=2022-04-18T04:10:09" \
+    --form "updatedAt=2022-04-18T04:10:09" \
+    --form "img=@C:\Users\mynam\AppData\Local\Temp\phpF155.tmp" \
+    --form "url=@C:\Users\mynam\AppData\Local\Temp\phpF194.tmp" \
+    --form "bgImg=@C:\Users\mynam\AppData\Local\Temp\phpF1A5.tmp" </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/movies"
+    "http://movieapp.test/api/movies"
 );
 
 const headers = {
@@ -917,26 +917,26 @@ const headers = {
 };
 
 const body = new FormData();
-body.append('title', 'et');
-body.append('original_title', 'dignissimos');
-body.append('embededCode', 'dolorem');
-body.append('trailerKey', 'optio');
+body.append('title', 'ipsam');
+body.append('original_title', 'incidunt');
+body.append('embededCode', 'ad');
+body.append('trailerKey', 'molestiae');
 body.append('directorId', '8');
-body.append('description', 'impedit');
-body.append('countryId', '19');
-body.append('duration', '17');
-body.append('viewCount', '12');
-body.append('categoryId', '10');
-body.append('slug', 'inventore');
-body.append('imdb', '12');
+body.append('description', 'magni');
+body.append('countryId', '3');
+body.append('duration', '19');
+body.append('viewCount', '15');
+body.append('categoryId', '4');
+body.append('slug', 'in');
+body.append('imdb', '18');
 body.append('isMovie18', '1');
-body.append('isFinished', '1');
+body.append('isFinished', '0');
 body.append('isMovieSeries', '1');
-body.append('totalEpisode', '1');
-body.append('quality', 'aut');
-body.append('publishedAt', '2022-04-17T09:45:14');
-body.append('createdAt', '2022-04-17T09:45:14');
-body.append('updatedAt', '2022-04-17T09:45:14');
+body.append('totalEpisode', '18');
+body.append('quality', 'quis');
+body.append('publishedAt', '2022-04-18T04:10:09');
+body.append('createdAt', '2022-04-18T04:10:09');
+body.append('updatedAt', '2022-04-18T04:10:09');
 body.append('img', document.querySelector('input[name="img"]').files[0]);
 body.append('url', document.querySelector('input[name="url"]').files[0]);
 body.append('bgImg', document.querySelector('input[name="bgImg"]').files[0]);
@@ -1004,7 +1004,7 @@ fetch(url, {
                 <input type="text"
                name="title"
                data-endpoint="POSTapi-movies"
-               value="et"
+               value="ipsam"
                data-component="body" hidden>
     <br>
 
@@ -1014,7 +1014,7 @@ fetch(url, {
                 <input type="text"
                name="original_title"
                data-endpoint="POSTapi-movies"
-               value="dignissimos"
+               value="incidunt"
                data-component="body" hidden>
     <br>
 
@@ -1044,7 +1044,7 @@ fetch(url, {
                 <input type="text"
                name="embededCode"
                data-endpoint="POSTapi-movies"
-               value="dolorem"
+               value="ad"
                data-component="body" hidden>
     <br>
 
@@ -1054,7 +1054,7 @@ fetch(url, {
                 <input type="text"
                name="trailerKey"
                data-endpoint="POSTapi-movies"
-               value="optio"
+               value="molestiae"
                data-component="body" hidden>
     <br>
 
@@ -1084,7 +1084,7 @@ fetch(url, {
                 <input type="text"
                name="description"
                data-endpoint="POSTapi-movies"
-               value="impedit"
+               value="magni"
                data-component="body" hidden>
     <br>
 
@@ -1094,7 +1094,7 @@ fetch(url, {
                 <input type="number"
                name="countryId"
                data-endpoint="POSTapi-movies"
-               value="19"
+               value="3"
                data-component="body" hidden>
     <br>
 
@@ -1104,7 +1104,7 @@ fetch(url, {
                 <input type="number"
                name="duration"
                data-endpoint="POSTapi-movies"
-               value="17"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -1114,7 +1114,7 @@ fetch(url, {
                 <input type="number"
                name="viewCount"
                data-endpoint="POSTapi-movies"
-               value="12"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -1124,7 +1124,7 @@ fetch(url, {
                 <input type="number"
                name="categoryId"
                data-endpoint="POSTapi-movies"
-               value="10"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -1134,7 +1134,7 @@ fetch(url, {
                 <input type="text"
                name="slug"
                data-endpoint="POSTapi-movies"
-               value="inventore"
+               value="in"
                data-component="body" hidden>
     <br>
 
@@ -1144,7 +1144,7 @@ fetch(url, {
                 <input type="number"
                name="imdb"
                data-endpoint="POSTapi-movies"
-               value="12"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -1164,7 +1164,7 @@ fetch(url, {
                 <input type="text"
                name="isFinished"
                data-endpoint="POSTapi-movies"
-               value="1"
+               value="0"
                data-component="body" hidden>
     <br>
 <p>Must be one of <code>0</code> or <code>1</code>.</p>
@@ -1184,7 +1184,7 @@ fetch(url, {
                 <input type="number"
                name="totalEpisode"
                data-endpoint="POSTapi-movies"
-               value="1"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -1194,7 +1194,7 @@ fetch(url, {
                 <input type="text"
                name="quality"
                data-endpoint="POSTapi-movies"
-               value="aut"
+               value="quis"
                data-component="body" hidden>
     <br>
 
@@ -1204,7 +1204,7 @@ fetch(url, {
                 <input type="text"
                name="publishedAt"
                data-endpoint="POSTapi-movies"
-               value="2022-04-17T09:45:14"
+               value="2022-04-18T04:10:09"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1214,7 +1214,7 @@ fetch(url, {
                 <input type="text"
                name="createdAt"
                data-endpoint="POSTapi-movies"
-               value="2022-04-17T09:45:14"
+               value="2022-04-18T04:10:09"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1224,7 +1224,7 @@ fetch(url, {
                 <input type="text"
                name="updatedAt"
                data-endpoint="POSTapi-movies"
-               value="2022-04-17T09:45:14"
+               value="2022-04-18T04:10:09"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1245,39 +1245,39 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "https://movieapi.tk/api/movies" \
+    "http://movieapp.test/api/movies" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: multipart/form-data" \
     --header "Accept: application/json" \
-    --form "id=16" \
-    --form "title=aut" \
-    --form "original_title=porro" \
-    --form "embededCode=nostrum" \
-    --form "trailerKey=eos" \
+    --form "id=15" \
+    --form "title=omnis" \
+    --form "original_title=maiores" \
+    --form "embededCode=quisquam" \
+    --form "trailerKey=laborum" \
     --form "directorId=1" \
-    --form "description=iure" \
-    --form "countryId=6" \
-    --form "duration=7" \
-    --form "viewCount=4" \
-    --form "categoryId=19" \
-    --form "slug=iusto" \
-    --form "imdb=2" \
+    --form "description=non" \
+    --form "countryId=9" \
+    --form "duration=19" \
+    --form "viewCount=16" \
+    --form "categoryId=2" \
+    --form "slug=deserunt" \
+    --form "imdb=18" \
     --form "isMovie18=0" \
     --form "isFinished=1" \
     --form "isMovieSeries=0" \
-    --form "totalEpisode=20" \
-    --form "quality=nisi" \
-    --form "publishedAt=2022-04-17T09:45:14" \
-    --form "createdAt=2022-04-17T09:45:14" \
-    --form "updatedAt=2022-04-17T09:45:14" \
-    --form "img=@C:\Users\mynam\AppData\Local\Temp\php5FCC.tmp" \
-    --form "url=@C:\Users\mynam\AppData\Local\Temp\php5FCD.tmp" \
-    --form "bgImg=@C:\Users\mynam\AppData\Local\Temp\php5FCE.tmp" </code></pre></div>
+    --form "totalEpisode=18" \
+    --form "quality=consequuntur" \
+    --form "publishedAt=2022-04-18T04:10:09" \
+    --form "createdAt=2022-04-18T04:10:09" \
+    --form "updatedAt=2022-04-18T04:10:09" \
+    --form "img=@C:\Users\mynam\AppData\Local\Temp\phpF1C5.tmp" \
+    --form "url=@C:\Users\mynam\AppData\Local\Temp\phpF1C6.tmp" \
+    --form "bgImg=@C:\Users\mynam\AppData\Local\Temp\phpF1C7.tmp" </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/movies"
+    "http://movieapp.test/api/movies"
 );
 
 const headers = {
@@ -1287,27 +1287,27 @@ const headers = {
 };
 
 const body = new FormData();
-body.append('id', '16');
-body.append('title', 'aut');
-body.append('original_title', 'porro');
-body.append('embededCode', 'nostrum');
-body.append('trailerKey', 'eos');
+body.append('id', '15');
+body.append('title', 'omnis');
+body.append('original_title', 'maiores');
+body.append('embededCode', 'quisquam');
+body.append('trailerKey', 'laborum');
 body.append('directorId', '1');
-body.append('description', 'iure');
-body.append('countryId', '6');
-body.append('duration', '7');
-body.append('viewCount', '4');
-body.append('categoryId', '19');
-body.append('slug', 'iusto');
-body.append('imdb', '2');
+body.append('description', 'non');
+body.append('countryId', '9');
+body.append('duration', '19');
+body.append('viewCount', '16');
+body.append('categoryId', '2');
+body.append('slug', 'deserunt');
+body.append('imdb', '18');
 body.append('isMovie18', '0');
 body.append('isFinished', '1');
 body.append('isMovieSeries', '0');
-body.append('totalEpisode', '20');
-body.append('quality', 'nisi');
-body.append('publishedAt', '2022-04-17T09:45:14');
-body.append('createdAt', '2022-04-17T09:45:14');
-body.append('updatedAt', '2022-04-17T09:45:14');
+body.append('totalEpisode', '18');
+body.append('quality', 'consequuntur');
+body.append('publishedAt', '2022-04-18T04:10:09');
+body.append('createdAt', '2022-04-18T04:10:09');
+body.append('updatedAt', '2022-04-18T04:10:09');
 body.append('img', document.querySelector('input[name="img"]').files[0]);
 body.append('url', document.querySelector('input[name="url"]').files[0]);
 body.append('bgImg', document.querySelector('input[name="bgImg"]').files[0]);
@@ -1375,7 +1375,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-movies"
-               value="16"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -1385,7 +1385,7 @@ fetch(url, {
                 <input type="text"
                name="title"
                data-endpoint="PUTapi-movies"
-               value="aut"
+               value="omnis"
                data-component="body" hidden>
     <br>
 
@@ -1395,7 +1395,7 @@ fetch(url, {
                 <input type="text"
                name="original_title"
                data-endpoint="PUTapi-movies"
-               value="porro"
+               value="maiores"
                data-component="body" hidden>
     <br>
 
@@ -1425,7 +1425,7 @@ fetch(url, {
                 <input type="text"
                name="embededCode"
                data-endpoint="PUTapi-movies"
-               value="nostrum"
+               value="quisquam"
                data-component="body" hidden>
     <br>
 
@@ -1435,7 +1435,7 @@ fetch(url, {
                 <input type="text"
                name="trailerKey"
                data-endpoint="PUTapi-movies"
-               value="eos"
+               value="laborum"
                data-component="body" hidden>
     <br>
 
@@ -1465,7 +1465,7 @@ fetch(url, {
                 <input type="text"
                name="description"
                data-endpoint="PUTapi-movies"
-               value="iure"
+               value="non"
                data-component="body" hidden>
     <br>
 
@@ -1475,7 +1475,7 @@ fetch(url, {
                 <input type="number"
                name="countryId"
                data-endpoint="PUTapi-movies"
-               value="6"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -1485,7 +1485,7 @@ fetch(url, {
                 <input type="number"
                name="duration"
                data-endpoint="PUTapi-movies"
-               value="7"
+               value="19"
                data-component="body" hidden>
     <br>
 
@@ -1495,7 +1495,7 @@ fetch(url, {
                 <input type="number"
                name="viewCount"
                data-endpoint="PUTapi-movies"
-               value="4"
+               value="16"
                data-component="body" hidden>
     <br>
 
@@ -1505,7 +1505,7 @@ fetch(url, {
                 <input type="number"
                name="categoryId"
                data-endpoint="PUTapi-movies"
-               value="19"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -1515,7 +1515,7 @@ fetch(url, {
                 <input type="text"
                name="slug"
                data-endpoint="PUTapi-movies"
-               value="iusto"
+               value="deserunt"
                data-component="body" hidden>
     <br>
 
@@ -1525,7 +1525,7 @@ fetch(url, {
                 <input type="number"
                name="imdb"
                data-endpoint="PUTapi-movies"
-               value="2"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -1565,7 +1565,7 @@ fetch(url, {
                 <input type="number"
                name="totalEpisode"
                data-endpoint="PUTapi-movies"
-               value="20"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -1575,7 +1575,7 @@ fetch(url, {
                 <input type="text"
                name="quality"
                data-endpoint="PUTapi-movies"
-               value="nisi"
+               value="consequuntur"
                data-component="body" hidden>
     <br>
 
@@ -1585,7 +1585,7 @@ fetch(url, {
                 <input type="text"
                name="publishedAt"
                data-endpoint="PUTapi-movies"
-               value="2022-04-17T09:45:14"
+               value="2022-04-18T04:10:09"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1595,7 +1595,7 @@ fetch(url, {
                 <input type="text"
                name="createdAt"
                data-endpoint="PUTapi-movies"
-               value="2022-04-17T09:45:14"
+               value="2022-04-18T04:10:09"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1605,7 +1605,7 @@ fetch(url, {
                 <input type="text"
                name="updatedAt"
                data-endpoint="PUTapi-movies"
-               value="2022-04-17T09:45:14"
+               value="2022-04-18T04:10:09"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1626,19 +1626,19 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "https://movieapi.tk/api/movies" \
+    "http://movieapp.test/api/movies" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"id\": 13
+    \"id\": 20
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/movies"
+    "http://movieapp.test/api/movies"
 );
 
 const headers = {
@@ -1648,7 +1648,7 @@ const headers = {
 };
 
 let body = {
-    "id": 13
+    "id": 20
 };
 
 fetch(url, {
@@ -1714,7 +1714,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-movies"
-               value="13"
+               value="20"
                data-component="body" hidden>
     <br>
 
@@ -1734,14 +1734,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "https://movieapi.tk/api/actors" \
+    --get "http://movieapp.test/api/actors" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/actors"
+    "http://movieapp.test/api/actors"
 );
 
 const headers = {
@@ -1828,7 +1828,7 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "https://movieapi.tk/api/users" \
+    --get "http://movieapp.test/api/users" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -1836,7 +1836,7 @@ access-control-allow-origin: *
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/users"
+    "http://movieapp.test/api/users"
 );
 
 const headers = {
@@ -10932,7 +10932,7 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "https://movieapi.tk/api/login" \
+    "http://movieapp.test/api/login" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -10944,7 +10944,7 @@ access-control-allow-origin: *
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/login"
+    "http://movieapp.test/api/login"
 );
 
 const headers = {
@@ -11043,7 +11043,7 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "https://movieapi.tk/api/logout" \
+    "http://movieapp.test/api/logout" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -11051,7 +11051,7 @@ fetch(url, {
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/logout"
+    "http://movieapp.test/api/logout"
 );
 
 const headers = {
@@ -11132,7 +11132,7 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "https://movieapi.tk/api/home" \
+    --get "http://movieapp.test/api/home" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -11140,7 +11140,7 @@ fetch(url, {
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/home"
+    "http://movieapp.test/api/home"
 );
 
 const headers = {
@@ -11292,8 +11292,8 @@ access-control-allow-origin: *
             &quot;id&quot;: 957993,
             &quot;title&quot;: &quot;autem dsad&quot;,
             &quot;original_title&quot;: &quot;perferendis&quot;,
-            &quot;img&quot;: &quot;https://movieapi.tk/images/autem-dsad/av1.jpg&quot;,
-            &quot;url&quot;: &quot;https://movieapi.tk/videos/autem-dsad/Facebook_6.mp4&quot;,
+            &quot;img&quot;: &quot;http://movieapp.test/images/autem-dsad/av1.jpg&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/videos/autem-dsad/Facebook_6.mp4&quot;,
             &quot;embededCode&quot;: &quot;unde&quot;,
             &quot;trailerKey&quot;: &quot;ut&quot;,
             &quot;directorId&quot;: 14,
@@ -11318,8 +11318,8 @@ access-control-allow-origin: *
             &quot;id&quot;: 957994,
             &quot;title&quot;: &quot;autem dd&quot;,
             &quot;original_title&quot;: &quot;perferendis&quot;,
-            &quot;img&quot;: &quot;https://movieapi.tk/uploadsimages/autem-dd/av1.jpg&quot;,
-            &quot;url&quot;: &quot;https://movieapi.tk/uploadsvideos/autem-dd/Facebook_6.mp4&quot;,
+            &quot;img&quot;: &quot;http://movieapp.test/uploadsimages/autem-dd/av1.jpg&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/uploadsvideos/autem-dd/Facebook_6.mp4&quot;,
             &quot;embededCode&quot;: &quot;unde&quot;,
             &quot;trailerKey&quot;: &quot;ut&quot;,
             &quot;directorId&quot;: 14,
@@ -11344,8 +11344,8 @@ access-control-allow-origin: *
             &quot;id&quot;: 957995,
             &quot;title&quot;: &quot;autem dd&quot;,
             &quot;original_title&quot;: &quot;perferendis&quot;,
-            &quot;img&quot;: &quot;https://movieapi.tk/uploads/images/autem-dd/av1.jpg&quot;,
-            &quot;url&quot;: &quot;https://movieapi.tk/uploads/videos/autem-dd/Facebook_6.mp4&quot;,
+            &quot;img&quot;: &quot;http://movieapp.test/uploads/images/autem-dd/av1.jpg&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/uploads/videos/autem-dd/Facebook_6.mp4&quot;,
             &quot;embededCode&quot;: &quot;unde&quot;,
             &quot;trailerKey&quot;: &quot;ut&quot;,
             &quot;directorId&quot;: 14,
@@ -11875,7 +11875,7 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "https://movieapi.tk/api/movies/latest" \
+    --get "http://movieapp.test/api/movies/latest" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -11883,7 +11883,7 @@ access-control-allow-origin: *
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/movies/latest"
+    "http://movieapp.test/api/movies/latest"
 );
 
 const headers = {
@@ -11996,7 +11996,7 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "https://movieapi.tk/api/movies/6" \
+    --get "http://movieapp.test/api/movies/19" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -12004,7 +12004,7 @@ fetch(url, {
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/movies/6"
+    "http://movieapp.test/api/movies/19"
 );
 
 const headers = {
@@ -12022,7 +12022,7 @@ fetch(url, {
 
 <span id="example-responses-GETapi-movies--id-">
             <blockquote>
-            <p>Example response (404):</p>
+            <p>Example response (200):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -12035,404 +12035,30 @@ access-control-allow-origin: *
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;No query results for model [App\\Models\\Movie] 6&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-    &quot;line&quot;: 355,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
-            &quot;line&quot;: 331,
-            &quot;function&quot;: &quot;prepareException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
-            &quot;line&quot;: 54,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;render&quot;,
-            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 143,
-            &quot;function&quot;: &quot;handleException&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\app\\Http\\Middleware\\ValidateJwtToken.php&quot;,
-            &quot;line&quot;: 15,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;App\\Http\\Middleware\\ValidateJwtToken&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 730,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 705,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 667,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 656,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 141,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
-            &quot;line&quot;: 31,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
-            &quot;line&quot;: 40,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php&quot;,
-            &quot;line&quot;: 62,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\HandleCors&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
-            &quot;line&quot;: 39,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 180,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 142,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 89,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 45,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 35,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 222,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 179,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 116,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 118,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 75,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
-            &quot;line&quot;: 51,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 50,
-            &quot;function&quot;: &quot;get&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 41,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 653,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 291,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 156,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 989,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 299,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 171,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 102,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
+    &quot;id&quot;: 19,
+    &quot;title&quot;: &quot;Metropolis&quot;,
+    &quot;original_title&quot;: &quot;Metropolis&quot;,
+    &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/pxbGZewX327IbTvrCVRJgcLJTSQ.jpg&quot;,
+    &quot;url&quot;: &quot;https://www.youtube.com/watch?v=gdtZv3XROnc&quot;,
+    &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/gdtZv3XROnc\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+    &quot;trailerKey&quot;: &quot;gdtZv3XROnc&quot;,
+    &quot;directorId&quot;: null,
+    &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/r8pUcom5Mw8igtBpj3AHSAUvH0R.jpg&quot;,
+    &quot;description&quot;: &quot;In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working class prophet who predicts the coming of a savior to mediate their differences.&quot;,
+    &quot;countryId&quot;: null,
+    &quot;duration&quot;: 149,
+    &quot;viewCount&quot;: 2024,
+    &quot;categoryId&quot;: 18,
+    &quot;slug&quot;: &quot;metropolis&quot;,
+    &quot;imdb&quot;: 8.2,
+    &quot;isMovie18&quot;: 0,
+    &quot;isFinished&quot;: 0,
+    &quot;isMovieSeries&quot;: 0,
+    &quot;totalEpisode&quot;: 1,
+    &quot;quality&quot;: &quot;fullHd&quot;,
+    &quot;publishedAt&quot;: &quot;1927-02-06&quot;,
+    &quot;createdAt&quot;: &quot;2022-04-12T11:27:43.000000Z&quot;,
+    &quot;updatedAt&quot;: &quot;2022-04-12T11:27:43.000000Z&quot;
 }</code>
  </pre>
     </span>
@@ -12489,7 +12115,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-movies--id-"
-               value="6"
+               value="19"
                data-component="url" hidden>
     <br>
 <p>The ID of the movie.</p>
@@ -12510,7 +12136,7 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "https://movieapi.tk/api/movies/watch/4" \
+    --get "http://movieapp.test/api/movies/watch/1" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -12518,7 +12144,7 @@ access-control-allow-origin: *
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "https://movieapi.tk/api/movies/watch/4"
+    "http://movieapp.test/api/movies/watch/1"
 );
 
 const headers = {
@@ -12549,7 +12175,7 @@ access-control-allow-origin: *
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;message&quot;: &quot;No query results for model [App\\Models\\Movie] 4&quot;,
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Movie] 1&quot;,
     &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
     &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
     &quot;line&quot;: 355,
@@ -13003,7 +12629,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="movieId"
                data-endpoint="GETapi-movies-watch--movieId-"
-               value="4"
+               value="1"
                data-component="url" hidden>
     <br>
 <p>The ID of the movie. Example : 14</p>
