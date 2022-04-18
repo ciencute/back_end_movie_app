@@ -131,4 +131,7 @@ class Movie extends Model
         if(str_starts_with($value  , "http")) return  $value;
         else return env('APP_URL').$value;
     }
+    public function comments() {
+        return $this->hasMany(Comment::class, 'movieId' ,'id');
+    }
 }

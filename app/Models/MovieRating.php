@@ -35,7 +35,8 @@ class MovieRating extends Model
 
 	protected $casts = [
 		'movieId' => 'int',
-		'userId' => 'int'
+		'userId' => 'int',
+        'ratingPoint' => 'int'
 	];
 
 	protected $dates = [
@@ -47,6 +48,7 @@ class MovieRating extends Model
 		'movieId',
 		'userId',
 		'createdAt',
-		'updatedAt'
+		'updatedAt',
+        'ratingPoint'
 	];
 }

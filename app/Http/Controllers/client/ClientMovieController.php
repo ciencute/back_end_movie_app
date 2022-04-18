@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\client;
 
 use App\Http\Controllers\Controller;
+use App\Models\Comment;
+use App\Models\Favorite;
 use App\Models\Movie;
 use App\Repository\MovieRepository;
 
@@ -36,7 +38,14 @@ class ClientMovieController extends Controller
      */
     public function getById($id)
     {
-        return Movie::findOrFail($id);
+
+        $appUrl = env('APP_URL');
+        return array_merge(Movie::findOrFail($id)->toArray() , [
+            'comments' => Comment::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'comment.userId')
+                ->selectRaw("comment.*, user.name as userName ,user.img , concat('$appUrl/api/user/',user.id ) as  profileUrl" )
+                ->get()
+        ]) ;
+//        return Comment::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'comment.userId')->get();
     }
     /**
      * watch movie
@@ -44,8 +53,47 @@ class ClientMovieController extends Controller
      * @authenticated
      */
     public function watch($movieId) {
-        return $this->movieRepo->getMovieById($movieId)->url;
+        return $this->movieRepo->getMovieById($movieId);
 
     }
+    /**
+     * get movie by category Id
+     * @urlParam $categoryId integer required The ID of the category. Example : 14
+     * @authenticated
+     */
+    public function getMovieByCategoryId($categoryId) {
+        return $this->movieRepo->getMovieByCategoryId($categoryId);
+    }
 
+    /**
+     * get most viewed movie
+     * @authenticated
+     */
+    public function getMostViewMovies() {
+        return $this->movieRepo->getMostViewMovie();
+    }
+    /**
+     * get animation movie
+     * @authenticated
+     */
+    public function getAnimationMovies() {
+        return $this->movieRepo->getAnimationMovie();
+    }
+    /**
+     * get TV movies
+     * @authenticated
+     */
+    public function getTvMovie() {
+        return $this->movieRepo->getTvMovie();
+    }
+
+    /**
+     * remove movie from favorite
+     * @urlParam movieId integer required The ID of the movie.
+     * @authenticated
+     */
+    public function getFavoriteMovies($userId){
+        $favoriteMovieIds = Favorite::where('userId' , auth()->id())->pluck('movieId');
+        return Movie::whereIn('id' , $favoriteMovieIds)->get();
+    }
 }

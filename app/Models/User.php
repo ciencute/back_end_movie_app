@@ -43,6 +43,7 @@ class User extends  Authenticatable implements JWTSubject
     use HasFactory;
 	protected $table = 'user';
 	public $timestamps = false;
+    protected $appends = ['profileUrl'];
 
 	protected $casts = [
 		'roleId' => 'int'
@@ -75,5 +76,9 @@ class User extends  Authenticatable implements JWTSubject
     public function getJWTCustomClaims()
     {
         return [];
+    }
+    public function getProfileUrlAttribute()
+    {
+        return route('user.profile' , ['id' => $this->id]);
     }
 }

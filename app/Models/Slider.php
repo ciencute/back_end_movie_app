@@ -45,4 +45,14 @@ class Slider extends Model
 		'displayOrder',
 		'targetUrl'
 	];
+
+    public function getImageUrlAttribute($value)
+    {
+        return $this->FilterUrl($value);
+
+    }
+    private function FilterUrl ($value) {
+        if(str_starts_with($value  , "http")) return  $value;
+        else return env('APP_URL').$value;
+    }
 }
