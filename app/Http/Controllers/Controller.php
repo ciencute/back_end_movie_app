@@ -20,6 +20,6 @@ class Controller extends BaseController
 
     public function __construct()
     {
-        $this->middleware(ValidateJwtToken::class, ['except' => ['login', 'register','profile']]);
+        $this->middleware(ValidateJwtToken::class, ['except' => ['login', 'logout' , 'register','getProfileById','getMovieByCategoryId']]);
     }
 }

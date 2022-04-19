@@ -79,6 +79,15 @@ class User extends  Authenticatable implements JWTSubject
     }
     public function getProfileUrlAttribute()
     {
-        return route('user.profile' , ['id' => $this->id]);
+        return route('user.profileById' , ['id' => $this->id]);
+    }
+    public function getImgAttribute($value)
+    {
+        return $this->FilterUrl($value);
+
+    }
+    private function FilterUrl ($value) {
+        if(str_starts_with($value  , "http")) return  $value;
+        else return env('APP_URL').$value;
     }
 }

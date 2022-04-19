@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class AddToFavoriteRequest extends FormRequest
+class RemoveFromFavoriteMovieRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -26,7 +26,6 @@ class AddToFavoriteRequest extends FormRequest
         return [
             //
             'movieId' => 'required|integer',
-//            'userId' => 'required|integer'
         ];
     }
 }

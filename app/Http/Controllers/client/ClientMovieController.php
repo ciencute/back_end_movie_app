@@ -4,8 +4,9 @@ namespace App\Http\Controllers\client;
 
 use App\Http\Controllers\Controller;
 use App\Models\Comment;
-use App\Models\Favorite;
+use App\Models\FavoriteMovie;
 use App\Models\Movie;
+use App\Models\MovieRating;
 use App\Repository\MovieRepository;
 
 class ClientMovieController extends Controller
@@ -40,10 +41,13 @@ class ClientMovieController extends Controller
     {
 
         $appUrl = env('APP_URL');
-        return array_merge(Movie::findOrFail($id)->toArray() , [
+        $movie = Movie::findOrFail($id);
+        $movie->increment('viewCount');
+        return array_merge($movie->toArray() , [
             'comments' => Comment::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'comment.userId')
-                ->selectRaw("comment.*, user.name as userName ,user.img , concat('$appUrl/api/user/',user.id ) as  profileUrl" )
-                ->get()
+                ->selectRaw("comment.*, user.name as userName ,user.img , concat('$appUrl/api/user/profile/',user.id ) as  profileUrl" )->get(),
+            'ratings' => MovieRating::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'movie_rating.userId')
+                ->selectRaw("movie_rating.id as ratingId , movie_rating.ratingPoint , user.name as userName" )->get(),
         ]) ;
 //        return Comment::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'comment.userId')->get();
     }
@@ -57,11 +61,13 @@ class ClientMovieController extends Controller
 
     }
     /**
-     * get movie by category Id
+     * get movie by category Id ví dụ /api/movies/category/14?page=2
      * @urlParam $categoryId integer required The ID of the category. Example : 14
-     * @authenticated
+     * @urlParam $page integer nullable The ID of the category. Example : 14
+
      */
-    public function getMovieByCategoryId($categoryId) {
+    public function getMovieByCategoryId($categoryId): \Illuminate\Contracts\Pagination\LengthAwarePaginator
+    {
         return $this->movieRepo->getMovieByCategoryId($categoryId);
     }
 
@@ -88,12 +94,11 @@ class ClientMovieController extends Controller
     }
 
     /**
-     * remove movie from favorite
-     * @urlParam movieId integer required The ID of the movie.
+     * get favorite movie
      * @authenticated
      */
-    public function getFavoriteMovies($userId){
-        $favoriteMovieIds = Favorite::where('userId' , auth()->id())->pluck('movieId');
+    public function getFavoriteMovies(){
+        $favoriteMovieIds = FavoriteMovie::where('userId' , auth()->id())->pluck('movieId');
         return Movie::whereIn('id' , $favoriteMovieIds)->get();
     }
 }

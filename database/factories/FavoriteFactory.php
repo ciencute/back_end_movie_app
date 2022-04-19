@@ -3,7 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use App\Models\Favorite;
+use App\Models\FavoriteMovie;
 
 class FavoriteFactory extends Factory
 {
@@ -12,7 +12,7 @@ class FavoriteFactory extends Factory
     *
     * @var  string
     */
-    protected $model = Favorite::class;
+    protected $model = FavoriteMovie::class;
 
     /**
     * Define the model's default state.

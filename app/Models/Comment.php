@@ -18,8 +18,8 @@ class Comment extends Model
         'createdAt'
     ];
     protected $fillable = [
-        'userId' => 'int',
-        'movieId'=>'int',
+        'userId' ,
+        'movieId',
         'content',
         'createdAt'
     ];

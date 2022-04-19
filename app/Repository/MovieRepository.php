@@ -28,6 +28,7 @@ class MovieRepository
         return Movie::where("slug"  , $slug)->firstOrFail();
     }
     public function getMovieById(int $movieId){
+        Movie::findOrFail($movieId)->increment('viewCount');
         return Movie::findOrFail($movieId);
     }
     public function create(array $movieData): \Illuminate\Database\Eloquent\Model|Movie
@@ -51,19 +52,30 @@ class MovieRepository
     }
 
     public function get20AdventureMovie() {
-        return Movie::where( 'categoryId',$this->categories['adventure'])->limit(20)->get();
+        return cache()->remember('top20-adventure', 60*60*24 , function ()  {
+            return Movie::where( 'categoryId',$this->categories['adventure'])->limit(20)->get();
+
+        });
+//        return Movie::where( 'categoryId',$this->categories['adventure'])->limit(20)->get();
     }
     public function getAdventureMovie() {
         return Movie::where( 'categoryId',$this->categories['adventure'])->paginate(20);
     }
     public function get20TvMovie() {
-        return Movie::where( 'categoryId',$this->categories['tv-movie'])->limit(20)->get();
+        return cache()->remember('top20-tv-movie', 60*60*24 , function ()  {
+            return Movie::where( 'categoryId',$this->categories['tv-movie'])->limit(20)->get();
+        });
+//        return Movie::where( 'categoryId',$this->categories['tv-movie'])->limit(20)->get();
     }
     public function getTvMovie() {
         return Movie::where( 'categoryId',$this->categories['tv-movie'])->paginate(20);
     }
     public function get20AnimationMovie() {
-        return Movie::where( 'categoryId',$this->categories['animation'])->limit(20)->get();
+        return cache()->remember('top20-animation', 60*60*24 , function ()  {
+            return Movie::where( 'categoryId',$this->categories['animation'])->limit(20)->get();
+
+        });
+//        return Movie::where( 'categoryId',$this->categories['animation'])->limit(20)->get();
     }
     public function getAnimationMovie() {
         return Movie::where( 'categoryId',$this->categories['animation'])->paginate(20);
