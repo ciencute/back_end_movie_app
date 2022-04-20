@@ -7,7 +7,10 @@ use App\Models\Slider;
 class SliderRepository
 {
     public function getAllSlider() {
-        return Slider::all();
+        return cache()->remember('all-slider', 60*60*24 , function ()  {
+            return Slider::all();
+        });
+
     }
 
 }

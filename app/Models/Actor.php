@@ -37,7 +37,8 @@ class Actor extends Model
 
 	protected $casts = [
 		'id' => 'int',
-		'gender' => 'int'
+        'favoriteCount' => 'int'
+
 	];
 
 	protected $fillable = [
@@ -45,6 +46,12 @@ class Actor extends Model
 		'img',
 		'slug',
 		'detail',
-		'gender'
+		'gender',
+        'favoriteCount'
 	];
+    public function getGenderAttribute($value)
+    {
+        return $value == 2 ? "Male" : "Famale";
+
+    }
 }

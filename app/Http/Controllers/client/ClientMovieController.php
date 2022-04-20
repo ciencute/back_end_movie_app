@@ -4,14 +4,17 @@ namespace App\Http\Controllers\client;
 
 use App\Http\Controllers\Controller;
 use App\Models\Comment;
+use App\Models\Country;
+use App\Models\Episode;
 use App\Models\FavoriteMovie;
 use App\Models\Movie;
+use App\Models\MovieActor;
 use App\Models\MovieRating;
 use App\Repository\MovieRepository;
 
 class ClientMovieController extends Controller
 {
-    protected $movieRepo ;
+    protected $movieRepo;
 
     public function __construct(MovieRepository $movieRepo)
     {
@@ -28,7 +31,7 @@ class ClientMovieController extends Controller
      */
     public function getLatestMovie()
     {
-        return  $this->movieRepo->getLatestMovie();
+        return $this->movieRepo->getLatestMovie();
     }
 
 
@@ -40,31 +43,60 @@ class ClientMovieController extends Controller
     public function getById($id)
     {
 
-        $appUrl = env('APP_URL');
         $movie = Movie::findOrFail($id);
         $movie->increment('viewCount');
-        return array_merge($movie->toArray() , [
-            'comments' => Comment::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'comment.userId')
-                ->selectRaw("comment.*, user.name as userName ,user.img , concat('$appUrl/api/user/profile/',user.id ) as  profileUrl" )->get(),
-            'ratings' => MovieRating::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'movie_rating.userId')
-                ->selectRaw("movie_rating.id as ratingId , movie_rating.ratingPoint , user.name as userName" )->get(),
-        ]) ;
+        return array_merge($movie->toArray(), $this->getAdditionalDetailMovieData($movie));
 //        return Comment::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'comment.userId')->get();
     }
+
+    private function getAdditionalDetailMovieData($movie)
+    {
+        $appUrl = env('APP_URL');
+
+        return [
+            'countryName' => cache()->remember("movie$movie->id-country", 60 * 60 * 24, function () use ($movie) {
+                return Country::findOrFail($movie->countryId)->name;
+            })
+            ,
+            'actors' => cache()->remember("movie$movie->id-actors", 60 * 60 * 24, function () use ($movie) {
+                return MovieActor::where('movieId', $movie->id)->leftJoin('actor', 'actor.id', '=', 'movie_actor.actorId')
+                    ->selectRaw("movie_actor.* , actor.name as actorName ")->whereNotNull('actor.name')->get();
+            }),
+            'ratings' => cache()->remember("movie$movie->id-ratings", 60 * 60 * 24, function () use ($movie) {
+                return MovieRating::where('movieId', $movie->id)->leftJoin('user', 'user.id', '=', 'movie_rating.userId')
+                    ->selectRaw("movie_rating.id as ratingId , movie_rating.ratingPoint , user.name as userName")->get();
+            }),
+
+            'episodes' => cache()->remember("movie$movie->id-episodes", 60 * 60 * 24, function () use ($movie) {
+                return Episode::where('movieId', $movie->id)->get()->groupBy((function ($item, $key) {
+                    return 'Season ' . $item['seasonId'];
+                }));
+            })
+            ,
+            'comments' => cache()->remember("movie$movie->id-comments", 60 * 60 * 24, function () use ($appUrl, $movie) {
+                return Comment::where('movieId', $movie->id)->leftJoin('user', 'user.id', '=', 'comment.userId')
+                    ->selectRaw("comment.*, user.name as userName ,user.img , concat('$appUrl/api/user/profile/',user.id ) as  profileUrl")->get();
+            }),
+
+
+        ];
+    }
+
     /**
      * watch movie
      * @urlParam $movieId integer required The ID of the movie. Example : 14
      * @authenticated
      */
-    public function watch($movieId) {
+    public function watch($movieId)
+    {
         return $this->movieRepo->getMovieById($movieId);
 
     }
+
     /**
      * get movie by category Id ví dụ /api/movies/category/14?page=2
      * @urlParam $categoryId integer required The ID of the category. Example : 14
      * @urlParam $page integer nullable The ID of the category. Example : 14
-
      */
     public function getMovieByCategoryId($categoryId): \Illuminate\Contracts\Pagination\LengthAwarePaginator
     {
@@ -75,21 +107,26 @@ class ClientMovieController extends Controller
      * get most viewed movie
      * @authenticated
      */
-    public function getMostViewMovies() {
+    public function getMostViewMovies()
+    {
         return $this->movieRepo->getMostViewMovie();
     }
+
     /**
      * get animation movie
      * @authenticated
      */
-    public function getAnimationMovies() {
+    public function getAnimationMovies()
+    {
         return $this->movieRepo->getAnimationMovie();
     }
+
     /**
      * get TV movies
      * @authenticated
      */
-    public function getTvMovie() {
+    public function getTvMovie()
+    {
         return $this->movieRepo->getTvMovie();
     }
 
@@ -97,8 +134,29 @@ class ClientMovieController extends Controller
      * get favorite movie
      * @authenticated
      */
-    public function getFavoriteMovies(){
-        $favoriteMovieIds = FavoriteMovie::where('userId' , auth()->id())->pluck('movieId');
-        return Movie::whereIn('id' , $favoriteMovieIds)->get();
+    public function getFavoriteMovies()
+    {
+        $favoriteMovieIds = FavoriteMovie::where('userId', auth()->id())->pluck('movieId');
+        return Movie::whereIn('id', $favoriteMovieIds)->paginate(10);
+    }
+
+    /**
+     * get movie by actorID
+     * @urlParam $actorId integer required The ID of the actor. Example : 14
+     * @authenticated
+     */
+    public function getMovieByActorId($actorId)
+    {
+        return $this->movieRepo->getMovieByActorId($actorId);
+    }
+
+    /**
+     * get movie by directorId
+     * @urlParam $directorId integer required The ID of the actor. Example : 14
+     * @authenticated
+     */
+    public function getMovieByDirectorId($directorId)
+    {
+        return $this->movieRepo->getMovieByDirectorId($directorId);
     }
 }

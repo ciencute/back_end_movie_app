@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
     public function run()
     {
         //
-        User::factory()->count(1000)->create();
+        User::factory()->count(100)->create();
 
 //        for ($i=0; $i < 100000; $i++) {
 //            $userData[] = [

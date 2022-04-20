@@ -24,6 +24,7 @@ class DirectorFactory extends Factory
         return [
             'name' => $this->faker->name,
             'detail' => $this->faker->word,
+            'img' => "https://api.lorem.space/image/face?w=150&h=220&v=".rand(1,999999),
             'slug' => $this->faker->slug,
         ];
     }

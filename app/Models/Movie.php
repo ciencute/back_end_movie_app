@@ -86,7 +86,8 @@ class Movie extends Model
 		'isMovieSeries' => 'int',
 		'totalEpisode' => 'int',
         'url' =>'string',
-        'averageRating' => 'float'
+        'averageRating' => 'float',
+        'favoriteCount' ,'int'
 	];
 
 	protected $dates = [
@@ -118,7 +119,8 @@ class Movie extends Model
 		'publishedAt',
 		'createdAt',
 		'updatedAt',
-        'averageRating'
+        'averageRating',
+        'favoriteCount'
 	];
     public function getImgAttribute($value)
     {
