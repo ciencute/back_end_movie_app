@@ -20,7 +20,7 @@ use function auth;
 class FavoriteController extends Controller
 {
     /**
-     * add movie to your favorite movie
+     * thêm phim vào danh sách yêu thích của bạn
      * @authenticated
      */
     public function addToFavoriteMovie(AddToFavoriteMovieRequest $request)
@@ -46,7 +46,7 @@ class FavoriteController extends Controller
     }
 
     /**
-     * remove movie from your favorite movie
+     * xóa phim khỏi danh sách yêu thích của bạn
      * @authenticated
      */
     public function removeFromFavoriteMovie(RemoveFromFavoriteMovieRequest $request)
@@ -66,7 +66,7 @@ class FavoriteController extends Controller
     }
 
     /**
-     * add movie to your favorite actor
+     * Thêm diễn viên vào danh sách yêu thích của bạn
      * @authenticated
      */
     public function addToFavoriteActor(AddToFavoriteActorRequest $request)
@@ -91,7 +91,7 @@ class FavoriteController extends Controller
     }
 
     /**
-     * remove movie from your favorite actor
+     * Xóa diễn viên khỏi danh sách yêu thích của bạn
      * @authenticated
      */
     public function removeFromFavoriteActor(RemoveFromFavoriteActorRequest $request)
@@ -108,8 +108,9 @@ class FavoriteController extends Controller
             ]);
         }
     }
+
     /**
-     * get your favorite actor
+     * lấy danh sách diễn viên yêu thích
      * @authenticated
      */
     public function getFavoriteActor()
@@ -117,23 +118,36 @@ class FavoriteController extends Controller
         $favoriteActorIds = FavoriteActor::where('userId', auth()->id())->pluck('actorId');
         return Actor::whereIn('id', $favoriteActorIds)->paginate(10);
     }
+
     /**
-     * get top 10 favorite actor of all
+     * top 10 diễn viên được yêu thích nhất( có nhiều lượt thích nhất)
      * @authenticated
      */
-    public function getTop10FavoriteActor() {
-        return cache()->remember("favorite-top10actor", 60 * 60 * 24, function ()  {
-            return Actor::orderBy('favoriteCount' ,'DESC')->limit(10)->get();
+    public function getTop10FavoriteActor()
+    {
+        return cache()->remember("favorite-top10actor", 60 * 60 * 24, function () {
+            return Actor::orderBy('favoriteCount', 'DESC')->limit(10)->get();
         });
     }
+
     /**
-     * get top 10 favorite movie of all
+     * Top 10 phim được yêu thích nhất
      * @authenticated
      */
-    public function getTop10FavoriteMovie() {
-        return cache()->remember("favorite-top10movie", 60 * 60 * 24, function ()  {
-            return Movie::orderBy('favoriteCount' ,'DESC')->limit(10)->get();
+    public function getTop10FavoriteMovie()
+    {
+        return cache()->remember("favorite-top10movie", 60 * 60 * 24, function () {
+            return Movie::orderBy('favoriteCount', 'DESC')->limit(10)->get();
         });
+    }
+
+    /**
+     * Danh sách phim được yêu thích nhất theo thứ tự
+     * @authenticated
+     */
+    public function getTopFavoriteMovie()
+    {
+        return Movie::orderBy('favoriteCount', 'DESC')->paginate(10);
     }
 
 }

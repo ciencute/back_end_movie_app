@@ -33,7 +33,7 @@ class UserActionController extends Controller
     }
 
     /**
-     * get user profile
+     * lấy thông tin của người dùng đăng nhập
      * @authenticated
      */
 
@@ -43,7 +43,7 @@ class UserActionController extends Controller
     }
 
     /**
-     * get user profile by ID
+     * Lấy thông tin của người dùng bằng ID
      * @urlParam id integer required The ID of movie
      */
 
@@ -53,7 +53,7 @@ class UserActionController extends Controller
     }
 
     /**
-     * edit user profile
+     * Sửa thông tin người dùng đã đăng nhập
      * @authenticated
      */
     public function editProfile(EditProfileRequest $request)
@@ -90,7 +90,7 @@ class UserActionController extends Controller
     }
 
     /**
-     * Comment on movie
+     * Bình luận phim
      * @authenticated
      */
     public function commentOnMovie(UserCommentOnMovieRequest $request)
@@ -114,7 +114,7 @@ class UserActionController extends Controller
     }
 
     /**
-     * Rating a movie đánh giá phim và cập nhật đánh giá phim
+     * Đánh giá phim
      * @authenticated
      */
     public function rateMovie(UserRateMovieRequest $request)
@@ -156,7 +156,7 @@ class UserActionController extends Controller
     }
 
     /**
-     * Update Movie Rating cập nhập đánh giá
+     * Câp nhật đánh giá
      * @authenticated
      */
     public function updateMovieRating(UpdateRatingMovieRequest $request)

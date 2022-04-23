@@ -2,6 +2,7 @@
 
 namespace App\Repository;
 
+use App\Models\FavoriteMovie;
 use App\Models\Movie;
 use App\Models\MovieActor;
 use App\Models\WatchingHistory;
@@ -22,7 +23,7 @@ class MovieRepository
         return Movie::where('categoryId' , $categoryId)->paginate(10);
 
     }
-    public function get20LatestMovie()
+    public function get10LatestMovie()
     {
         return Movie::orderBy('createdAt', 'DESC')->limit(10)->get();
     }
@@ -53,12 +54,15 @@ class MovieRepository
     public function getMostViewMovie() {
         return Movie::orderBy('viewCount' , 'desc')->paginate(10);
     }
-    public function getMost20ViewMovie() {
-        return Movie::orderBy('viewCount' , 'desc')->limit(10)->get();
+    public function getMost10ViewMovie() {
+        return cache()->remember('top10-ViewMovie', 60*60*24 , function ()  {
+            return Movie::orderBy('viewCount' , 'desc')->limit(10)->get();
+        });
+
     }
 
     public function get20AdventureMovie() {
-        return cache()->remember('top20-adventure', 60*60*24 , function ()  {
+        return cache()->remember('top10-adventure', 60*60*24 , function ()  {
             return Movie::where( 'categoryId',$this->categories['adventure'])->limit(10)->get();
 
         });
@@ -67,8 +71,8 @@ class MovieRepository
     public function getAdventureMovie() {
         return Movie::where( 'categoryId',$this->categories['adventure'])->paginate(10);
     }
-    public function get20TvMovie() {
-        return cache()->remember('top20-tv-movie', 60*60*24 , function ()  {
+    public function get10TvMovie() {
+        return cache()->remember('top10-tv-movie', 60*60*24 , function ()  {
             return Movie::where( 'categoryId',$this->categories['tv-movie'])->limit(10)->get();
         });
 //        return Movie::where( 'categoryId',$this->categories['tv-movie'])->limit(10)->get();
@@ -76,8 +80,8 @@ class MovieRepository
     public function getTvMovie() {
         return Movie::where( 'categoryId',$this->categories['tv-movie'])->paginate(10);
     }
-    public function get20AnimationMovie() {
-        return cache()->remember('top20-animation', 60*60*24 , function ()  {
+    public function get10AnimationMovie() {
+        return cache()->remember('top10-animation', 60*60*24 , function ()  {
             return Movie::where( 'categoryId',$this->categories['animation'])->limit(10)->get();
 
         });
@@ -95,6 +99,17 @@ class MovieRepository
     {
         return Movie::where('directorId' ,$directorId )->paginate(10);
 
+    }
+    public function getTop10FavoriteMovie() {
+        return cache()->remember("favorite-top10movie", 60 * 60 * 24, function ()  {
+            return Movie::orderBy('favoriteCount' ,'DESC')->limit(10)->get();
+        });
+    }
+
+    public function getTop10YourFavoriteMovie()
+    {
+        $favoriteMovieIds = FavoriteMovie::where('userId', auth()->id())->pluck('movieId');
+        return Movie::whereIn('id', $favoriteMovieIds)->limit(10)->get();
     }
 
 

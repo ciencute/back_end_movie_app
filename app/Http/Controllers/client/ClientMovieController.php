@@ -10,6 +10,7 @@ use App\Models\FavoriteMovie;
 use App\Models\Movie;
 use App\Models\MovieActor;
 use App\Models\MovieRating;
+use App\Models\WatchingHistory;
 use App\Repository\MovieRepository;
 
 class ClientMovieController extends Controller
@@ -45,15 +46,22 @@ class ClientMovieController extends Controller
 
         $movie = Movie::findOrFail($id);
         $movie->increment('viewCount');
+        WatchingHistory::create([
+           'movieId' => $id,
+           'userId' =>auth()->id(),
+
+        ]);
         return array_merge($movie->toArray(), $this->getAdditionalDetailMovieData($movie));
-//        return Comment::where('movieId' ,$id )->leftJoin('user' , 'user.id' , '=' , 'comment.userId')->get();
     }
 
     private function getAdditionalDetailMovieData($movie)
     {
         $appUrl = env('APP_URL');
+        $favoriteItem = FavoriteMovie::where('userId' , auth()->id())->get();
+        $isLiked = ($favoriteItem != null);
 
         return [
+            'isLiked' => $isLiked,
             'countryName' => cache()->remember("movie$movie->id-country", 60 * 60 * 24, function () use ($movie) {
                 return Country::findOrFail($movie->countryId)->name;
             })
@@ -68,9 +76,7 @@ class ClientMovieController extends Controller
             }),
 
             'episodes' => cache()->remember("movie$movie->id-episodes", 60 * 60 * 24, function () use ($movie) {
-                return Episode::where('movieId', $movie->id)->get()->groupBy((function ($item, $key) {
-                    return 'Season ' . $item['seasonId'];
-                }));
+                return Episode::where('movieId', $movie->id)->get();
             })
             ,
             'comments' => cache()->remember("movie$movie->id-comments", 60 * 60 * 24, function () use ($appUrl, $movie) {
@@ -131,7 +137,7 @@ class ClientMovieController extends Controller
     }
 
     /**
-     * get favorite movie
+     * get your favorite movie
      * @authenticated
      */
     public function getFavoriteMovies()
@@ -159,4 +165,5 @@ class ClientMovieController extends Controller
     {
         return $this->movieRepo->getMovieByDirectorId($directorId);
     }
+
 }

@@ -19,11 +19,11 @@ class EpisodeSeeder extends Seeder
     public function run()
     {
         //
-        Movie::where('categoryId',10770)->chunk(2000, function ($movies) {
+        Movie::chunk(100, function ($movies) {
             foreach ($movies as $movie) {
-                $season_rand = rand(10,29);
-                for($season = 1 ; $season < $season_rand ;$season ++) {
-                    $rand_number = rand(10,100);
+                $season_rand = rand(0 ,1);
+                for($season = 1 ; $season <= $season_rand ;$season ++) {
+                    $rand_number = rand(1,10);
                     for($i =1 ; $i <$rand_number;$i ++) {
                         $name = 'Episode '.$i;
                         Episode::create([

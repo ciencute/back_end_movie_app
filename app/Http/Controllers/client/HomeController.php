@@ -37,11 +37,13 @@ class HomeController extends Controller
     private function getHomeData()
     {
         $category = $this->categoryRepo->getAllCategory();
-        $latestMovies = $this->movieRepo->get20LatestMovie();
-        $mostViewMovies = $this->movieRepo->getMost20ViewMovie();
-        $animationMovies = $this->movieRepo->get20AnimationMovie();
-        $tvMovies = $this->movieRepo->get20TvMovie();
+        $latestMovies = $this->movieRepo->get10LatestMovie();
+        $mostViewMovies = $this->movieRepo->getMost10ViewMovie();
+        $animationMovies = $this->movieRepo->get10AnimationMovie();
+        $tvMovies = $this->movieRepo->get10TvMovie();
         $sliders =  $this->sliderRepo->getAllSlider();
+        $top10FavoriteMovies = $this->movieRepo->getTop10FavoriteMovie();
+        $your10FavoriteMovie = $this->movieRepo->getTop10YourFavoriteMovie();
         return [
             "categories" =>  $category,
             "slider" => $sliders,
@@ -50,6 +52,16 @@ class HomeController extends Controller
                     'name' => "Hot Movie",
                     'url' => route('movie.mostView'),
                     'data' => $mostViewMovies
+                ],
+                'top10FavoriteMovies' => [
+                    'name' => "Top 10 Favorite Movie",
+                    'url' => route('movie.favorite'),
+                    'data' => $top10FavoriteMovies
+                ],
+                'Your10FavoriteMovies' => [
+                    'name' => "Your Favorite Movies",
+                    'url' => route('movie.yourFavorite'),
+                    'data' => $your10FavoriteMovie
                 ],
                 "latestMovies" => [
                     'name' => "Latest Movie",

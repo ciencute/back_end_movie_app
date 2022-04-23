@@ -6,9 +6,14 @@ Route::post('register' , [\App\Http\Controllers\AuthController::class , 'registe
 Route::get('home' , [\App\Http\Controllers\client\HomeController::class, 'Home'])->name('home');
 
 Route::prefix('movies')->group(function () {
+    Route::get("watched" , [\App\Http\Controllers\client\MovieWatchingHistoryController::class, 'getWatchedMovie'] )->name('movie.watched');
+
     Route::get("latest" , [\App\Http\Controllers\client\ClientMovieController::class, 'getLatestMovie'] )->name('movie.latest');
-    Route::get("mostView" , [\App\Http\Controllers\client\ClientMovieController::class, 'getMostViewMovies'] )->name('movie.mostView');
-    Route::get("mostView/topWeek" , [\App\Http\Controllers\client\MovieWatchingHistoryController::class, 'top10ViewOfWeek'] )->name('movie.mostView.topViewOfWeek');
+    Route::get("topView" , [\App\Http\Controllers\client\ClientMovieController::class, 'getMostViewMovies'] )->name('movie.mostView');
+    Route::get("topViews/week" , [\App\Http\Controllers\client\MovieWatchingHistoryController::class, 'top10ViewOfWeek'] )->name('movie.mostView.topViewOfWeek');
+    Route::get("topViews/day" , [\App\Http\Controllers\client\MovieWatchingHistoryController::class, 'top10ViewOfDay'] )->name('movie.mostView.topViewOfDay');
+    Route::get("topViews/month" , [\App\Http\Controllers\client\MovieWatchingHistoryController::class, 'top10ViewOfMonth'] )->name('movie.mostView.topViewOfMonth');
+    Route::get("topViews/year" , [\App\Http\Controllers\client\MovieWatchingHistoryController::class, 'top10ViewOfYear'] )->name('movie.mostView.topViewOfYear');
 
 
 
@@ -23,7 +28,8 @@ Route::prefix('movies')->group(function () {
     Route::get("actor/{actorId}" , [\App\Http\Controllers\client\ClientMovieController::class, 'getMovieByActorId'] )->name("movie.getByActorId");
     Route::get("director/{directorId}" , [\App\Http\Controllers\client\ClientMovieController::class, 'getMovieByDirectorId'] )->name("movie.getByDirectorId");
 
-    Route::get("favorite/movie" , [\App\Http\Controllers\client\ClientMovieController::class, 'getFavoriteMovies'] )->name('movie.favorite');
+    Route::get("favorite/movie" , [\App\Http\Controllers\client\FavoriteController::class, 'getTopFavoriteMovie'] )->name('movie.favorite');
+    Route::get("favorite/yourFavorite" , [\App\Http\Controllers\client\ClientMovieController::class, 'getFavoriteMovies'] )->name('movie.yourFavorite');
     Route::get("favorite/movie/top10ofAll" , [\App\Http\Controllers\client\FavoriteController::class, 'getTop10FavoriteMovie'] )->name('movie.favorite.top10');
 
     Route::post("favorite/movie/add" , [\App\Http\Controllers\client\FavoriteController::class, 'addToFavoriteMovie'] )->name('movie.favorite.add');
@@ -42,6 +48,9 @@ Route::prefix('category')->group(function () {
 
 });
 Route::prefix('user')->group(function () {
+    Route::get("/actors" , [\App\Http\Controllers\client\UserController::class, 'getAllActor'] )->name('user.actors');
+    Route::get("/directors" , [\App\Http\Controllers\client\UserController::class, 'getAllDirector'] )->name('user.directors');
+
     Route::get("/profile" , [\App\Http\Controllers\client\UserActionController::class, 'profile'] )->name('user.profile');
     Route::get("/profile/{id}" , [\App\Http\Controllers\client\UserActionController::class, 'getProfileById'] )->name('user.profileById');
     Route::post("/editProfile" , [\App\Http\Controllers\client\UserActionController::class, 'editProfile'] )->name('user.editProfile');
