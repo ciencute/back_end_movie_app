@@ -52,7 +52,7 @@ class FavoriteController extends Controller
     public function removeFromFavoriteMovie(RemoveFromFavoriteMovieRequest $request)
     {
         try {
-            FavoriteMovie::where('movieId', $request['movieId'])->where('userId', auth()->id())->first()->delete();
+            FavoriteMovie::where('movieId', $request['movieId'])->where('userId', auth()->id())->first()?->delete();
             Movie::findOrFail($request->movieId)->decrement('favoriteCount');
 
             return json_encode([
