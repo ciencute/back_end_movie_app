@@ -34,9 +34,13 @@ class FavoriteController extends Controller
             FavoriteMovie::create($insertData);
             Movie::findOrFail($request->movieId)->increment('favoriteCount');
 
-            return true;
+            return json_encode([
+                'success' => true,
+            ]);
         } catch (\Exception $exception) {
-            return false;
+            return json_encode([
+                'success' => false,
+            ]);
         }
 
     }
@@ -50,14 +54,20 @@ class FavoriteController extends Controller
         try {
             $favor_item = FavoriteMovie::where('movieId', $request['movieId'])->where('userId', auth()->id());
             if($favor_item->get()->count() == 0) {
-                return false;
+                return json_encode([
+                    'success' => false,
+                ]);
             }
             $favor_item->delete();
             Movie::findOrFail($request->movieId)->decrement('favoriteCount');
 
-            return true;
+            return json_encode([
+                'success' => true,
+            ]);
         } catch (\Exception|Error $exception) {
-            return false;
+            return json_encode([
+                'success' => false,
+            ]);
         }
     }
 
@@ -75,9 +85,13 @@ class FavoriteController extends Controller
 
             FavoriteActor::create($insertData);
             Actor::findOrFail($request->actorId)->increment('favoriteCount');
-            return true;
+            return json_encode([
+                'success' => true,
+            ]);
         } catch (Error|Exception$exception) {
-            return false;
+            return json_encode([
+                'success' => false,
+            ]);
         }
 
     }
@@ -91,9 +105,13 @@ class FavoriteController extends Controller
         try {
             FavoriteActor::where('actorId', $request['actorId'])->where('userId', auth()->id())->first()->delete();
             Actor::findOrFail($request->actorId)->decrement('favoriteCount');
-            return true;
+            return json_encode([
+                'success' => true,
+            ]);
         } catch (Error|Exception $exception) {
-            return false;
+            return json_encode([
+                'success' => false,
+            ]);
         }
     }
 
