@@ -209,7 +209,7 @@
                             <li><a href="http://github.com/knuckleswtf/scribe">Documentation powered by Scribe ✍</a></li>
                     </ul>
         <ul class="toc-footer" id="last-updated">
-        <li>Last updated: April 24 2022</li>
+        <li>Last updated: April 25 2022</li>
     </ul>
 </div>
 
@@ -727,29 +727,29 @@ access-control-allow-origin: *
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: multipart/form-data" \
     --header "Accept: application/json" \
-    --form "title=ad" \
-    --form "original_title=sint" \
-    --form "embededCode=qui" \
-    --form "trailerKey=totam" \
-    --form "directorId=13" \
-    --form "description=expedita" \
-    --form "countryId=15" \
-    --form "duration=9" \
-    --form "viewCount=1" \
-    --form "categoryId=10" \
-    --form "slug=qui" \
-    --form "imdb=19" \
+    --form "title=qui" \
+    --form "original_title=laboriosam" \
+    --form "embededCode=nemo" \
+    --form "trailerKey=ut" \
+    --form "directorId=6" \
+    --form "description=error" \
+    --form "countryId=12" \
+    --form "duration=15" \
+    --form "viewCount=17" \
+    --form "categoryId=12" \
+    --form "slug=corporis" \
+    --form "imdb=10" \
     --form "isMovie18=1" \
-    --form "isFinished=1" \
-    --form "isMovieSeries=1" \
-    --form "totalEpisode=13" \
-    --form "quality=incidunt" \
-    --form "publishedAt=2022-04-24T23:53:45" \
-    --form "createdAt=2022-04-24T23:53:45" \
-    --form "updatedAt=2022-04-24T23:53:45" \
-    --form "img=@C:\Users\mynam\AppData\Local\Temp\php23D9.tmp" \
-    --form "url=@C:\Users\mynam\AppData\Local\Temp\php23DA.tmp" \
-    --form "bgImg=@C:\Users\mynam\AppData\Local\Temp\php23EB.tmp" </code></pre></div>
+    --form "isFinished=0" \
+    --form "isMovieSeries=0" \
+    --form "totalEpisode=2" \
+    --form "quality=quos" \
+    --form "publishedAt=2022-04-25T00:04:05" \
+    --form "createdAt=2022-04-25T00:04:05" \
+    --form "updatedAt=2022-04-25T00:04:05" \
+    --form "img=@C:\Users\mynam\AppData\Local\Temp\php9BDC.tmp" \
+    --form "url=@C:\Users\mynam\AppData\Local\Temp\php9BDD.tmp" \
+    --form "bgImg=@C:\Users\mynam\AppData\Local\Temp\php9BEE.tmp" </code></pre></div>
 
 
 <div class="javascript-example">
@@ -764,26 +764,26 @@ const headers = {
 };
 
 const body = new FormData();
-body.append('title', 'ad');
-body.append('original_title', 'sint');
-body.append('embededCode', 'qui');
-body.append('trailerKey', 'totam');
-body.append('directorId', '13');
-body.append('description', 'expedita');
-body.append('countryId', '15');
-body.append('duration', '9');
-body.append('viewCount', '1');
-body.append('categoryId', '10');
-body.append('slug', 'qui');
-body.append('imdb', '19');
+body.append('title', 'qui');
+body.append('original_title', 'laboriosam');
+body.append('embededCode', 'nemo');
+body.append('trailerKey', 'ut');
+body.append('directorId', '6');
+body.append('description', 'error');
+body.append('countryId', '12');
+body.append('duration', '15');
+body.append('viewCount', '17');
+body.append('categoryId', '12');
+body.append('slug', 'corporis');
+body.append('imdb', '10');
 body.append('isMovie18', '1');
-body.append('isFinished', '1');
-body.append('isMovieSeries', '1');
-body.append('totalEpisode', '13');
-body.append('quality', 'incidunt');
-body.append('publishedAt', '2022-04-24T23:53:45');
-body.append('createdAt', '2022-04-24T23:53:45');
-body.append('updatedAt', '2022-04-24T23:53:45');
+body.append('isFinished', '0');
+body.append('isMovieSeries', '0');
+body.append('totalEpisode', '2');
+body.append('quality', 'quos');
+body.append('publishedAt', '2022-04-25T00:04:05');
+body.append('createdAt', '2022-04-25T00:04:05');
+body.append('updatedAt', '2022-04-25T00:04:05');
 body.append('img', document.querySelector('input[name="img"]').files[0]);
 body.append('url', document.querySelector('input[name="url"]').files[0]);
 body.append('bgImg', document.querySelector('input[name="bgImg"]').files[0]);
@@ -851,7 +851,7 @@ fetch(url, {
                 <input type="text"
                name="title"
                data-endpoint="POSTapi-movies"
-               value="ad"
+               value="qui"
                data-component="body" hidden>
     <br>
 
@@ -861,7 +861,7 @@ fetch(url, {
                 <input type="text"
                name="original_title"
                data-endpoint="POSTapi-movies"
-               value="sint"
+               value="laboriosam"
                data-component="body" hidden>
     <br>
 
@@ -891,7 +891,7 @@ fetch(url, {
                 <input type="text"
                name="embededCode"
                data-endpoint="POSTapi-movies"
-               value="qui"
+               value="nemo"
                data-component="body" hidden>
     <br>
 
@@ -901,7 +901,7 @@ fetch(url, {
                 <input type="text"
                name="trailerKey"
                data-endpoint="POSTapi-movies"
-               value="totam"
+               value="ut"
                data-component="body" hidden>
     <br>
 
@@ -911,7 +911,7 @@ fetch(url, {
                 <input type="number"
                name="directorId"
                data-endpoint="POSTapi-movies"
-               value="13"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -931,7 +931,7 @@ fetch(url, {
                 <input type="text"
                name="description"
                data-endpoint="POSTapi-movies"
-               value="expedita"
+               value="error"
                data-component="body" hidden>
     <br>
 
@@ -941,7 +941,7 @@ fetch(url, {
                 <input type="number"
                name="countryId"
                data-endpoint="POSTapi-movies"
-               value="15"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -951,7 +951,7 @@ fetch(url, {
                 <input type="number"
                name="duration"
                data-endpoint="POSTapi-movies"
-               value="9"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -961,7 +961,7 @@ fetch(url, {
                 <input type="number"
                name="viewCount"
                data-endpoint="POSTapi-movies"
-               value="1"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -971,7 +971,7 @@ fetch(url, {
                 <input type="number"
                name="categoryId"
                data-endpoint="POSTapi-movies"
-               value="10"
+               value="12"
                data-component="body" hidden>
     <br>
 
@@ -981,7 +981,7 @@ fetch(url, {
                 <input type="text"
                name="slug"
                data-endpoint="POSTapi-movies"
-               value="qui"
+               value="corporis"
                data-component="body" hidden>
     <br>
 
@@ -991,7 +991,7 @@ fetch(url, {
                 <input type="number"
                name="imdb"
                data-endpoint="POSTapi-movies"
-               value="19"
+               value="10"
                data-component="body" hidden>
     <br>
 
@@ -1011,7 +1011,7 @@ fetch(url, {
                 <input type="text"
                name="isFinished"
                data-endpoint="POSTapi-movies"
-               value="1"
+               value="0"
                data-component="body" hidden>
     <br>
 <p>Must be one of <code>0</code> or <code>1</code>.</p>
@@ -1021,7 +1021,7 @@ fetch(url, {
                 <input type="text"
                name="isMovieSeries"
                data-endpoint="POSTapi-movies"
-               value="1"
+               value="0"
                data-component="body" hidden>
     <br>
 <p>Must be one of <code>0</code> or <code>1</code>.</p>
@@ -1031,7 +1031,7 @@ fetch(url, {
                 <input type="number"
                name="totalEpisode"
                data-endpoint="POSTapi-movies"
-               value="13"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -1041,7 +1041,7 @@ fetch(url, {
                 <input type="text"
                name="quality"
                data-endpoint="POSTapi-movies"
-               value="incidunt"
+               value="quos"
                data-component="body" hidden>
     <br>
 
@@ -1051,7 +1051,7 @@ fetch(url, {
                 <input type="text"
                name="publishedAt"
                data-endpoint="POSTapi-movies"
-               value="2022-04-24T23:53:45"
+               value="2022-04-25T00:04:05"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1061,7 +1061,7 @@ fetch(url, {
                 <input type="text"
                name="createdAt"
                data-endpoint="POSTapi-movies"
-               value="2022-04-24T23:53:45"
+               value="2022-04-25T00:04:05"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1071,7 +1071,7 @@ fetch(url, {
                 <input type="text"
                name="updatedAt"
                data-endpoint="POSTapi-movies"
-               value="2022-04-24T23:53:45"
+               value="2022-04-25T00:04:05"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1096,30 +1096,30 @@ fetch(url, {
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: multipart/form-data" \
     --header "Accept: application/json" \
-    --form "id=8" \
-    --form "title=dignissimos" \
-    --form "original_title=non" \
-    --form "embededCode=delectus" \
-    --form "trailerKey=et" \
-    --form "directorId=5" \
-    --form "description=ipsa" \
+    --form "id=17" \
+    --form "title=molestiae" \
+    --form "original_title=vero" \
+    --form "embededCode=qui" \
+    --form "trailerKey=voluptatem" \
+    --form "directorId=15" \
+    --form "description=omnis" \
     --form "countryId=1" \
-    --form "duration=3" \
-    --form "viewCount=7" \
-    --form "categoryId=12" \
-    --form "slug=aut" \
-    --form "imdb=1" \
+    --form "duration=1" \
+    --form "viewCount=13" \
+    --form "categoryId=1" \
+    --form "slug=velit" \
+    --form "imdb=7" \
     --form "isMovie18=1" \
-    --form "isFinished=0" \
-    --form "isMovieSeries=1" \
-    --form "totalEpisode=3" \
-    --form "quality=assumenda" \
-    --form "publishedAt=2022-04-24T23:53:45" \
-    --form "createdAt=2022-04-24T23:53:45" \
-    --form "updatedAt=2022-04-24T23:53:45" \
-    --form "img=@C:\Users\mynam\AppData\Local\Temp\php23FB.tmp" \
-    --form "url=@C:\Users\mynam\AppData\Local\Temp\php23FC.tmp" \
-    --form "bgImg=@C:\Users\mynam\AppData\Local\Temp\php23FD.tmp" </code></pre></div>
+    --form "isFinished=1" \
+    --form "isMovieSeries=0" \
+    --form "totalEpisode=9" \
+    --form "quality=sequi" \
+    --form "publishedAt=2022-04-25T00:04:05" \
+    --form "createdAt=2022-04-25T00:04:05" \
+    --form "updatedAt=2022-04-25T00:04:05" \
+    --form "img=@C:\Users\mynam\AppData\Local\Temp\php9BFE.tmp" \
+    --form "url=@C:\Users\mynam\AppData\Local\Temp\php9BFF.tmp" \
+    --form "bgImg=@C:\Users\mynam\AppData\Local\Temp\php9C00.tmp" </code></pre></div>
 
 
 <div class="javascript-example">
@@ -1134,27 +1134,27 @@ const headers = {
 };
 
 const body = new FormData();
-body.append('id', '8');
-body.append('title', 'dignissimos');
-body.append('original_title', 'non');
-body.append('embededCode', 'delectus');
-body.append('trailerKey', 'et');
-body.append('directorId', '5');
-body.append('description', 'ipsa');
+body.append('id', '17');
+body.append('title', 'molestiae');
+body.append('original_title', 'vero');
+body.append('embededCode', 'qui');
+body.append('trailerKey', 'voluptatem');
+body.append('directorId', '15');
+body.append('description', 'omnis');
 body.append('countryId', '1');
-body.append('duration', '3');
-body.append('viewCount', '7');
-body.append('categoryId', '12');
-body.append('slug', 'aut');
-body.append('imdb', '1');
+body.append('duration', '1');
+body.append('viewCount', '13');
+body.append('categoryId', '1');
+body.append('slug', 'velit');
+body.append('imdb', '7');
 body.append('isMovie18', '1');
-body.append('isFinished', '0');
-body.append('isMovieSeries', '1');
-body.append('totalEpisode', '3');
-body.append('quality', 'assumenda');
-body.append('publishedAt', '2022-04-24T23:53:45');
-body.append('createdAt', '2022-04-24T23:53:45');
-body.append('updatedAt', '2022-04-24T23:53:45');
+body.append('isFinished', '1');
+body.append('isMovieSeries', '0');
+body.append('totalEpisode', '9');
+body.append('quality', 'sequi');
+body.append('publishedAt', '2022-04-25T00:04:05');
+body.append('createdAt', '2022-04-25T00:04:05');
+body.append('updatedAt', '2022-04-25T00:04:05');
 body.append('img', document.querySelector('input[name="img"]').files[0]);
 body.append('url', document.querySelector('input[name="url"]').files[0]);
 body.append('bgImg', document.querySelector('input[name="bgImg"]').files[0]);
@@ -1222,7 +1222,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="PUTapi-movies"
-               value="8"
+               value="17"
                data-component="body" hidden>
     <br>
 
@@ -1232,7 +1232,7 @@ fetch(url, {
                 <input type="text"
                name="title"
                data-endpoint="PUTapi-movies"
-               value="dignissimos"
+               value="molestiae"
                data-component="body" hidden>
     <br>
 
@@ -1242,7 +1242,7 @@ fetch(url, {
                 <input type="text"
                name="original_title"
                data-endpoint="PUTapi-movies"
-               value="non"
+               value="vero"
                data-component="body" hidden>
     <br>
 
@@ -1272,7 +1272,7 @@ fetch(url, {
                 <input type="text"
                name="embededCode"
                data-endpoint="PUTapi-movies"
-               value="delectus"
+               value="qui"
                data-component="body" hidden>
     <br>
 
@@ -1282,7 +1282,7 @@ fetch(url, {
                 <input type="text"
                name="trailerKey"
                data-endpoint="PUTapi-movies"
-               value="et"
+               value="voluptatem"
                data-component="body" hidden>
     <br>
 
@@ -1292,7 +1292,7 @@ fetch(url, {
                 <input type="number"
                name="directorId"
                data-endpoint="PUTapi-movies"
-               value="5"
+               value="15"
                data-component="body" hidden>
     <br>
 
@@ -1312,7 +1312,7 @@ fetch(url, {
                 <input type="text"
                name="description"
                data-endpoint="PUTapi-movies"
-               value="ipsa"
+               value="omnis"
                data-component="body" hidden>
     <br>
 
@@ -1332,7 +1332,7 @@ fetch(url, {
                 <input type="number"
                name="duration"
                data-endpoint="PUTapi-movies"
-               value="3"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -1342,7 +1342,7 @@ fetch(url, {
                 <input type="number"
                name="viewCount"
                data-endpoint="PUTapi-movies"
-               value="7"
+               value="13"
                data-component="body" hidden>
     <br>
 
@@ -1352,7 +1352,7 @@ fetch(url, {
                 <input type="number"
                name="categoryId"
                data-endpoint="PUTapi-movies"
-               value="12"
+               value="1"
                data-component="body" hidden>
     <br>
 
@@ -1362,7 +1362,7 @@ fetch(url, {
                 <input type="text"
                name="slug"
                data-endpoint="PUTapi-movies"
-               value="aut"
+               value="velit"
                data-component="body" hidden>
     <br>
 
@@ -1372,7 +1372,7 @@ fetch(url, {
                 <input type="number"
                name="imdb"
                data-endpoint="PUTapi-movies"
-               value="1"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -1392,7 +1392,7 @@ fetch(url, {
                 <input type="text"
                name="isFinished"
                data-endpoint="PUTapi-movies"
-               value="0"
+               value="1"
                data-component="body" hidden>
     <br>
 <p>Must be one of <code>0</code> or <code>1</code>.</p>
@@ -1402,7 +1402,7 @@ fetch(url, {
                 <input type="text"
                name="isMovieSeries"
                data-endpoint="PUTapi-movies"
-               value="1"
+               value="0"
                data-component="body" hidden>
     <br>
 <p>Must be one of <code>0</code> or <code>1</code>.</p>
@@ -1412,7 +1412,7 @@ fetch(url, {
                 <input type="number"
                name="totalEpisode"
                data-endpoint="PUTapi-movies"
-               value="3"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -1422,7 +1422,7 @@ fetch(url, {
                 <input type="text"
                name="quality"
                data-endpoint="PUTapi-movies"
-               value="assumenda"
+               value="sequi"
                data-component="body" hidden>
     <br>
 
@@ -1432,7 +1432,7 @@ fetch(url, {
                 <input type="text"
                name="publishedAt"
                data-endpoint="PUTapi-movies"
-               value="2022-04-24T23:53:45"
+               value="2022-04-25T00:04:05"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1442,7 +1442,7 @@ fetch(url, {
                 <input type="text"
                name="createdAt"
                data-endpoint="PUTapi-movies"
-               value="2022-04-24T23:53:45"
+               value="2022-04-25T00:04:05"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1452,7 +1452,7 @@ fetch(url, {
                 <input type="text"
                name="updatedAt"
                data-endpoint="PUTapi-movies"
-               value="2022-04-24T23:53:45"
+               value="2022-04-25T00:04:05"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date.</p>
@@ -1478,7 +1478,7 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"id\": 7
+    \"id\": 18
 }"
 </code></pre></div>
 
@@ -1495,7 +1495,7 @@ const headers = {
 };
 
 let body = {
-    "id": 7
+    "id": 18
 };
 
 fetch(url, {
@@ -1561,7 +1561,7 @@ fetch(url, {
                 <input type="number"
                name="id"
                data-endpoint="DELETEapi-movies"
-               value="7"
+               value="18"
                data-component="body" hidden>
     <br>
 
@@ -2982,9 +2982,9 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"name\": \"qsedsqi\",
+    \"name\": \"tmecgnrdnxbymoputglwlwuryutwrpelumdkdxltbjgtggpaoicqrfmerchejgyfakwyibvgddyxcpxxdxbrbffdzbphodsrwm\",
     \"email\": \"ljenkins@example.net\",
-    \"password\": \"fvm\"
+    \"password\": \"zydvor\"
 }"
 </code></pre></div>
 
@@ -3000,9 +3000,9 @@ const headers = {
 };
 
 let body = {
-    "name": "qsedsqi",
+    "name": "tmecgnrdnxbymoputglwlwuryutwrpelumdkdxltbjgtggpaoicqrfmerchejgyfakwyibvgddyxcpxxdxbrbffdzbphodsrwm",
     "email": "ljenkins@example.net",
-    "password": "fvm"
+    "password": "zydvor"
 };
 
 fetch(url, {
@@ -3060,7 +3060,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-register"
-               value="qsedsqi"
+               value="tmecgnrdnxbymoputglwlwuryutwrpelumdkdxltbjgtggpaoicqrfmerchejgyfakwyibvgddyxcpxxdxbrbffdzbphodsrwm"
                data-component="body" hidden>
     <br>
 <p>Must be between 2 and 100 characters.</p>
@@ -3080,7 +3080,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-register"
-               value="fvm"
+               value="zydvor"
                data-component="body" hidden>
     <br>
 <p>Must be at least 6 characters.</p>
@@ -7014,7 +7014,7 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://movieapp.test/api/movies/11" \
+    --get "http://movieapp.test/api/movies/4" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -7022,7 +7022,7 @@ access-control-allow-origin: *
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://movieapp.test/api/movies/11"
+    "http://movieapp.test/api/movies/4"
 );
 
 const headers = {
@@ -7040,7 +7040,7 @@ fetch(url, {
 
 <span id="example-responses-GETapi-movies--id-">
             <blockquote>
-            <p>Example response (200):</p>
+            <p>Example response (404):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -7053,155 +7053,402 @@ access-control-allow-origin: *
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 11,
-    &quot;title&quot;: &quot;Star Wars&quot;,
-    &quot;original_title&quot;: &quot;Star Wars&quot;,
-    &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg&quot;,
-    &quot;url&quot;: &quot;https://www.youtube.com/watch?v=XHk5kCIiGoM&quot;,
-    &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/XHk5kCIiGoM\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-    &quot;trailerKey&quot;: &quot;XHk5kCIiGoM&quot;,
-    &quot;directorId&quot;: 66,
-    &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg&quot;,
-    &quot;description&quot;: &quot;Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.&quot;,
-    &quot;countryId&quot;: 175,
-    &quot;duration&quot;: 121,
-    &quot;viewCount&quot;: 17235,
-    &quot;categoryId&quot;: 12,
-    &quot;slug&quot;: &quot;star-wars&quot;,
-    &quot;imdb&quot;: 8.2,
-    &quot;isMovie18&quot;: 1,
-    &quot;isFinished&quot;: 0,
-    &quot;isMovieSeries&quot;: 0,
-    &quot;totalEpisode&quot;: 1,
-    &quot;quality&quot;: &quot;fullHd&quot;,
-    &quot;publishedAt&quot;: &quot;1977-05-25&quot;,
-    &quot;createdAt&quot;: &quot;2022-04-11T16:57:40.000000Z&quot;,
-    &quot;updatedAt&quot;: &quot;2022-04-11T16:57:40.000000Z&quot;,
-    &quot;averageRating&quot;: 2.7143,
-    &quot;favoriteCount&quot;: 59,
-    &quot;isLiked&quot;: false,
-    &quot;countryName&quot;: &quot;Qatar&quot;,
-    &quot;actors&quot;: [
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Movie] 4&quot;,
+    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
+    &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+    &quot;line&quot;: 355,
+    &quot;trace&quot;: [
         {
-            &quot;id&quot;: 10,
-            &quot;actorId&quot;: 134,
-            &quot;movieId&quot;: 11,
-            &quot;actorName&quot;: &quot;Jamie Foxx&quot;
-        }
-    ],
-    &quot;ratings&quot;: [
-        {
-            &quot;ratingId&quot;: 29,
-            &quot;ratingPoint&quot;: 2,
-            &quot;userName&quot;: &quot;Cullen Feeney&quot;
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+            &quot;line&quot;: 331,
+            &quot;function&quot;: &quot;prepareException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;ratingId&quot;: 25,
-            &quot;ratingPoint&quot;: 2,
-            &quot;userName&quot;: &quot;Dr. Mckenna Lebsack II&quot;
-        }
-    ],
-    &quot;episodes&quot;: [],
-    &quot;comments&quot;: [
-        {
-            &quot;id&quot;: 7,
-            &quot;userId&quot;: 151,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Et est possimus quibusdam. Fugit nemo libero dolor ducimus minima minima. Corrupti voluptas et sit quas.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:34.000000Z&quot;,
-            &quot;userName&quot;: null,
-            &quot;img&quot;: null,
-            &quot;profileUrl&quot;: null
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 8,
-            &quot;userId&quot;: 118,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Non ex optio velit velit ea nam a. Quia atque mollitia culpa laborum quidem numquam blanditiis. Numquam debitis iusto maxime voluptatem aperiam.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:34.000000Z&quot;,
-            &quot;userName&quot;: null,
-            &quot;img&quot;: null,
-            &quot;profileUrl&quot;: null
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 9,
-            &quot;userId&quot;: 149,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Ducimus totam excepturi libero vel cumque. Beatae officia qui quis et consequatur quia numquam. Eaque earum earum sint maxime vel officiis. Blanditiis laboriosam distinctio nemo est ipsam quo earum.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:34.000000Z&quot;,
-            &quot;userName&quot;: null,
-            &quot;img&quot;: null,
-            &quot;profileUrl&quot;: null
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 143,
+            &quot;function&quot;: &quot;handleException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 10,
-            &quot;userId&quot;: 139,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Expedita blanditiis provident odio omnis id est at. Repellat et voluptate vel sit ut ut reprehenderit. Ut deserunt et commodi quidem corrupti eius. Vel rerum consequatur doloribus molestiae in.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:34.000000Z&quot;,
-            &quot;userName&quot;: null,
-            &quot;img&quot;: null,
-            &quot;profileUrl&quot;: null
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\app\\Http\\Middleware\\ValidateJwtToken.php&quot;,
+            &quot;line&quot;: 15,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 11,
-            &quot;userId&quot;: 192,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Voluptas labore aliquid eius nisi tempora et illo voluptas. Debitis vitae sed inventore possimus earum. Aut ut rerum cupiditate. Vero ad possimus et.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:34.000000Z&quot;,
-            &quot;userName&quot;: null,
-            &quot;img&quot;: null,
-            &quot;profileUrl&quot;: null
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;App\\Http\\Middleware\\ValidateJwtToken&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 12,
-            &quot;userId&quot;: 94,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Qui provident recusandae quia recusandae. Nostrum rerum quia blanditiis aspernatur. Eum optio magnam nihil.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:34.000000Z&quot;,
-            &quot;userName&quot;: &quot;Prof. Major Reichert Jr.&quot;,
-            &quot;img&quot;: &quot;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iWdKjMry5Pt7vmxU7bmOQsIUyHa.jpg&quot;,
-            &quot;profileUrl&quot;: &quot;http://movieapp.test/api/user/profile/94&quot;
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 13,
-            &quot;userId&quot;: 73,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Quod porro quo et sit aperiam velit. Dolorem labore omnis ut reiciendis nesciunt maxime sunt. Alias dicta voluptas iste eius iure suscipit totam occaecati.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:34.000000Z&quot;,
-            &quot;userName&quot;: &quot;Anya Zieme&quot;,
-            &quot;img&quot;: &quot;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iWdKjMry5Pt7vmxU7bmOQsIUyHa.jpg&quot;,
-            &quot;profileUrl&quot;: &quot;http://movieapp.test/api/user/profile/73&quot;
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 730,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 14,
-            &quot;userId&quot;: 46,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Et laudantium optio sint voluptates. Beatae vel sit nobis autem et temporibus ut est. Rem minima repellat et quia.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:34.000000Z&quot;,
-            &quot;userName&quot;: &quot;Miss Jany Lemke&quot;,
-            &quot;img&quot;: &quot;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iWdKjMry5Pt7vmxU7bmOQsIUyHa.jpg&quot;,
-            &quot;profileUrl&quot;: &quot;http://movieapp.test/api/user/profile/46&quot;
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 705,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 15,
-            &quot;userId&quot;: 186,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;Suscipit quo aut voluptate nesciunt. Sit numquam alias numquam enim labore labore. Magnam culpa dolorum sit vel est quo qui. Exercitationem dignissimos veniam voluptas provident excepturi.&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-20T16:02:35.000000Z&quot;,
-            &quot;userName&quot;: null,
-            &quot;img&quot;: null,
-            &quot;profileUrl&quot;: null
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 667,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         },
         {
-            &quot;id&quot;: 48801,
-            &quot;userId&quot;: 2,
-            &quot;movieId&quot;: 11,
-            &quot;content&quot;: &quot;hello&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-22T17:17:26.000000Z&quot;,
-            &quot;userName&quot;: &quot;corporis&quot;,
-            &quot;img&quot;: &quot;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iWdKjMry5Pt7vmxU7bmOQsIUyHa.jpg&quot;,
-            &quot;profileUrl&quot;: &quot;http://movieapp.test/api/user/profile/2&quot;
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 656,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 141,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
+            &quot;line&quot;: 31,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php&quot;,
+            &quot;line&quot;: 62,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
+            &quot;line&quot;: 39,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 142,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 111,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 287,
+            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 89,
+            &quot;function&quot;: &quot;makeApiCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;makeResponseCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 35,
+            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 222,
+            &quot;function&quot;: &quot;__invoke&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 179,
+            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;fetchResponses&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 118,
+            &quot;function&quot;: &quot;processRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 75,
+            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 50,
+            &quot;function&quot;: &quot;get&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 36,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
+            &quot;line&quot;: 41,
+            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 93,
+            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;callBoundMethod&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
+            &quot;line&quot;: 653,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 171,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Command\\Command.php&quot;,
+            &quot;line&quot;: 291,
+            &quot;function&quot;: &quot;execute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 156,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 989,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;doRunCommand&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 171,
+            &quot;function&quot;: &quot;doRun&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
+            &quot;line&quot;: 102,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
+            &quot;line&quot;: 129,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\artisan&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
         }
     ]
 }</code>
@@ -7260,7 +7507,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-movies--id-"
-               value="11"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the movie.</p>
@@ -7281,7 +7528,7 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://movieapp.test/api/movies/watch/14" \
+    --get "http://movieapp.test/api/movies/watch/17" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -7289,7 +7536,7 @@ access-control-allow-origin: *
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://movieapp.test/api/movies/watch/14"
+    "http://movieapp.test/api/movies/watch/17"
 );
 
 const headers = {
@@ -7307,7 +7554,7 @@ fetch(url, {
 
 <span id="example-responses-GETapi-movies-watch--movieId-">
             <blockquote>
-            <p>Example response (200):</p>
+            <p>Example response (404):</p>
         </blockquote>
                 <details class="annotation">
             <summary>
@@ -7320,32 +7567,404 @@ access-control-allow-origin: *
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 14,
-    &quot;title&quot;: &quot;American Beauty&quot;,
-    &quot;original_title&quot;: &quot;American Beauty&quot;,
-    &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/wby9315QzVKdW9BonAefg8jGTTb.jpg&quot;,
-    &quot;url&quot;: &quot;https://www.youtube.com/watch?v=IJM3cZlqwlA&quot;,
-    &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/IJM3cZlqwlA\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-    &quot;trailerKey&quot;: &quot;IJM3cZlqwlA&quot;,
-    &quot;directorId&quot;: 62,
-    &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/DztBnZaqmla2sGUW9s8AyOmskT.jpg&quot;,
-    &quot;description&quot;: &quot;Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.&quot;,
-    &quot;countryId&quot;: 179,
-    &quot;duration&quot;: 122,
-    &quot;viewCount&quot;: 10171,
-    &quot;categoryId&quot;: 18,
-    &quot;slug&quot;: &quot;american-beauty&quot;,
-    &quot;imdb&quot;: 8,
-    &quot;isMovie18&quot;: 0,
-    &quot;isFinished&quot;: 0,
-    &quot;isMovieSeries&quot;: 0,
-    &quot;totalEpisode&quot;: 1,
-    &quot;quality&quot;: &quot;fullHd&quot;,
-    &quot;publishedAt&quot;: &quot;1999-09-15&quot;,
-    &quot;createdAt&quot;: &quot;2022-04-11T17:52:41.000000Z&quot;,
-    &quot;updatedAt&quot;: &quot;2022-04-11T17:52:41.000000Z&quot;,
-    &quot;averageRating&quot;: 2.8571,
-    &quot;favoriteCount&quot;: 5
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Movie] 17&quot;,
+    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
+    &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+    &quot;line&quot;: 355,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php&quot;,
+            &quot;line&quot;: 331,
+            &quot;function&quot;: &quot;prepareException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\nunomaduro\\collision\\src\\Adapters\\Laravel\\ExceptionHandler.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Exceptions\\Handler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;render&quot;,
+            &quot;class&quot;: &quot;NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 143,
+            &quot;function&quot;: &quot;handleException&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\app\\Http\\Middleware\\ValidateJwtToken.php&quot;,
+            &quot;line&quot;: 15,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;App\\Http\\Middleware\\ValidateJwtToken&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 730,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 705,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 667,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 656,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 141,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php&quot;,
+            &quot;line&quot;: 31,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php&quot;,
+            &quot;line&quot;: 40,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TrimStrings&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php&quot;,
+            &quot;line&quot;: 62,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\HandleCors&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php&quot;,
+            &quot;line&quot;: 39,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 180,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Http\\Middleware\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 142,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 111,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 287,
+            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 89,
+            &quot;function&quot;: &quot;makeApiCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;makeResponseCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 35,
+            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 222,
+            &quot;function&quot;: &quot;__invoke&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 179,
+            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 116,
+            &quot;function&quot;: &quot;fetchResponses&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 118,
+            &quot;function&quot;: &quot;processRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 75,
+            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php&quot;,
+            &quot;line&quot;: 51,
+            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 50,
+            &quot;function&quot;: &quot;get&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 36,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
+            &quot;line&quot;: 41,
+            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 93,
+            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;callBoundMethod&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
+            &quot;line&quot;: 653,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 171,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Command\\Command.php&quot;,
+            &quot;line&quot;: 291,
+            &quot;function&quot;: &quot;execute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 156,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 989,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 299,
+            &quot;function&quot;: &quot;doRunCommand&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 171,
+            &quot;function&quot;: &quot;doRun&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
+            &quot;line&quot;: 102,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
+            &quot;line&quot;: 129,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\laragon\\www\\movieapp\\artisan&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
 }</code>
  </pre>
     </span>
@@ -7402,7 +8021,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="movieId"
                data-endpoint="GETapi-movies-watch--movieId-"
-               value="14"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>The ID of the movie. Example : 14</p>
@@ -7422,14 +8041,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://movieapp.test/api/movies/category/10" \
+    --get "http://movieapp.test/api/movies/category/4" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://movieapp.test/api/movies/category/10"
+    "http://movieapp.test/api/movies/category/4"
 );
 
 const headers = {
@@ -7461,10 +8080,10 @@ access-control-allow-origin: *
 <code class="language-json">{
     &quot;current_page&quot;: 1,
     &quot;data&quot;: [],
-    &quot;first_page_url&quot;: &quot;http://movieapp.test/api/movies/category/10?page=1&quot;,
+    &quot;first_page_url&quot;: &quot;http://movieapp.test/api/movies/category/4?page=1&quot;,
     &quot;from&quot;: null,
     &quot;last_page&quot;: 1,
-    &quot;last_page_url&quot;: &quot;http://movieapp.test/api/movies/category/10?page=1&quot;,
+    &quot;last_page_url&quot;: &quot;http://movieapp.test/api/movies/category/4?page=1&quot;,
     &quot;links&quot;: [
         {
             &quot;url&quot;: null,
@@ -7472,7 +8091,7 @@ access-control-allow-origin: *
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;http://movieapp.test/api/movies/category/10?page=1&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies/category/4?page=1&quot;,
             &quot;label&quot;: &quot;1&quot;,
             &quot;active&quot;: true
         },
@@ -7483,7 +8102,7 @@ access-control-allow-origin: *
         }
     ],
     &quot;next_page_url&quot;: null,
-    &quot;path&quot;: &quot;http://movieapp.test/api/movies/category/10&quot;,
+    &quot;path&quot;: &quot;http://movieapp.test/api/movies/category/4&quot;,
     &quot;per_page&quot;: 10,
     &quot;prev_page_url&quot;: null,
     &quot;to&quot;: null,
@@ -7536,7 +8155,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="categoryId"
                data-endpoint="GETapi-movies-category--categoryId-"
-               value="10"
+               value="4"
                data-component="url" hidden>
     <br>
 <p>The ID of the category. Example : 14</p>
@@ -7546,7 +8165,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="page"
                data-endpoint="GETapi-movies-category--categoryId-"
-               value="7"
+               value="17"
                data-component="url" hidden>
     <br>
 <p>nullable The ID of the category. Example : 14</p>
@@ -7567,7 +8186,7 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://movieapp.test/api/movies/actor/17" \
+    --get "http://movieapp.test/api/movies/actor/15" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -7575,7 +8194,7 @@ access-control-allow-origin: *
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://movieapp.test/api/movies/actor/17"
+    "http://movieapp.test/api/movies/actor/15"
 );
 
 const headers = {
@@ -7609,290 +8228,290 @@ access-control-allow-origin: *
     &quot;current_page&quot;: 1,
     &quot;data&quot;: [
         {
-            &quot;id&quot;: 28,
-            &quot;title&quot;: &quot;Apocalypse Now&quot;,
-            &quot;original_title&quot;: &quot;Apocalypse Now&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/7qm2eOuOaR7mpjpIciQu1dLlnWV.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=9l-ViOOFH-s&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/9l-ViOOFH-s\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;9l-ViOOFH-s&quot;,
-            &quot;directorId&quot;: 62,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/iaN0D6G1UFgiX9u1EGXAYMK0yqI.jpg&quot;,
-            &quot;description&quot;: &quot;At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \&quot;does not exist, nor will it ever exist.\&quot; His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.&quot;,
-            &quot;countryId&quot;: 165,
-            &quot;duration&quot;: 147,
-            &quot;viewCount&quot;: 6444,
-            &quot;categoryId&quot;: 18,
-            &quot;slug&quot;: &quot;apocalypse-now&quot;,
-            &quot;imdb&quot;: 8.3,
+            &quot;id&quot;: 172,
+            &quot;title&quot;: &quot;Star Trek V: The Final Frontier&quot;,
+            &quot;original_title&quot;: &quot;Star Trek V: The Final Frontier&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/uiXr41VLYsuug3CZbFrKLSNahuZ.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=TxMOEULvSVI&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/TxMOEULvSVI\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;TxMOEULvSVI&quot;,
+            &quot;directorId&quot;: 176,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/A54JlhiGcfRCamefa7UIam7MmUF.jpg&quot;,
+            &quot;description&quot;: &quot;The crew of the Federation starship Enterprise is called to Nimbus III, the Planet of Intergalactic Peace. They are to negotiate in a case of kidnapping only to find out that the kidnapper is a relative of Spock. This man is possessed by his life long search for the planet Sha Ka Ree which is supposed to be the source of all life. Together they begin to search for this mysterious planet.&quot;,
+            &quot;countryId&quot;: 190,
+            &quot;duration&quot;: 107,
+            &quot;viewCount&quot;: 893,
+            &quot;categoryId&quot;: 878,
+            &quot;slug&quot;: &quot;star-trek-v-the-final-frontier&quot;,
+            &quot;imdb&quot;: 5.7,
             &quot;isMovie18&quot;: 1,
+            &quot;isFinished&quot;: 1,
+            &quot;isMovieSeries&quot;: 0,
+            &quot;totalEpisode&quot;: 1,
+            &quot;quality&quot;: &quot;fullHd&quot;,
+            &quot;publishedAt&quot;: &quot;1989-06-09&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T18:10:57.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T18:10:57.000000Z&quot;,
+            &quot;averageRating&quot;: 2.5,
+            &quot;favoriteCount&quot;: 11
+        },
+        {
+            &quot;id&quot;: 214,
+            &quot;title&quot;: &quot;Saw III&quot;,
+            &quot;original_title&quot;: &quot;Saw III&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/dfl7ti4ataetiyoOg3SI0FA9KeP.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=eZwnZqKfvzw&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/eZwnZqKfvzw\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;eZwnZqKfvzw&quot;,
+            &quot;directorId&quot;: 47,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/7QpzvBxlyP2cVYFZQLa4HmxgN7N.jpg&quot;,
+            &quot;description&quot;: &quot;Jigsaw has disappeared. Along with his new apprentice Amanda, the puppet-master behind the cruel, intricate games that have terrified a community and baffled police has once again eluded capture and vanished. While city detective scramble to locate him, Doctor Lynn Denlon and Jeff Reinhart are unaware that they are about to become the latest pawns on his vicious chessboard.&quot;,
+            &quot;countryId&quot;: 118,
+            &quot;duration&quot;: 114,
+            &quot;viewCount&quot;: 3490,
+            &quot;categoryId&quot;: 27,
+            &quot;slug&quot;: &quot;saw-iii&quot;,
+            &quot;imdb&quot;: 6.4,
+            &quot;isMovie18&quot;: 0,
             &quot;isFinished&quot;: 0,
             &quot;isMovieSeries&quot;: 0,
             &quot;totalEpisode&quot;: 1,
             &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1979-08-15&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T17:29:47.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T17:29:47.000000Z&quot;,
-            &quot;averageRating&quot;: 2.4,
-            &quot;favoriteCount&quot;: 71
+            &quot;publishedAt&quot;: &quot;2006-10-27&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T17:05:24.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T17:05:24.000000Z&quot;,
+            &quot;averageRating&quot;: 2.8333,
+            &quot;favoriteCount&quot;: 79
         },
         {
-            &quot;id&quot;: 59,
-            &quot;title&quot;: &quot;A History of Violence&quot;,
-            &quot;original_title&quot;: &quot;A History of Violence&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/rrc6GiAKHDrUjp8OmdVng9hRWBn.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=dp2CxCsK8nM&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/dp2CxCsK8nM\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;dp2CxCsK8nM&quot;,
-            &quot;directorId&quot;: 66,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/5EEdDTV0IBxJ2J4jDUDvl076v7f.jpg&quot;,
-            &quot;description&quot;: &quot;An average family is thrust into the spotlight after the father commits a seemingly self-defense murder at his diner.&quot;,
-            &quot;countryId&quot;: 125,
-            &quot;duration&quot;: 96,
-            &quot;viewCount&quot;: 2486,
-            &quot;categoryId&quot;: 18,
-            &quot;slug&quot;: &quot;a-history-of-violence&quot;,
-            &quot;imdb&quot;: 7.2,
+            &quot;id&quot;: 320,
+            &quot;title&quot;: &quot;Insomnia&quot;,
+            &quot;original_title&quot;: &quot;Insomnia&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/cwB0t4OHX1Pw1Umzc9jPgzalUpS.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=emIHzg4VH8A&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/emIHzg4VH8A\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;emIHzg4VH8A&quot;,
+            &quot;directorId&quot;: 80,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/jU8MC5uSgBkZXyZYGtZgMsMsfeN.jpg&quot;,
+            &quot;description&quot;: &quot;Two Los Angeles homicide detectives are dispatched to a northern town where the sun doesn't set to investigate the methodical murder of a local teen.&quot;,
+            &quot;countryId&quot;: 78,
+            &quot;duration&quot;: 118,
+            &quot;viewCount&quot;: 3711,
+            &quot;categoryId&quot;: 80,
+            &quot;slug&quot;: &quot;insomnia&quot;,
+            &quot;imdb&quot;: 6.9,
             &quot;isMovie18&quot;: 0,
             &quot;isFinished&quot;: 1,
             &quot;isMovieSeries&quot;: 0,
             &quot;totalEpisode&quot;: 1,
             &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;2005-09-23&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-12T04:14:46.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-12T04:14:46.000000Z&quot;,
-            &quot;averageRating&quot;: 2.7059,
-            &quot;favoriteCount&quot;: 52
-        },
-        {
-            &quot;id&quot;: 128,
-            &quot;title&quot;: &quot;Princess Mononoke&quot;,
-            &quot;original_title&quot;: &quot;もののけ姫&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/pdtzEreKvKAlqa2YEBaGwiA45V8.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=4OiMOHRDs14&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/4OiMOHRDs14\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;4OiMOHRDs14&quot;,
-            &quot;directorId&quot;: 196,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/mpNd0rTVrp6vHJ9Je7wSa3zC8JS.jpg&quot;,
-            &quot;description&quot;: &quot;Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.&quot;,
-            &quot;countryId&quot;: 102,
-            &quot;duration&quot;: 134,
-            &quot;viewCount&quot;: 6206,
-            &quot;categoryId&quot;: 12,
-            &quot;slug&quot;: &quot;princess-mononoke&quot;,
-            &quot;imdb&quot;: 8.3,
-            &quot;isMovie18&quot;: 1,
-            &quot;isFinished&quot;: 0,
-            &quot;isMovieSeries&quot;: 0,
-            &quot;totalEpisode&quot;: 1,
-            &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1997-07-12&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T17:11:40.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T17:11:40.000000Z&quot;,
+            &quot;publishedAt&quot;: &quot;2002-05-24&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T17:57:40.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T17:57:40.000000Z&quot;,
             &quot;averageRating&quot;: 4,
-            &quot;favoriteCount&quot;: 40
+            &quot;favoriteCount&quot;: 2
         },
         {
-            &quot;id&quot;: 170,
-            &quot;title&quot;: &quot;28 Days Later&quot;,
-            &quot;original_title&quot;: &quot;28 Days Later&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/w4SL5hv0qOanrN7GjwNgtjF1RtD.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=WSkua_6hFmw&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/WSkua_6hFmw\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;WSkua_6hFmw&quot;,
-            &quot;directorId&quot;: 69,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/veUl0QT8swshQ9Dz0fQ1k6ZkthD.jpg&quot;,
-            &quot;description&quot;: &quot;Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.&quot;,
-            &quot;countryId&quot;: 177,
-            &quot;duration&quot;: 113,
-            &quot;viewCount&quot;: 5282,
-            &quot;categoryId&quot;: 27,
-            &quot;slug&quot;: &quot;28-days-later&quot;,
-            &quot;imdb&quot;: 7.2,
-            &quot;isMovie18&quot;: 0,
-            &quot;isFinished&quot;: 0,
-            &quot;isMovieSeries&quot;: 0,
-            &quot;totalEpisode&quot;: 1,
-            &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;2002-10-31&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T17:06:48.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T17:06:48.000000Z&quot;,
-            &quot;averageRating&quot;: 3.5,
-            &quot;favoriteCount&quot;: 47
-        },
-        {
-            &quot;id&quot;: 173,
-            &quot;title&quot;: &quot;20,000 Leagues Under the Sea&quot;,
-            &quot;original_title&quot;: &quot;20,000 Leagues Under the Sea&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/heAEH85fdxEgV98LizHbQCL95iZ.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=ciixywcmKIM&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/ciixywcmKIM\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;ciixywcmKIM&quot;,
-            &quot;directorId&quot;: 76,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/pIBZpX9H6U6Nk6gbyWTD4rFKEqq.jpg&quot;,
-            &quot;description&quot;: &quot;A ship sent to investigate a wave of mysterious sinkings encounters the advanced submarine, the Nautilus, commanded by Captain Nemo.&quot;,
-            &quot;countryId&quot;: 208,
-            &quot;duration&quot;: 127,
-            &quot;viewCount&quot;: 621,
-            &quot;categoryId&quot;: 12,
-            &quot;slug&quot;: &quot;20000-leagues-under-the-sea&quot;,
-            &quot;imdb&quot;: 7.1,
-            &quot;isMovie18&quot;: 0,
-            &quot;isFinished&quot;: 1,
-            &quot;isMovieSeries&quot;: 0,
-            &quot;totalEpisode&quot;: 1,
-            &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1954-12-23&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T18:18:36.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T18:18:36.000000Z&quot;,
-            &quot;averageRating&quot;: 4.5,
-            &quot;favoriteCount&quot;: 54
-        },
-        {
-            &quot;id&quot;: 175,
-            &quot;title&quot;: &quot;The Big Blue&quot;,
-            &quot;original_title&quot;: &quot;Le Grand Bleu&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/vbi56h6a1BGjnhq2RnUrcQZs2aV.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=SacOo83Nzbg&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/SacOo83Nzbg\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;SacOo83Nzbg&quot;,
-            &quot;directorId&quot;: 36,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/2oum8FkgH1AiDWhmhEw8nbtoHdJ.jpg&quot;,
-            &quot;description&quot;: &quot;Two men answer the call of the ocean in this romantic fantasy-adventure.  Jacques and Enzo are a pair of friends who have been close since childhood, and who share a passion for the dangerous sport of free diving. Professional diver Jacques opted to follow in the footsteps of his father, who died at sea when Jacques was a boy; to the bewilderment of scientists, Jacques harbors a remarkable ability to adjust his heart rate and breathing pattern in the water, so that his vital signs more closely resemble that of dolphins than men.  As Enzo persuades a reluctant Jacques to compete against him in a free diving contest -- determining who can dive deeper and longer without scuba gear -- Jacques meets Johana, a beautiful insurance investigator from America, and he finds that he must choose between his love for her and his love of the sea.&quot;,
-            &quot;countryId&quot;: 42,
-            &quot;duration&quot;: 168,
-            &quot;viewCount&quot;: 1141,
-            &quot;categoryId&quot;: 12,
-            &quot;slug&quot;: &quot;the-big-blue&quot;,
-            &quot;imdb&quot;: 7.5,
-            &quot;isMovie18&quot;: 0,
-            &quot;isFinished&quot;: 1,
-            &quot;isMovieSeries&quot;: 0,
-            &quot;totalEpisode&quot;: 1,
-            &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1988-05-10&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T18:26:34.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T18:26:34.000000Z&quot;,
-            &quot;averageRating&quot;: 3,
-            &quot;favoriteCount&quot;: 82
-        },
-        {
-            &quot;id&quot;: 176,
-            &quot;title&quot;: &quot;Saw&quot;,
-            &quot;original_title&quot;: &quot;Saw&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/pparEGTCxcTiImyVFoKD0LX11N8.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=HKPy5RWuqNA&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/HKPy5RWuqNA\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;HKPy5RWuqNA&quot;,
-            &quot;directorId&quot;: 18,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/qtWjZgCmslPwjP4DFUcLBUj13GV.jpg&quot;,
-            &quot;description&quot;: &quot;Obsessed with teaching his victims the value of life, a deranged, sadistic serial killer abducts the morally wayward. Once captured, they must face impossible choices in a horrific game of survival. The victims must fight to win their lives back, or die trying...&quot;,
-            &quot;countryId&quot;: 63,
-            &quot;duration&quot;: 103,
-            &quot;viewCount&quot;: 7329,
-            &quot;categoryId&quot;: 27,
-            &quot;slug&quot;: &quot;saw&quot;,
-            &quot;imdb&quot;: 7.4,
-            &quot;isMovie18&quot;: 0,
-            &quot;isFinished&quot;: 0,
-            &quot;isMovieSeries&quot;: 0,
-            &quot;totalEpisode&quot;: 1,
-            &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;2004-10-01&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T16:57:13.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T16:57:13.000000Z&quot;,
-            &quot;averageRating&quot;: 3.125,
-            &quot;favoriteCount&quot;: 19
-        },
-        {
-            &quot;id&quot;: 192,
-            &quot;title&quot;: &quot;The Name of the Rose&quot;,
-            &quot;original_title&quot;: &quot;The Name of the Rose&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/d6dlbTBb3N7nXDz7tQslDJs2jgv.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=7-yYJgpQ-CE&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/7-yYJgpQ-CE\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;7-yYJgpQ-CE&quot;,
-            &quot;directorId&quot;: 190,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/yxYInilc96gNItxZxKIqIkx26Pd.jpg&quot;,
-            &quot;description&quot;: &quot;14th-century Franciscan monk William of Baskerville and his young novice arrive at a conference to find that several monks have been murdered under mysterious circumstances. To solve the crimes, William must rise up against the Church's authority and fight the shadowy conspiracy of monastery monks using only his intelligence &ndash; which is considerable.&quot;,
-            &quot;countryId&quot;: 101,
-            &quot;duration&quot;: 130,
-            &quot;viewCount&quot;: 2390,
-            &quot;categoryId&quot;: 18,
-            &quot;slug&quot;: &quot;the-name-of-the-rose&quot;,
-            &quot;imdb&quot;: 7.5,
+            &quot;id&quot;: 392,
+            &quot;title&quot;: &quot;Chocolat&quot;,
+            &quot;original_title&quot;: &quot;Chocolat&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/jPNmQq23eNbKFVPZnY5Kxc63MvW.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=692hOJq1KJE&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/692hOJq1KJE\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;692hOJq1KJE&quot;,
+            &quot;directorId&quot;: 173,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/63ItW5WInTWZkRdyTfCZIn6ZvbH.jpg&quot;,
+            &quot;description&quot;: &quot;A fable of emotional liberation and chocolate. A mother and daughter move to a small French town where they open a chocolate shop. The town, religious and morally strict, is against them as they represent free-thinking and indulgence. When a group of Boat Gypsies float down the river the prejudices of the Mayor leads to a crisis.&quot;,
+            &quot;countryId&quot;: 81,
+            &quot;duration&quot;: 121,
+            &quot;viewCount&quot;: 2761,
+            &quot;categoryId&quot;: 35,
+            &quot;slug&quot;: &quot;chocolat&quot;,
+            &quot;imdb&quot;: 6.9,
             &quot;isMovie18&quot;: 1,
-            &quot;isFinished&quot;: 0,
+            &quot;isFinished&quot;: 1,
             &quot;isMovieSeries&quot;: 0,
             &quot;totalEpisode&quot;: 1,
             &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1986-09-24&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T18:29:46.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T18:29:46.000000Z&quot;,
-            &quot;averageRating&quot;: 3.1111,
+            &quot;publishedAt&quot;: &quot;2000-03-02&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T18:17:22.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T18:17:22.000000Z&quot;,
+            &quot;averageRating&quot;: 2.25,
+            &quot;favoriteCount&quot;: 24
+        },
+        {
+            &quot;id&quot;: 559,
+            &quot;title&quot;: &quot;Spider-Man 3&quot;,
+            &quot;original_title&quot;: &quot;Spider-Man 3&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=wPosLpgMtTY&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/wPosLpgMtTY\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;wPosLpgMtTY&quot;,
+            &quot;directorId&quot;: 133,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/eSGBbCOX7KM3Rf8HHwK8tglklyS.jpg&quot;,
+            &quot;description&quot;: &quot;The seemingly invincible Spider-Man goes up against an all-new crop of villains&mdash;including the shape-shifting Sandman. While Spider-Man&rsquo;s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.&quot;,
+            &quot;countryId&quot;: 54,
+            &quot;duration&quot;: 139,
+            &quot;viewCount&quot;: 11463,
+            &quot;categoryId&quot;: 14,
+            &quot;slug&quot;: &quot;spider-man-3&quot;,
+            &quot;imdb&quot;: 6.4,
+            &quot;isMovie18&quot;: 0,
+            &quot;isFinished&quot;: 1,
+            &quot;isMovieSeries&quot;: 0,
+            &quot;totalEpisode&quot;: 1,
+            &quot;quality&quot;: &quot;fullHd&quot;,
+            &quot;publishedAt&quot;: &quot;2007-05-01&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T16:54:33.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T16:54:33.000000Z&quot;,
+            &quot;averageRating&quot;: 3.0833,
             &quot;favoriteCount&quot;: 69
         },
         {
-            &quot;id&quot;: 278,
-            &quot;title&quot;: &quot;The Shawshank Redemption&quot;,
-            &quot;original_title&quot;: &quot;The Shawshank Redemption&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=PLl99DlL6b4&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/PLl99DlL6b4\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;PLl99DlL6b4&quot;,
-            &quot;directorId&quot;: 12,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/wPU78OPN4BYEgWYdXyg0phMee64.jpg&quot;,
-            &quot;description&quot;: &quot;Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.&quot;,
-            &quot;countryId&quot;: 138,
-            &quot;duration&quot;: 142,
-            &quot;viewCount&quot;: 21157,
-            &quot;categoryId&quot;: 18,
-            &quot;slug&quot;: &quot;the-shawshank-redemption&quot;,
-            &quot;imdb&quot;: 8.7,
-            &quot;isMovie18&quot;: 0,
+            &quot;id&quot;: 564,
+            &quot;title&quot;: &quot;The Mummy&quot;,
+            &quot;original_title&quot;: &quot;The Mummy&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/yhIsVvcUm7QxzLfT6HW2wLf5ajY.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=h3ptPtxWJRs&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/h3ptPtxWJRs\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;h3ptPtxWJRs&quot;,
+            &quot;directorId&quot;: 72,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/9a9GpRaCkdcPfa5z0vPQj9ldtQh.jpg&quot;,
+            &quot;description&quot;: &quot;Dashing legionnaire Rick O'Connell stumbles upon the hidden ruins of Hamunaptra while in the midst of a battle to claim the area in 1920s Egypt. It has been over three thousand years since former High Priest Imhotep suffered a fate worse than death as a punishment for a forbidden love&mdash;along with a curse that guarantees eternal doom upon the world if he is ever awoken.&quot;,
+            &quot;countryId&quot;: 142,
+            &quot;duration&quot;: 124,
+            &quot;viewCount&quot;: 7318,
+            &quot;categoryId&quot;: 12,
+            &quot;slug&quot;: &quot;the-mummy&quot;,
+            &quot;imdb&quot;: 6.9,
+            &quot;isMovie18&quot;: 1,
             &quot;isFinished&quot;: 1,
             &quot;isMovieSeries&quot;: 0,
             &quot;totalEpisode&quot;: 1,
             &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1994-09-23&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T16:57:27.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T16:57:27.000000Z&quot;,
-            &quot;averageRating&quot;: 2.5,
-            &quot;favoriteCount&quot;: 56
+            &quot;publishedAt&quot;: &quot;1999-04-16&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T16:59:31.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T16:59:31.000000Z&quot;,
+            &quot;averageRating&quot;: 2.875,
+            &quot;favoriteCount&quot;: 14
         },
         {
-            &quot;id&quot;: 377,
-            &quot;title&quot;: &quot;A Nightmare on Elm Street&quot;,
-            &quot;original_title&quot;: &quot;A Nightmare on Elm Street&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=rZx62f1yLZo&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/rZx62f1yLZo\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;rZx62f1yLZo&quot;,
-            &quot;directorId&quot;: 96,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/g9ROrZey0JYp7kf8DoAyZtKnObj.jpg&quot;,
-            &quot;description&quot;: &quot;Teenagers in a small town are dropping like flies, apparently in the grip of mass hysteria causing their suicides. A cop's daughter, Nancy Thompson, traces the cause to child molester Fred Krueger, who was burned alive by angry parents many years before. Krueger has now come back in the dreams of his killers' children, claiming their lives as his revenge. Nancy and her boyfriend, Glen, must devise a plan to lure the monster out of the realm of nightmares and into the real world...&quot;,
-            &quot;countryId&quot;: 165,
-            &quot;duration&quot;: 91,
-            &quot;viewCount&quot;: 3920,
-            &quot;categoryId&quot;: 27,
-            &quot;slug&quot;: &quot;a-nightmare-on-elm-street&quot;,
-            &quot;imdb&quot;: 7.3,
+            &quot;id&quot;: 644,
+            &quot;title&quot;: &quot;A.I. Artificial Intelligence&quot;,
+            &quot;original_title&quot;: &quot;A.I. Artificial Intelligence&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/8MZSGX5JORoO72EfuAEcejH5yHn.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=oBUAQGwzGk0&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/oBUAQGwzGk0\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;oBUAQGwzGk0&quot;,
+            &quot;directorId&quot;: 78,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/n7p6UTAZtkeoHkwCO42BEQaMFJY.jpg&quot;,
+            &quot;description&quot;: &quot;David, a robotic boy&mdash;the first of his kind programmed to love&mdash;is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David. Without final acceptance by humans or machines, David embarks on a journey to discover where he truly belongs, uncovering a world in which the line between robot and machine is both vast and profoundly thin.&quot;,
+            &quot;countryId&quot;: 126,
+            &quot;duration&quot;: 146,
+            &quot;viewCount&quot;: 5121,
+            &quot;categoryId&quot;: 18,
+            &quot;slug&quot;: &quot;ai-artificial-intelligence&quot;,
+            &quot;imdb&quot;: 7,
+            &quot;isMovie18&quot;: 1,
+            &quot;isFinished&quot;: 1,
+            &quot;isMovieSeries&quot;: 0,
+            &quot;totalEpisode&quot;: 1,
+            &quot;quality&quot;: &quot;fullHd&quot;,
+            &quot;publishedAt&quot;: &quot;2001-06-29&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T17:35:28.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T17:35:28.000000Z&quot;,
+            &quot;averageRating&quot;: 3.2727,
+            &quot;favoriteCount&quot;: 54
+        },
+        {
+            &quot;id&quot;: 708,
+            &quot;title&quot;: &quot;The Living Daylights&quot;,
+            &quot;original_title&quot;: &quot;The Living Daylights&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/jcP0sarQXmx7XgwNoxJtqbllNyM.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=l_zEmb7SGXk&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/l_zEmb7SGXk\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;l_zEmb7SGXk&quot;,
+            &quot;directorId&quot;: 151,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/8TPStgzHahi6Cx3wimpipAV8BnN.jpg&quot;,
+            &quot;description&quot;: &quot;After a defecting Russian general reveals a plot to assassinate foreign spies, James Bond is assigned a secret mission to dispatch the new head of the KGB to prevent an escalation of tensions between the Soviet Union and the West.&quot;,
+            &quot;countryId&quot;: 3,
+            &quot;duration&quot;: 130,
+            &quot;viewCount&quot;: 1309,
+            &quot;categoryId&quot;: 28,
+            &quot;slug&quot;: &quot;the-living-daylights&quot;,
+            &quot;imdb&quot;: 6.5,
+            &quot;isMovie18&quot;: 0,
+            &quot;isFinished&quot;: 0,
+            &quot;isMovieSeries&quot;: 0,
+            &quot;totalEpisode&quot;: 1,
+            &quot;quality&quot;: &quot;fullHd&quot;,
+            &quot;publishedAt&quot;: &quot;1987-06-29&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T17:32:35.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T17:32:35.000000Z&quot;,
+            &quot;averageRating&quot;: 3.25,
+            &quot;favoriteCount&quot;: 5
+        },
+        {
+            &quot;id&quot;: 746,
+            &quot;title&quot;: &quot;The Last Emperor&quot;,
+            &quot;original_title&quot;: &quot;The Last Emperor&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/7CZSCaGxCD2HXo8LrdcW183moqJ.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=YnEOZSNtcJI&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/YnEOZSNtcJI\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;YnEOZSNtcJI&quot;,
+            &quot;directorId&quot;: 173,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/qhMgVvZHThQOlw0PrprazaIjINr.jpg&quot;,
+            &quot;description&quot;: &quot;A dramatic history of Pu Yi, the last of the Emperors of China, from his lofty birth and brief reign in the Forbidden City, the object of worship by half a billion people; through his abdication, his decline and dissolute lifestyle; his exploitation by the invading Japanese, and finally to his obscure existence as just another peasant worker in the People's Republic.&quot;,
+            &quot;countryId&quot;: 172,
+            &quot;duration&quot;: 163,
+            &quot;viewCount&quot;: 1242,
+            &quot;categoryId&quot;: 18,
+            &quot;slug&quot;: &quot;the-last-emperor&quot;,
+            &quot;imdb&quot;: 7.6,
             &quot;isMovie18&quot;: 1,
             &quot;isFinished&quot;: 0,
             &quot;isMovieSeries&quot;: 0,
             &quot;totalEpisode&quot;: 1,
             &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1984-11-09&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T17:07:55.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T17:07:55.000000Z&quot;,
+            &quot;publishedAt&quot;: &quot;1987-05-27&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-12T04:23:47.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-12T04:23:47.000000Z&quot;,
             &quot;averageRating&quot;: 3,
+            &quot;favoriteCount&quot;: 16
+        },
+        {
+            &quot;id&quot;: 767,
+            &quot;title&quot;: &quot;Harry Potter and the Half-Blood Prince&quot;,
+            &quot;original_title&quot;: &quot;Harry Potter and the Half-Blood Prince&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/o2j49x3HYJC2VH689rYxmswtSgS.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=HcryxumRxUI&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/HcryxumRxUI\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;HcryxumRxUI&quot;,
+            &quot;directorId&quot;: 63,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/urDWNffjwmNi5IQaezw9GwqkUXa.jpg&quot;,
+            &quot;description&quot;: &quot;As Lord Voldemort tightens his grip on both the Muggle and wizarding worlds, Hogwarts is no longer a safe haven. Harry suspects perils may even lie within the castle, but Dumbledore is more intent upon preparing him for the final battle fast approaching. Together they work to find the key to unlock Voldemorts defenses and to this end, Dumbledore recruits his old friend and colleague Horace Slughorn, whom he believes holds crucial information. Even as the decisive showdown looms, romance blossoms for Harry, Ron, Hermione and their classmates. Love is in the air, but danger lies ahead and Hogwarts may never be the same again.&quot;,
+            &quot;countryId&quot;: 161,
+            &quot;duration&quot;: 153,
+            &quot;viewCount&quot;: 15976,
+            &quot;categoryId&quot;: 12,
+            &quot;slug&quot;: &quot;harry-potter-and-the-half-blood-prince&quot;,
+            &quot;imdb&quot;: 7.7,
+            &quot;isMovie18&quot;: 0,
+            &quot;isFinished&quot;: 1,
+            &quot;isMovieSeries&quot;: 0,
+            &quot;totalEpisode&quot;: 1,
+            &quot;quality&quot;: &quot;fullHd&quot;,
+            &quot;publishedAt&quot;: &quot;2009-07-07&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T16:54:03.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T16:54:03.000000Z&quot;,
+            &quot;averageRating&quot;: 4.25,
             &quot;favoriteCount&quot;: 29
         }
     ],
-    &quot;first_page_url&quot;: &quot;http://movieapp.test/api/movies/actor/17?page=1&quot;,
+    &quot;first_page_url&quot;: &quot;http://movieapp.test/api/movies/actor/15?page=1&quot;,
     &quot;from&quot;: 1,
-    &quot;last_page&quot;: 4,
-    &quot;last_page_url&quot;: &quot;http://movieapp.test/api/movies/actor/17?page=4&quot;,
+    &quot;last_page&quot;: 3,
+    &quot;last_page_url&quot;: &quot;http://movieapp.test/api/movies/actor/15?page=3&quot;,
     &quot;links&quot;: [
         {
             &quot;url&quot;: null,
@@ -7900,37 +8519,32 @@ access-control-allow-origin: *
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/17?page=1&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/15?page=1&quot;,
             &quot;label&quot;: &quot;1&quot;,
             &quot;active&quot;: true
         },
         {
-            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/17?page=2&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/15?page=2&quot;,
             &quot;label&quot;: &quot;2&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/17?page=3&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/15?page=3&quot;,
             &quot;label&quot;: &quot;3&quot;,
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/17?page=4&quot;,
-            &quot;label&quot;: &quot;4&quot;,
-            &quot;active&quot;: false
-        },
-        {
-            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/17?page=2&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies/actor/15?page=2&quot;,
             &quot;label&quot;: &quot;Next &amp;raquo;&quot;,
             &quot;active&quot;: false
         }
     ],
-    &quot;next_page_url&quot;: &quot;http://movieapp.test/api/movies/actor/17?page=2&quot;,
-    &quot;path&quot;: &quot;http://movieapp.test/api/movies/actor/17&quot;,
+    &quot;next_page_url&quot;: &quot;http://movieapp.test/api/movies/actor/15?page=2&quot;,
+    &quot;path&quot;: &quot;http://movieapp.test/api/movies/actor/15&quot;,
     &quot;per_page&quot;: 10,
     &quot;prev_page_url&quot;: null,
     &quot;to&quot;: 10,
-    &quot;total&quot;: 35
+    &quot;total&quot;: 26
 }</code>
  </pre>
     </span>
@@ -7987,7 +8601,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="actorId"
                data-endpoint="GETapi-movies-actor--actorId-"
-               value="17"
+               value="15"
                data-component="url" hidden>
     <br>
 <p>The ID of the actor. Example : 14</p>
@@ -8008,7 +8622,7 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://movieapp.test/api/movies/director/15" \
+    --get "http://movieapp.test/api/movies/director/9" \
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
@@ -8016,7 +8630,7 @@ access-control-allow-origin: *
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://movieapp.test/api/movies/director/15"
+    "http://movieapp.test/api/movies/director/9"
 );
 
 const headers = {
@@ -8050,94 +8664,94 @@ access-control-allow-origin: *
     &quot;current_page&quot;: 1,
     &quot;data&quot;: [
         {
-            &quot;id&quot;: 424,
-            &quot;title&quot;: &quot;Schindler's List&quot;,
-            &quot;original_title&quot;: &quot;Schindler's List&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=bJcLRFWxRno&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/bJcLRFWxRno\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;bJcLRFWxRno&quot;,
-            &quot;directorId&quot;: 15,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg&quot;,
-            &quot;description&quot;: &quot;The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.&quot;,
-            &quot;countryId&quot;: 35,
-            &quot;duration&quot;: 195,
-            &quot;viewCount&quot;: 12616,
-            &quot;categoryId&quot;: 18,
-            &quot;slug&quot;: &quot;schindlers-list&quot;,
-            &quot;imdb&quot;: 8.6,
+            &quot;id&quot;: 667,
+            &quot;title&quot;: &quot;You Only Live Twice&quot;,
+            &quot;original_title&quot;: &quot;You Only Live Twice&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/2TL9ehsOPZSqOJzuhshChQV9BSn.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=KHpQudsVOJg&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/KHpQudsVOJg\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;KHpQudsVOJg&quot;,
+            &quot;directorId&quot;: 9,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/cpZAXIYA0lkZMpAt7d1MmH8ojNV.jpg&quot;,
+            &quot;description&quot;: &quot;A mysterious spacecraft captures Russian and American space capsules and brings the two superpowers to the brink of war. James Bond investigates the case in Japan and comes face to face with his archenemy Blofeld.&quot;,
+            &quot;countryId&quot;: 56,
+            &quot;duration&quot;: 117,
+            &quot;viewCount&quot;: 1603,
+            &quot;categoryId&quot;: 28,
+            &quot;slug&quot;: &quot;you-only-live-twice&quot;,
+            &quot;imdb&quot;: 6.5,
             &quot;isMovie18&quot;: 1,
             &quot;isFinished&quot;: 0,
             &quot;isMovieSeries&quot;: 0,
             &quot;totalEpisode&quot;: 1,
             &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1993-11-30&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T17:10:24.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T17:10:24.000000Z&quot;,
-            &quot;averageRating&quot;: 2.4167,
-            &quot;favoriteCount&quot;: 24
+            &quot;publishedAt&quot;: &quot;1967-06-13&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T17:29:42.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T17:29:42.000000Z&quot;,
+            &quot;averageRating&quot;: 3.1667,
+            &quot;favoriteCount&quot;: 73
         },
         {
-            &quot;id&quot;: 820,
-            &quot;title&quot;: &quot;JFK&quot;,
-            &quot;original_title&quot;: &quot;JFK&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=sP50JfsJ9zU&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/sP50JfsJ9zU\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;sP50JfsJ9zU&quot;,
-            &quot;directorId&quot;: 15,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/1LHk2RfqNm4EiyxKu4Btw8IS4cn.jpg&quot;,
-            &quot;description&quot;: &quot;Follows the investigation into the assassination of President John F. Kennedy led by New Orleans district attorney Jim Garrison.&quot;,
-            &quot;countryId&quot;: 20,
-            &quot;duration&quot;: 189,
-            &quot;viewCount&quot;: 1589,
-            &quot;categoryId&quot;: 18,
-            &quot;slug&quot;: &quot;jfk&quot;,
-            &quot;imdb&quot;: 7.6,
+            &quot;id&quot;: 1497,
+            &quot;title&quot;: &quot;Teenage Mutant Ninja Turtles II: The Secret of the Ooze&quot;,
+            &quot;original_title&quot;: &quot;Teenage Mutant Ninja Turtles II: The Secret of the Ooze&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/Hyvvz9Z3le1is8a0EeFJQm0aSC.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=al9jfY7zOBY&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/al9jfY7zOBY\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;al9jfY7zOBY&quot;,
+            &quot;directorId&quot;: 9,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/8VGaEXbTOGeWGW7IvzOf1j2rjet.jpg&quot;,
+            &quot;description&quot;: &quot;The Turtles and the Shredder battle once again, this time for the last cannister of the ooze that created the Turtles, which Shredder wants to create an army of new mutants.&quot;,
+            &quot;countryId&quot;: 173,
+            &quot;duration&quot;: 88,
+            &quot;viewCount&quot;: 834,
+            &quot;categoryId&quot;: 878,
+            &quot;slug&quot;: &quot;teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze&quot;,
+            &quot;imdb&quot;: 6.1,
             &quot;isMovie18&quot;: 0,
             &quot;isFinished&quot;: 0,
             &quot;isMovieSeries&quot;: 0,
             &quot;totalEpisode&quot;: 1,
             &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1991-12-20&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T18:05:20.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T18:05:20.000000Z&quot;,
-            &quot;averageRating&quot;: 2.8462,
-            &quot;favoriteCount&quot;: 39
+            &quot;publishedAt&quot;: &quot;1991-03-22&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-11T17:45:33.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-11T17:45:33.000000Z&quot;,
+            &quot;averageRating&quot;: 3.2778,
+            &quot;favoriteCount&quot;: 75
         },
         {
-            &quot;id&quot;: 1592,
-            &quot;title&quot;: &quot;Primal Fear&quot;,
-            &quot;original_title&quot;: &quot;Primal Fear&quot;,
-            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg&quot;,
-            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=PnmTi7hSjrA&quot;,
-            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/PnmTi7hSjrA\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
-            &quot;trailerKey&quot;: &quot;PnmTi7hSjrA&quot;,
-            &quot;directorId&quot;: 15,
-            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/otufdiZM4a1elbOH6Bc1XZqGoLn.jpg&quot;,
-            &quot;description&quot;: &quot;An arrogant, high-powered attorney takes on the case of a poor altar boy found running away from the scene of the grisly murder of the bishop who has taken him in. The case gets a lot more complex when the accused reveals that there may or may not have been a third person in the room. The intensity builds when a surprise twist alters everyone's perception of the crime.&quot;,
-            &quot;countryId&quot;: 121,
-            &quot;duration&quot;: 129,
-            &quot;viewCount&quot;: 2460,
-            &quot;categoryId&quot;: 80,
-            &quot;slug&quot;: &quot;primal-fear&quot;,
-            &quot;imdb&quot;: 7.7,
+            &quot;id&quot;: 1909,
+            &quot;title&quot;: &quot;Don Juan DeMarco&quot;,
+            &quot;original_title&quot;: &quot;Don Juan DeMarco&quot;,
+            &quot;img&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/fe0TuYz9jCKUba2Omj48K8bWJ8z.jpg&quot;,
+            &quot;url&quot;: &quot;https://www.youtube.com/watch?v=T9wFFu5CoA0&quot;,
+            &quot;embededCode&quot;: &quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https://www.youtube.com/embed/T9wFFu5CoA0\&quot; title=\&quot;YouTube video player\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;/iframe&gt;&quot;,
+            &quot;trailerKey&quot;: &quot;T9wFFu5CoA0&quot;,
+            &quot;directorId&quot;: 9,
+            &quot;bgImg&quot;: &quot;https://image.tmdb.org/t/p/w600_and_h900_bestv2/9qkepBLafRQVuMXWgnjqvdefD92.jpg&quot;,
+            &quot;description&quot;: &quot;John Arnold DeMarco is a man who believes he is Don Juan, the greatest lover in the world. Clad in a cape and mask, DeMarco undergoes psychiatric treatment with Dr. Jack Mickler to cure him of his apparent delusion. But the psychiatric sessions have an unexpected effect on the psychiatric staff and, most profoundly, Dr Mickler, who rekindles the romance in his complacent marriage.&quot;,
+            &quot;countryId&quot;: 109,
+            &quot;duration&quot;: 97,
+            &quot;viewCount&quot;: 593,
+            &quot;categoryId&quot;: 10749,
+            &quot;slug&quot;: &quot;don-juan-demarco&quot;,
+            &quot;imdb&quot;: 6.6,
             &quot;isMovie18&quot;: 0,
-            &quot;isFinished&quot;: 0,
+            &quot;isFinished&quot;: 1,
             &quot;isMovieSeries&quot;: 0,
             &quot;totalEpisode&quot;: 1,
             &quot;quality&quot;: &quot;fullHd&quot;,
-            &quot;publishedAt&quot;: &quot;1996-03-06&quot;,
-            &quot;createdAt&quot;: &quot;2022-04-11T17:42:27.000000Z&quot;,
-            &quot;updatedAt&quot;: &quot;2022-04-11T17:42:27.000000Z&quot;,
-            &quot;averageRating&quot;: 3.3684,
-            &quot;favoriteCount&quot;: 13
+            &quot;publishedAt&quot;: &quot;1994-10-12&quot;,
+            &quot;createdAt&quot;: &quot;2022-04-12T04:03:01.000000Z&quot;,
+            &quot;updatedAt&quot;: &quot;2022-04-12T04:03:01.000000Z&quot;,
+            &quot;averageRating&quot;: 4.1667,
+            &quot;favoriteCount&quot;: 65
         }
     ],
-    &quot;first_page_url&quot;: &quot;http://movieapp.test/api/movies/director/15?page=1&quot;,
+    &quot;first_page_url&quot;: &quot;http://movieapp.test/api/movies/director/9?page=1&quot;,
     &quot;from&quot;: 1,
     &quot;last_page&quot;: 1,
-    &quot;last_page_url&quot;: &quot;http://movieapp.test/api/movies/director/15?page=1&quot;,
+    &quot;last_page_url&quot;: &quot;http://movieapp.test/api/movies/director/9?page=1&quot;,
     &quot;links&quot;: [
         {
             &quot;url&quot;: null,
@@ -8145,7 +8759,7 @@ access-control-allow-origin: *
             &quot;active&quot;: false
         },
         {
-            &quot;url&quot;: &quot;http://movieapp.test/api/movies/director/15?page=1&quot;,
+            &quot;url&quot;: &quot;http://movieapp.test/api/movies/director/9?page=1&quot;,
             &quot;label&quot;: &quot;1&quot;,
             &quot;active&quot;: true
         },
@@ -8156,7 +8770,7 @@ access-control-allow-origin: *
         }
     ],
     &quot;next_page_url&quot;: null,
-    &quot;path&quot;: &quot;http://movieapp.test/api/movies/director/15&quot;,
+    &quot;path&quot;: &quot;http://movieapp.test/api/movies/director/9&quot;,
     &quot;per_page&quot;: 10,
     &quot;prev_page_url&quot;: null,
     &quot;to&quot;: 3,
@@ -8217,7 +8831,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="directorId"
                data-endpoint="GETapi-movies-director--directorId-"
-               value="15"
+               value="9"
                data-component="url" hidden>
     <br>
 <p>The ID of the actor. Example : 14</p>
@@ -9578,7 +10192,7 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"movieId\": 3
+    \"movieId\": 4
 }"
 </code></pre></div>
 
@@ -9595,7 +10209,7 @@ const headers = {
 };
 
 let body = {
-    "movieId": 3
+    "movieId": 4
 };
 
 fetch(url, {
@@ -9661,7 +10275,7 @@ fetch(url, {
                 <input type="number"
                name="movieId"
                data-endpoint="POSTapi-movies-favorite-movie-add"
-               value="3"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -9687,7 +10301,7 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"movieId\": 7
+    \"movieId\": 4
 }"
 </code></pre></div>
 
@@ -9704,7 +10318,7 @@ const headers = {
 };
 
 let body = {
-    "movieId": 7
+    "movieId": 4
 };
 
 fetch(url, {
@@ -9770,7 +10384,7 @@ fetch(url, {
                 <input type="number"
                name="movieId"
                data-endpoint="POSTapi-movies-favorite-movie-remove"
-               value="7"
+               value="4"
                data-component="body" hidden>
     <br>
 
@@ -10081,7 +10695,7 @@ access-control-allow-origin: *
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"actorId\": 12
+    \"actorId\": 7
 }"
 </code></pre></div>
 
@@ -10098,7 +10712,7 @@ const headers = {
 };
 
 let body = {
-    "actorId": 12
+    "actorId": 7
 };
 
 fetch(url, {
@@ -10164,7 +10778,7 @@ fetch(url, {
                 <input type="number"
                name="actorId"
                data-endpoint="POSTapi-movies-favorite-actor-add"
-               value="12"
+               value="7"
                data-component="body" hidden>
     <br>
 
@@ -10190,7 +10804,7 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"actorId\": 10
+    \"actorId\": 2
 }"
 </code></pre></div>
 
@@ -10207,7 +10821,7 @@ const headers = {
 };
 
 let body = {
-    "actorId": 10
+    "actorId": 2
 };
 
 fetch(url, {
@@ -10273,7 +10887,7 @@ fetch(url, {
                 <input type="number"
                name="actorId"
                data-endpoint="POSTapi-movies-favorite-actor-remove"
-               value="10"
+               value="2"
                data-component="body" hidden>
     <br>
 
@@ -11209,14 +11823,14 @@ access-control-allow-origin: *
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://movieapp.test/api/user/profile/9" \
+    --get "http://movieapp.test/api/user/profile/11" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://movieapp.test/api/user/profile/9"
+    "http://movieapp.test/api/user/profile/11"
 );
 
 const headers = {
@@ -11246,14 +11860,14 @@ access-control-allow-origin: *
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;id&quot;: 9,
-    &quot;name&quot;: &quot;Dr. Nils Gusikowski&quot;,
-    &quot;email&quot;: &quot;luettgen.kenyatta@example.org&quot;,
+    &quot;id&quot;: 11,
+    &quot;name&quot;: &quot;Kristin Shanahan DDS&quot;,
+    &quot;email&quot;: &quot;gianni67@example.org&quot;,
     &quot;createdAt&quot;: &quot;2022-04-11T17:13:59.000000Z&quot;,
     &quot;updatedAt&quot;: &quot;2022-04-11T17:13:59.000000Z&quot;,
     &quot;roleId&quot;: 1,
     &quot;img&quot;: &quot;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iWdKjMry5Pt7vmxU7bmOQsIUyHa.jpg&quot;,
-    &quot;profileUrl&quot;: &quot;http://movieapp.test/api/user/profile/9&quot;
+    &quot;profileUrl&quot;: &quot;http://movieapp.test/api/user/profile/11&quot;
 }</code>
  </pre>
     </span>
@@ -11302,7 +11916,7 @@ access-control-allow-origin: *
                 <input type="number"
                name="id"
                data-endpoint="GETapi-user-profile--id-"
-               value="9"
+               value="11"
                data-component="url" hidden>
     <br>
 <p>The ID of movie</p>
@@ -11327,10 +11941,10 @@ access-control-allow-origin: *
     --header "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbW92aWVhcHAudGVzdC9hcGkvbG9naW4iLCJpYXQiOjE2NDk3Mzc1NjAsImV4cCI6MTY1MjQxNTk2MCwibmJmIjoxNjQ5NzM3NTYwLCJqdGkiOiJUQ3pPZ1BvMVdyVFE4M0ZSIiwic3ViIjoiMiIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.k9Hdk4_PjM6DNHeWUIYOBFPOhVmQUio6ZPChFAnlc3c" \
     --header "Content-Type: multipart/form-data" \
     --header "Accept: application/json" \
-    --form "name=quos" \
-    --form "email=maximillian.schumm@example.com" \
-    --form "password=j" \
-    --form "img=@C:\Users\mynam\AppData\Local\Temp\php26DD.tmp" </code></pre></div>
+    --form "name=est" \
+    --form "email=ignacio.vonrueden@example.com" \
+    --form "password=" \
+    --form "img=@C:\Users\mynam\AppData\Local\Temp\php9EC0.tmp" </code></pre></div>
 
 
 <div class="javascript-example">
@@ -11345,9 +11959,9 @@ const headers = {
 };
 
 const body = new FormData();
-body.append('name', 'quos');
-body.append('email', 'maximillian.schumm@example.com');
-body.append('password', 'j');
+body.append('name', 'est');
+body.append('email', 'ignacio.vonrueden@example.com');
+body.append('password', '');
 body.append('img', document.querySelector('input[name="img"]').files[0]);
 
 fetch(url, {
@@ -11413,7 +12027,7 @@ fetch(url, {
                 <input type="text"
                name="name"
                data-endpoint="POSTapi-user-editProfile"
-               value="quos"
+               value="est"
                data-component="body" hidden>
     <br>
 
@@ -11423,7 +12037,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-user-editProfile"
-               value="maximillian.schumm@example.com"
+               value="ignacio.vonrueden@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -11433,7 +12047,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-user-editProfile"
-               value="j"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must be at least 3 characters.</p>
@@ -11469,8 +12083,8 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"movieId\": 17,
-    \"content\": \"upisairuekpyyhaedvxhlkookvyygnhgrsukczbeipbfyakxprjbwgkfrhjx\"
+    \"movieId\": 6,
+    \"content\": \"estgcvcozzkkapbkwhiqwycdfopngjzbrvawojejkxjmuxrjafnawyazmerckfgyafrfo\"
 }"
 </code></pre></div>
 
@@ -11487,8 +12101,8 @@ const headers = {
 };
 
 let body = {
-    "movieId": 17,
-    "content": "upisairuekpyyhaedvxhlkookvyygnhgrsukczbeipbfyakxprjbwgkfrhjx"
+    "movieId": 6,
+    "content": "estgcvcozzkkapbkwhiqwycdfopngjzbrvawojejkxjmuxrjafnawyazmerckfgyafrfo"
 };
 
 fetch(url, {
@@ -11554,7 +12168,7 @@ fetch(url, {
                 <input type="number"
                name="movieId"
                data-endpoint="POSTapi-user-commentOnMovie"
-               value="17"
+               value="6"
                data-component="body" hidden>
     <br>
 
@@ -11564,7 +12178,7 @@ fetch(url, {
                 <input type="text"
                name="content"
                data-endpoint="POSTapi-user-commentOnMovie"
-               value="upisairuekpyyhaedvxhlkookvyygnhgrsukczbeipbfyakxprjbwgkfrhjx"
+               value="estgcvcozzkkapbkwhiqwycdfopngjzbrvawojejkxjmuxrjafnawyazmerckfgyafrfo"
                data-component="body" hidden>
     <br>
 <p>Must be at least 5 characters. Must not be greater than 100 characters.</p>
@@ -11590,8 +12204,8 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"movieId\": 20,
-    \"ratingPoint\": 11
+    \"movieId\": 9,
+    \"ratingPoint\": 5
 }"
 </code></pre></div>
 
@@ -11608,8 +12222,8 @@ const headers = {
 };
 
 let body = {
-    "movieId": 20,
-    "ratingPoint": 11
+    "movieId": 9,
+    "ratingPoint": 5
 };
 
 fetch(url, {
@@ -11675,7 +12289,7 @@ fetch(url, {
                 <input type="number"
                name="movieId"
                data-endpoint="POSTapi-user-rating-movie"
-               value="20"
+               value="9"
                data-component="body" hidden>
     <br>
 
@@ -11685,7 +12299,7 @@ fetch(url, {
                 <input type="number"
                name="ratingPoint"
                data-endpoint="POSTapi-user-rating-movie"
-               value="11"
+               value="5"
                data-component="body" hidden>
     <br>
 
