@@ -57,8 +57,8 @@ class ClientMovieController extends Controller
     private function getAdditionalDetailMovieData($movie)
     {
         $appUrl = env('APP_URL');
-        $favoriteItem = FavoriteMovie::where('userId' , auth()->id())->get();
-        $isLiked = ($favoriteItem != null);
+        $favoriteItem = FavoriteMovie::where('userId' , auth()->id())->where('movieId' , $movie->id)->get();
+        $isLiked = (count($favoriteItem) != 0);
 
         return [
             'isLiked' => $isLiked,
