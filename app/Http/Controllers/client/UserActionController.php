@@ -61,12 +61,12 @@ class UserActionController extends Controller
         try {
             $this->repo->update(auth()->id(), $this->filterEditProfile($request));
 //            return $request;
-            return json_encode([
+            return response()->json([
                 'success' => true,
                 'message' => "update profile successfully"
             ]);
         } catch (Error|Exception$exception) {
-            return json_encode([
+            return response()->json([
                 'success' => false,
                 'message' => "update profile unsuccessfully"
             ]);
@@ -101,11 +101,11 @@ class UserActionController extends Controller
                 'content' => $request['content'],
                 'movieId' => $request['movieId']
             ]);
-            return json_encode([
+            return response()->json([
                 'success' => true,
             ]);
         } catch (Error|Exception) {
-            return json_encode([
+            return response()->json([
                 'success' => false,
             ]);
         }
@@ -142,12 +142,12 @@ class UserActionController extends Controller
             Movie::find($request['movieId'])->update([
                 'averageRating' => $avg
             ]);
-            return json_encode([
+            return response()->json([
                 'success' => true,
             ]);
 
         } catch (Error|Exception) {
-            return json_encode([
+            return response()->json([
                 'success' => false,
             ]);
         }
@@ -168,11 +168,11 @@ class UserActionController extends Controller
                 'movieId' => $request['movieId'],
                 'updatedAt' => now()
             ]);
-            return json_encode([
+            return response()->json([
                 'success' => true,
             ]);
         } catch (Error|Exception) {
-            return json_encode([
+            return response()->json([
                 'success' => false,
             ]);
         }
