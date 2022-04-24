@@ -58,7 +58,7 @@ class FavoriteController extends Controller
             return json_encode([
                 'success' => true,
             ]);
-        } catch (\Exception $exception) {
+        } catch (\Exception|Error $exception) {
             return json_encode([
                 'success' => false,
             ]);
