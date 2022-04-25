@@ -180,6 +180,7 @@ return [
 //        FakerServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+        \App\Providers\TestFacadeProvider::class,
 
     ],
 
@@ -196,6 +197,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // ...
+        'TEST_FC' => \App\Facades\Test1::class,
     ])->toArray(),
 
 ];
