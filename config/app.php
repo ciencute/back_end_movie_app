@@ -181,6 +181,7 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
         \App\Providers\TestFacadeProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
 
     ],
 
@@ -198,6 +199,8 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // ...
         'TEST_FC' => \App\Facades\Test1::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+
     ])->toArray(),
 
 ];
