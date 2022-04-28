@@ -39,6 +39,7 @@ class MovieWatchingHistoryController extends Controller
         return WatchingHistory::whereBetween('watching_history.createdAt', [now()->subDays(1), now()])
             ->orderBy('viewCount', 'DESC')
             ->groupBy('movieId')
+            ->leftJoin('movie', 'movie.id', '=', 'watching_history.movieId')
             ->selectRaw('watching_history.movieId ,COUNT(*) as viewCount , movie.title , movie.img , movie.id ,movie.url ')
             ->limit(10)->get();
 
@@ -54,6 +55,7 @@ class MovieWatchingHistoryController extends Controller
             return WatchingHistory::whereBetween('watching_history.createdAt', [now()->subDays(30), now()])
                 ->orderBy('viewCount', 'DESC')
                 ->groupBy('movieId')
+                ->leftJoin('movie', 'movie.id', '=', 'watching_history.movieId')
                 ->selectRaw('watching_history.movieId ,COUNT(*) as viewCount , movie.title , movie.img , movie.id ,movie.url ')
                 ->limit(10)->get();
         });
@@ -69,6 +71,7 @@ class MovieWatchingHistoryController extends Controller
             return WatchingHistory::whereBetween('watching_history.createdAt', [now()->subDays(365), now()])
                 ->orderBy('viewCount', 'DESC')
                 ->groupBy('movieId')
+                ->leftJoin('movie', 'movie.id', '=', 'watching_history.movieId')
                 ->selectRaw('watching_history.movieId ,COUNT(*) as viewCount , movie.title , movie.img , movie.id ,movie.url ')
                 ->limit(10)->get();
         });
