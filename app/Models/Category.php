@@ -29,7 +29,7 @@ class Category extends Model
 {
 	protected $table = 'category';
 	public $incrementing = false;
-	public $timestamps = false;
+	public  $timestamps ;
 
 	protected $casts = [
 		'id' => 'int'
@@ -38,6 +38,7 @@ class Category extends Model
 	protected $fillable = [
 		'name',
 		'description',
-		'slug'
+		'slug',
+        'img'
 	];
 }
