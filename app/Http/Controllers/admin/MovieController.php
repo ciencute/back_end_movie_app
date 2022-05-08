@@ -44,6 +44,21 @@ class MovieController extends  Controller
     public function create(CreateMovieRequest $request) {
         return $this->movieRepo->create(array_merge($request->validated() ,$this->uploadMovieFile($request)));
     }
+    private function uploadMovieFile($request){
+
+        $moviePath =env("UPLOAD_PATH"). Storage::disk("public_uploads")->putFileAs("videos/".
+                Str::slug($request->title) ,$request->file('url'), $request->file('url')->getClientOriginalName());
+        $imagePath = env("UPLOAD_PATH"). Storage::disk("public_uploads")->putFileAs("images/".
+                Str::slug($request->title), $request->file('img'), $request->file('img')->getClientOriginalName());
+        $bgPath = env("UPLOAD_PATH").Storage::disk("public_uploads")->putFileAs("images/bg/".
+                Str::slug($request->title), $request->file('img'), $request->file('img')->getClientOriginalName());
+
+        return [
+            'img' =>$imagePath,
+            'url' => $moviePath,
+            'bgImg'=>$bgPath
+        ];
+    }
     /**
      * Update movie by Id
      * @authenticated
@@ -52,20 +67,7 @@ class MovieController extends  Controller
         return $this->movieRepo->update($request->id , $request->except(['id']));
     }
 
-    private function uploadMovieFile($request){
-//        $moviePath = "/".Storage::putFileAs("videos/".Str::slug($request->title) ,$request->file('url'), $request->file('url')->getClientOriginalName());
-//        $imagePath = "/".Storage::putFileAs("images/".Str::slug($request->title), $request->file('img'), $request->file('img')->getClientOriginalName());
-//        $bgPath = "/".Storage::putFileAs("images/id".Str::slug($request->title), $request->file('img'), $request->file('img')->getClientOriginalName());
-        $moviePath =env("UPLOAD_PATH"). Storage::disk("public_uploads")->putFileAs("videos/".Str::slug($request->title) ,$request->file('url'), $request->file('url')->getClientOriginalName());
-        $imagePath = env("UPLOAD_PATH"). Storage::disk("public_uploads")->putFileAs("images/".Str::slug($request->title), $request->file('img'), $request->file('img')->getClientOriginalName());
-        $bgPath = env("UPLOAD_PATH").Storage::disk("public_uploads")->putFileAs("images/bg/".Str::slug($request->title), $request->file('img'), $request->file('img')->getClientOriginalName());
 
-        return [
-            'img' =>$imagePath,
-            'url' => $moviePath,
-            'bgImg'=>$bgPath
-        ];
-    }
 
 
 }

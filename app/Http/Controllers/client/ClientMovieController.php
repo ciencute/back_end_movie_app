@@ -47,8 +47,8 @@ class ClientMovieController extends Controller
         $movie = Movie::findOrFail($id);
         $movie->increment('viewCount');
         WatchingHistory::create([
-           'movieId' => $id,
-           'userId' =>auth()->id(),
+            'movieId' => $id,
+            'userId' => auth()->id(),
 
         ]);
         return array_merge($movie->toArray(), $this->getAdditionalDetailMovieData($movie));
@@ -57,7 +57,7 @@ class ClientMovieController extends Controller
     private function getAdditionalDetailMovieData($movie)
     {
         $appUrl = env('APP_URL');
-        $favoriteItem = FavoriteMovie::where('userId' , auth()->id())->where('movieId' , $movie->id)->get();
+        $favoriteItem = FavoriteMovie::where('userId', auth()->id())->where('movieId', $movie->id)->get();
         $isLiked = (count($favoriteItem) != 0);
 
         return [
@@ -70,19 +70,12 @@ class ClientMovieController extends Controller
                 return MovieActor::where('movieId', $movie->id)->leftJoin('actor', 'actor.id', '=', 'movie_actor.actorId')
                     ->selectRaw("movie_actor.* , actor.name as actorName ")->whereNotNull('actor.name')->get();
             }),
-            'ratings' => cache()->remember("movie$movie->id-ratings", 60 * 60 * 24, function () use ($movie) {
-                return MovieRating::where('movieId', $movie->id)->leftJoin('user', 'user.id', '=', 'movie_rating.userId')
-                    ->selectRaw("movie_rating.id as ratingId , movie_rating.ratingPoint , user.name as userName")->get();
-            }),
+            'ratings' => MovieRating::where('movieId', $movie->id)->leftJoin('user', 'user.id', '=', 'movie_rating.userId')
+                                    ->selectRaw("movie_rating.id as ratingId , movie_rating.ratingPoint , user.name as userName")->get(),
+            'episodes' => Episode::where('movieId', $movie->id)->get(),
 
-            'episodes' => cache()->remember("movie$movie->id-episodes", 60 * 60 * 24, function () use ($movie) {
-                return Episode::where('movieId', $movie->id)->get();
-            })
-            ,
-            'comments' => cache()->remember("movie$movie->id-comments", 60 * 60 * 24, function () use ($appUrl, $movie) {
-                return Comment::where('movieId', $movie->id)->leftJoin('user', 'user.id', '=', 'comment.userId')
-                    ->selectRaw("comment.*, user.name as userName ,user.img , concat('$appUrl/api/user/profile/',user.id ) as  profileUrl")->get();
-            }),
+            'comments' => Comment::where('movieId', $movie->id)->leftJoin('user', 'user.id', '=', 'comment.userId')
+                                    ->selectRaw("comment.*, user.name as userName ,user.img , concat('$appUrl/api/user/profile/',user.id ) as  profileUrl")->get(),
 
 
         ];
